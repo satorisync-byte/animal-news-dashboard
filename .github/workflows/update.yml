@@ -23,9 +23,14 @@ jobs:
           key: aggcache-${{ github.run_id }}
           restore-keys: aggcache-
       - run: python aggregate.py
+      - name: Avvisi Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python notify.py
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add index.html data.json history.json
+          git add index.html data.json history.json; [ -f alerted_telegram.json ] && git add alerted_telegram.json
           if git diff --cached --quiet; then echo "No changes"; else git commit -m "Aggiornamento automatico $(date -u +%FT%TZ)" && (git push || (git pull --rebase -X theirs && git push)); fi
