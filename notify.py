@@ -35,9 +35,13 @@ def main():
     if not tok or not chat:
         print("Segreti Telegram mancanti: avvisi saltati."); return
     sent = 0
+    try:  # diagnostica connettività (token fittizio, nessun segreto)
+        t0 = time.time(); r = requests.get("https://api.telegram.org/bot0:diag/getMe", timeout=(10, 20))
+        print(f"Diagnostica api.telegram.org: HTTP {r.status_code} in {time.time() - t0:.1f}s")
+    except Exception as e: print(f"Diagnostica api.telegram.org: {type(e).__name__}")
     for s in todo:
         ok = False
-        for attempt in range(3):
+        for attempt in range(2):
             try:
                 r = requests.post(f"https://api.telegram.org/bot{tok}/sendMessage", timeout=(10, 45),
                                   json={"chat_id": chat, "text": msg(s), "parse_mode": "HTML", "disable_web_page_preview": False})
@@ -47,8 +51,19 @@ def main():
                 if ok or r.status_code not in (429, 500, 502, 503, 504): break
                 time.sleep(min(30, int((j.get("parameters") or {}).get("retry_after", 5))))
             except Exception as e:
-                print(f"Telegram sendMessage: errore di rete {type(e).__name__} (tentativo {attempt + 1}/3) | {s['titolo'][:70]}")
+                print(f"Telegram sendMessage: errore di rete {type(e).__name__} (tentativo {attempt + 1}/2) | {s['titolo'][:70]}")
                 time.sleep(5)
+        if not ok:  # ripiego: curl IPv4 (token passato via file di configurazione temporaneo, mai stampato)
+            import subprocess, tempfile
+            with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f: json.dump({"chat_id": chat, "text": msg(s), "parse_mode": "HTML"}, f)
+            try:
+                out = subprocess.run(["curl", "-4", "-s", "-m", "60", "-o", "/tmp/tg.out", "-w", "%{http_code}", "-H", "Content-Type: application/json",
+                                      "--data-binary", "@" + f.name, "-K", "-"], input=f'url = "https://api.telegram.org/bot{tok}/sendMessage"\n',
+                                     capture_output=True, text=True, timeout=70).stdout.strip()
+                body = json.load(open("/tmp/tg.out")) if os.path.exists("/tmp/tg.out") and os.path.getsize("/tmp/tg.out") else {}
+                ok = out == "200" and body.get("ok")
+                print(f"Telegram sendMessage (curl -4): HTTP {out or 'nessuna risposta'} ok={bool(ok)} {'' if ok else str(body.get('description', ''))[:120]}")
+            except Exception as e: print(f"Telegram curl: {type(e).__name__}")
         if ok:
             sent += 1
             st["alerted"][s.get("id") or s["link"]] = {"link": s["link"], "titolo": s["titolo"][:120], "punteggio": s["punteggio"], "ts": int(now)}
