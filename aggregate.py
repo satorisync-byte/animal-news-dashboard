@@ -7,11 +7,11 @@ import feedparser, requests
 import features as F
 
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AnimalNewsMVP/1.0"}
-HOURS = 72
+HOURS = 120  # 5 giorni: le storie più vecchie vengono escluse
 def gn(q, lang="en"):
     if isinstance(q, tuple): q, lang = q
     loc = {"en": "hl=en-US&gl=US&ceid=US:en", "it": "hl=it&gl=IT&ceid=IT:it"}[lang]
-    return "https://news.google.com/rss/search?q=" + urllib.parse.quote(q + " when:3d") + "&" + loc
+    return "https://news.google.com/rss/search?q=" + urllib.parse.quote(q + " when:5d") + "&" + loc
 
 T, W, O, R, G = "Testate", "Wildlife", "Organizzazioni", "Reddit/Community", "Regionali"
 def S(name, url, auth, filt, cat, fb=None, meme=0, region=None):
@@ -349,6 +349,15 @@ def main():
             st["punteggio"] = round(0.45 * st["impatto"] + 0.55 * st["meme"])
         st["bonus"] = {"trend": tb, "google_trends": gb}
     stories.sort(key=lambda s: -s["punteggio"])
+    stories, old = F.verify_dates(stories, cache, now, HOURS * 3600, limit=120)
+    old_ids = {s["id"] for s in old}
+    for sid in old_ids: hist["storie"].pop(sid, None)
+    try:  # avvisi locali: non avvisare / dimenticare le storie scartate
+        al = json.load(open("alerted.json"))
+        bad = {s["link"] for s in old} | {o["link"] for s in old for o in s["altri_link"]}
+        if isinstance(al, dict) and isinstance(al.get("urls"), list) and bad & set(al["urls"]):
+            al["urls"] = [u for u in al["urls"] if u not in bad]; json.dump(al, open("alerted.json", "w"), indent=2)
+    except Exception: pass
     n_tot = len(stories); stories = stories[:400]  # limite per caricamento veloce
     for s in stories[:30]:
         s["tokens"] = F.llm_ideas(s) or F.token_ideas(s, ANIMALS, int(s["id"], 16) if re.fullmatch(r"[0-9a-f]+", s["id"]) else 0)
@@ -364,14 +373,15 @@ def main():
         s["token"] = s["tokens"][0]  # compatibilità
     F.STATUS["dexscreener"] = f"{sol.ok['dex'][0]}/{sol.ok['dex'][1]} richieste OK (resto da cache)"
     F.STATUS["pump_fun"] = f"{sol.ok['pump'][0]}/{sol.ok['pump'][1]} richieste OK" if sol.ok['pump'][1] else "solo cache"
-    F.add_og_images(stories, cache, 60)
     F.update_history(hist, stories, now); F.save_json("history.json", hist)
     cut = now - 2 * 86400
-    cache["img"] = {k: v for k, v in cache.get("img", {}).items() if v[1] > cut}
+    cache.pop("img", None)
+    cache["meta"] = {k: v for k, v in cache.get("meta", {}).items() if v[3] > cut}
     cache["sol"] = {k: v for k, v in cache.get("sol", {}).items() if v[0] > now - F.TTL}
     F.save_json("cache.json", cache)
     for s in stories: s.pop("_urls", None); s.pop("_keys", None)
-    out = {"generato": datetime.now(timezone.utc).isoformat(), "finestra_ore": HOURS, "feed": report, "storie_totali": n_tot, "servizi": F.STATUS, "storie": stories}
+    out = {"generato": datetime.now(timezone.utc).isoformat(), "finestra_ore": HOURS, "feed": report, "storie_totali": n_tot, "servizi": F.STATUS, "scartate_vecchie": len(old),
+           "esempi_scartate": [{"titolo": s["titolo"], "fonte": s["fonte"], "data_reale": datetime.fromtimestamp(s["data_reale"], timezone.utc).date().isoformat()} for s in old[:15]], "storie": stories}
     json.dump(out, open("data.json", "w"), ensure_ascii=False, indent=1)
     tpl = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "template.html"), encoding="utf-8").read()
     open("index.html", "w", encoding="utf-8").write(tpl.replace("/*DATA*/null", json.dumps(out, ensure_ascii=False).replace("</", "<\\/")))

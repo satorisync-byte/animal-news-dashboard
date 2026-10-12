@@ -104,27 +104,102 @@ def gn_decode(u):
         return out if out.startswith("http") else None
     except Exception: return None
 
-def add_og_images(stories, cache, limit=60):
-    imgc = cache.setdefault("img", {}); todo = []
+MON = {m: i + 1 for i, m in enumerate("jan feb mar apr may jun jul aug sep oct nov dec".split())}
+URLD_RE = re.compile(r"/(20\d\d|19\d\d)[/-](\d{1,2}|jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*(?:[/-](\d{1,2}))?(?=[/-])", re.I)
+URLD2_RE = re.compile(r"[/-](20\d\d)(\d\d)(\d\d)[/-]")
+def url_date(u):
+    """Data dal percorso URL (es. /2020/08/ o /2026/oct/12/); senza giorno usa fine mese (prudente)."""
+    if not u or "news.google.com" in u: return None
+    from datetime import datetime, timezone
+    import calendar as cal
+    m = URLD_RE.search(u) or URLD2_RE.search(u)
+    if not m: return None
+    try:
+        y = int(m.group(1)); mo = m.group(2).lower(); mo = MON[mo[:3]] if mo[:3] in MON else int(mo)
+        if not (1 <= mo <= 12) or y < 1995: return None
+        d = int(m.group(3)) if m.group(3) else cal.monthrange(y, mo)[1]
+        return datetime(y, mo, min(d, cal.monthrange(y, mo)[1]), 23, 59, tzinfo=timezone.utc).timestamp()
+    except Exception: return None
+
+PUB_RES = [re.compile(p, re.I) for p in (
+    r'<meta[^>]+(?:property|name|itemprop)=["\'](?:article:published_time|og:published_time|datePublished|pubdate|publishdate|parsely-pub-date|dc\.date|sailthru\.date)["\'][^>]*content=["\']([^"\']+)',
+    r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name|itemprop)=["\'](?:article:published_time|datePublished)["\']',
+    r'"datePublished"\s*:\s*"([^"]+)"', r'<time[^>]+datetime=["\']([^"\']+)["\'][^>]*(?:pubdate|published)')]
+def parse_iso(t):
+    from datetime import datetime, timezone
+    t = t.strip().replace("Z", "+00:00")
+    for f in (lambda x: datetime.fromisoformat(x), lambda x: datetime.fromisoformat(x[:19]), lambda x: datetime.strptime(x[:10], "%Y-%m-%d")):
+        try:
+            d = f(t); d = d if d.tzinfo else d.replace(tzinfo=timezone.utc); return d.timestamp()
+        except Exception: pass
+    return None
+
+def page_meta(url):
+    """Scarica l'intestazione della pagina (timeout breve) -> (url_finale, og:image, data pubblicazione)."""
+    try:
+        r = requests.get(url, headers=BUA, timeout=7, stream=True)
+        final = r.url; buf = b""
+        for chunk in r.iter_content(16384):
+            buf += chunk
+            if len(buf) > 400000: break
+        r.close(); t = buf.decode("utf-8", "ignore")
+        if "news.google.com" in final: return final, None, None
+        img = None; m = OG_RE.search(t) or OG_RE2.search(t)
+        if m:
+            u = html.unescape(m.group(1)); u = "https:" + u if u.startswith("//") else u
+            if u.startswith("http") and "googleusercontent" not in u and "gstatic" not in u: img = u
+        pubs = [parse_iso(m.group(1)) for rx in PUB_RES for m in [rx.search(t)] if m]
+        pubs = [p for p in pubs if p and p > 631152000]
+        return final, img, (min(pubs) if pubs else None)
+    except Exception: return url, None, None
+
+OLDYEAR_RE = re.compile(r"[\(\[]\s*(19\d\d|20\d\d)\s*[\)\]]|[-–|]\s*(19\d\d|20\d\d)\s*$|\b(?:in|del|nel|of)\s+(?:(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+)?(19\d\d|20\d\d)\s*$", re.I)
+def title_year(t, now):
+    from datetime import datetime, timezone
+    m = OLDYEAR_RE.search(t or "")
+    if not m: return None
+    y = int(next(g for g in m.groups() if g))
+    return datetime(y, 12, 31, tzinfo=timezone.utc).timestamp() if y < datetime.fromtimestamp(now, timezone.utc).year else None
+
+def verify_dates(stories, cache, now, max_age_s, limit=120):
+    """Stima la vera data di pubblicazione. Restituisce (tenute, scartate). Evidenze: data nell'URL, meta/JSON-LD della pagina
+    (prime `limit` storie, link Google News risolti), anno vecchio esplicito nel titolo. Se tutte le evidenze trovate sono più vecchie
+    del limite la storia è scartata; senza evidenze vale la data del feed (già filtrata)."""
+    mc = cache.setdefault("meta", {})
+    def cands(s): return [u for u in [s["link"]] + [o["link"] for o in s.get("altri_link", [])][:2] + ([s["link_esterno"]] if s.get("link_esterno") else []) if u and "reddit.com/r/" not in u][:3]
+    todo = {}
     for s in stories[:limit]:
-        if s.get("img"): continue
-        cands = [s["link"]] + [o["link"] for o in s.get("altri_link", [])] + ([s["link_esterno"]] if s.get("link_esterno") else [])
-        cands = [u for u in cands if u and "reddit.com/r/" not in u][:2]
-        k = url_key(s["link"])
-        if k in imgc: s["img"] = imgc[k][0] or None; continue
-        todo.append((s, k, cands))
-    def work(t):
-        s, k, cands = t
-        for u in cands:
-            if "news.google.com/rss/articles/" in u: u = gn_decode(u)
-            if not u or "news.google.com" in u: continue
-            im = og_image(u)
-            if im: return im
-        return None
-    with ThreadPoolExecutor(10) as ex: res = list(ex.map(work, todo))
-    for (s, k, _), im in zip(todo, res):
-        s["img"] = im; imgc[k] = [im or "", int(time.time())]
-    STATUS["og_image"] = f"{sum(1 for r in res if r)}/{len(res)} nuove immagini og:image"
+        for u in cands(s):
+            k = url_key(u)
+            if k not in mc: todo[k] = u
+    def work(u):
+        real = gn_decode(u) if "news.google.com/rss/articles/" in u else u
+        if not real or "news.google.com" in real: return [real or "", "", 0, int(time.time())]
+        fin, img, pub = page_meta(real)
+        return [fin or real, img or "", int(pub or 0), int(time.time())]
+    with ThreadPoolExecutor(12) as ex:
+        for k, v in zip(todo, ex.map(work, todo.values())): mc[k] = v
+    keep, dropped, n_ev = [], [], 0
+    for i, s in enumerate(stories):
+        ev = []
+        for u in cands(s):
+            meta = mc.get(url_key(u)) if i < limit else None
+            real = meta[0] if meta else u
+            for d in (url_date(real), url_date(u), (meta[2] or None) if meta else None):
+                if d: ev.append(d)
+            if meta and meta[1] and not s.get("img"): s["img"] = meta[1]
+            if meta and meta[0] and "news.google.com" in s["link"] and u == s["link"] and meta[0].startswith("http") and "news.google.com" not in meta[0]: s["link_articolo"] = meta[0]
+        ty = title_year(s["titolo"], now)
+        if ty: ev.append(ty)
+        if ev: n_ev += 1
+        best = max(ev) if ev else None  # la più recente: scarta solo se TUTTE le evidenze sono vecchie
+        if best and now - best > max_age_s:
+            s["data_reale"] = best; dropped.append(s)
+        else:
+            if best: s["data_verificata"] = True
+            keep.append(s)
+    STATUS["verifica_date"] = f"{len(todo)} pagine controllate, {n_ev} storie con data verificabile, {len(dropped)} scartate perché più vecchie di {max_age_s // 86400} giorni"
+    return keep, dropped
 
 # ---------------- 3. Google Trends ----------------
 def google_trends():
