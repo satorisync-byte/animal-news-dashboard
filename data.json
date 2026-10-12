@@ -1,5 +1,5 @@
 {
- "generato": "2026-10-12T17:08:36.959353+00:00",
+ "generato": "2026-10-12T17:09:09.857840+00:00",
  "finestra_ore": 72,
  "feed": [
   {
@@ -118,7 +118,7 @@
    "feed": "Google News: Reuters",
    "url": "https://news.google.com/rss/search?q=site%3Areuters.com%20animal%20OR%20zoo%20OR%20wildlife%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "totali": 53,
+   "totali": 52,
    "recenti_rilevanti": 7,
    "ok": true
   },
@@ -134,8 +134,8 @@
    "feed": "Google News: zoo nascite",
    "url": "https://news.google.com/rss/search?q=zoo%20baby%20animal%20born%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "status": 200,
-   "totali": 10,
-   "recenti_rilevanti": 9,
+   "totali": 9,
+   "recenti_rilevanti": 8,
    "ok": true
   },
   {
@@ -316,45 +316,6 @@
    }
   },
   {
-   "titolo": "Public invited to choose name for Smithsonian’s baby red panda",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNV00yQzQyWnZXM2xmUDJ1ems4dlJJTGxSLTk0elE1WVVwUWctamk1MkRPSDI0ZlMtZ3hpNFNieE8zNGhBTVVJUDNrZ09OSUhteXg0bUR5M0ROTTNfZmdfWkprczBESjFhdlNTSTBwMDNXS0Naa0xIMkJBeGw5MWxTZVRyNmJBeVFrSmxYb3AxdHd4M2JDbTBLbU5id05XMy1kNFowcy05SHlzMGFfcmE0QzJSMnNhYVJsTWNJVXdEZWxzRFhPS1BfQ0ZuVEpESEc2WjdJa0xHbXFLdVpWTEw0b0hOSV83bjVhcVJBSGpYZW1iVGk1MGFZaXNjSnd6OXprYWVuNlk5Y3JjaFVGcXhLOTZoV1dwbzlqN1hadjJrQ1ZLc2M4bTNralA5bWpJcG80MFdJ?oc=5",
-   "fonte": "WJLA",
-   "fonti": [
-    "KEYE",
-    "WBFF",
-    "WJLA"
-   ],
-   "n_fonti": 3,
-   "altri_link": [
-    {
-     "fonte": "KEYE",
-     "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPcUhEaFFXSkxLakdnR29BU2F3MjNfcnYyVkpDd1dSWGNESjY2WEplZU55MmU1MkJzVWtaaExJZDhuSEtCdUVwdFZ1V2t0akFxT3VlTTF2Ml83aEphSl80TkFFb3lnSkUwaTRTZ2xaYVROT1RPSmxGamNhREU4cGx1OXQ2eW03VEhWeTFNODRHYS1sQWg2WG1QQnVBakN3aWZVN1JDREVyZ0otOEVOMGtENFFITDZZMnFfU2s2Q3NoN2pwcDc5TDdTRktjaHNHRVhoZE1LeXpWY1R6czM3TC1TNHJSN1gzeU9SbHJCeHhycndnVzJnN3YwOVFVTmY5emNzMXhvUk12aWpPSV9EWkJQM3c5ZjAyN0haQkswMnBUWTJLb1UwV0ZYc293MnN6emF5R3ZHdEN1X2c5ekdN?oc=5"
-    },
-    {
-     "fonte": "WBFF",
-     "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNVFU1dkxzRDZXNFJpOFJBdWhvNkxscDgtY013QzNyWjZCMzUzRU9KWmdNYk13bW5xSllNMlV4MC1WeDNOSXJqdHJvc3pTeEJncG5fZk9yN2cwN2xKUGtpNWppUGJsLV80QktRRlQwMFRUbW5HdHZTQjg0ZXRTVFFablh4M1RUb2MyOFJPa2pCWjBadmRVa3dmNkgzRVRocmxvUlYyMTZkMTdmbDJocldhXzVPdTdnT2Y2Y1M1TzVzbDlmcTVCNklQd014S2RiNWEwYmFJbXpXOC0wQl81VjZrX1NyVWhZSWdSdWdvekJ6UHp4bUJFT3lGU2FTM2JoNWs4d2lqUS0wYXJJdEI2NG1XMkt5ODdxS2IxSUZnVG05MWdUbDd0QVVtWGdyMWY4bkZHUXh0VFVrMWxUSnFwcjNWaA?oc=5"
-    }
-   ],
-   "data": "2026-10-12T02:29:13+00:00",
-   "ore_fa": 14.7,
-   "animal": "red panda",
-   "animale": "panda rosso",
-   "named": null,
-   "tags": [
-    "bebè"
-   ],
-   "impatto": 64,
-   "meme": 38,
-   "punteggio": 50,
-   "token": {
-    "nome": "Baby Red Panda",
-    "ticker": "$BREDPA",
-    "descrizione": "Memecoin ispirata a un cucciolo appena nato con protagonista: panda rosso. Idea community-driven, nessun valore intrinseco.",
-    "dex_solana": 0
-   }
-  },
-  {
    "titolo": "New York City’s Latest Famous Family Is a Hoot. Yes, They’re Barn Owls.",
    "sommario": "The city’s latest feathered extraordinaires are captivating the Upper West Side with their screeches.",
    "link": "https://www.nytimes.com/2026/10/11/nyregion/owls-upper-west-side-new-york-city.html",
@@ -423,40 +384,37 @@
    }
   },
   {
-   "titolo": "Flamingos at a Florida Zoo Rode Out Hurricane Isaias in the Bathroom",
+   "titolo": "Public invited to choose name for Smithsonian’s baby red panda",
    "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ0ZJcGYzN2lyM1BwdnI3NjNwTEVESGdxYkM0VG9ONDRSbFlDbE1sN1RfSUhoVHFTV2FzTEVhZ1NWNmNFUndGX2UxVDV3bzhqblBMVTl5RDFfMHhFMjRGM0paTFpDS2Nhck0xX2pKaTk5RUkwa3VFdnRESmZMVEwzSTN1Tm4yeDEtemE0S0E4NEE5WEll?oc=5",
-   "fonte": "The New York Times",
+   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNV00yQzQyWnZXM2xmUDJ1ems4dlJJTGxSLTk0elE1WVVwUWctamk1MkRPSDI0ZlMtZ3hpNFNieE8zNGhBTVVJUDNrZ09OSUhteXg0bUR5M0ROTTNfZmdfWkprczBESjFhdlNTSTBwMDNXS0Naa0xIMkJBeGw5MWxTZVRyNmJBeVFrSmxYb3AxdHd4M2JDbTBLbU5id05XMy1kNFowcy05SHlzMGFfcmE0QzJSMnNhYVJsTWNJVXdEZWxzRFhPS1BfQ0ZuVEpESEc2WjdJa0xHbXFLdVpWTEw0b0hOSV83bjVhcVJBSGpYZW1iVGk1MGFZaXNjSnd6OXprYWVuNlk5Y3JjaFVGcXhLOTZoV1dwbzlqN1hadjJrQ1ZLc2M4bTNralA5bWpJcG80MFdJ?oc=5",
+   "fonte": "WJLA",
    "fonti": [
-    "The New York Times",
-    "WHIO TV",
-    "WSVN"
+    "KEYE",
+    "WJLA"
    ],
-   "n_fonti": 3,
+   "n_fonti": 2,
    "altri_link": [
     {
-     "fonte": "WSVN",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOWR0dW9IdHdFSmFzenUycjY5c2VSd3JmQU50TUZSUW5jOUx5d0tfSUJUaWhBaG53UlVfLUp3UmhMREF4RU0xYVAtb2hRSURmUXZjRC1KZ3MwazRDTnRUaUtoYzlPRnlXMGpXSXFFYURQVm1UeVl5MU1GTFE3emNMejJDNC1xUQ?oc=5"
-    },
-    {
-     "fonte": "WHIO TV",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWFFyUk96dDk5XzVZQ0tZNk5YRnd4S2NlRkthNVRVQVk0YTR0OGpRUHZIVzZSeVh6UFBGdG9RZUtIOEdXYjFCcDlCdFNmd2NVaWZCNk1kRTB4TkM5aklFVzdQNXFrakNITFF4RWx2LVpnbk80ZXQ3YlJvelhHT2I5NHNSZmxXTXVWUlkzMmg3QXhfWVdBNjJuSjdNcGhkMzBZRDNJVHdIeXRmVGRsa3dTbks3LTdscnQ1LXfSAc4BQVVfeXFMUDg5TTBQSTBBV3RJRlh4cGdsMTE5SXR6TlhiSEtZSTZibDlIZjkzZHpIVjdzU0NYcm9wbW1IVmh3VFpFakRDTFB1UG9SejZhckNoQzZJTGZxMHc5MC1ES3RramphZktTYmlVMHRxenJJRXd6Vl9iaUpMTmgwdFJPNGVpMkh1RlJOZGVXX0xiM1ByZVdhNDFNV051NGZQNGFOcnVTdXJpZzZyOWNZY01QSlpPXzhmMnJFSnh6R3pya01YRXgxcXZiSXVDU1lnTVE?oc=5"
+     "fonte": "KEYE",
+     "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPcUhEaFFXSkxLakdnR29BU2F3MjNfcnYyVkpDd1dSWGNESjY2WEplZU55MmU1MkJzVWtaaExJZDhuSEtCdUVwdFZ1V2t0akFxT3VlTTF2Ml83aEphSl80TkFFb3lnSkUwaTRTZ2xaYVROT1RPSmxGamNhREU4cGx1OXQ2eW03VEhWeTFNODRHYS1sQWg2WG1QQnVBakN3aWZVN1JDREVyZ0otOEVOMGtENFFITDZZMnFfU2s2Q3NoN2pwcDc5TDdTRktjaHNHRVhoZE1LeXpWY1R6czM3TC1TNHJSN1gzeU9SbHJCeHhycndnVzJnN3YwOVFVTmY5emNzMXhvUk12aWpPSV9EWkJQM3c5ZjAyN0haQkswMnBUWTJLb1UwV0ZYc293MnN6emF5R3ZHdEN1X2c5ekdN?oc=5"
     }
    ],
-   "data": "2026-10-11T18:51:10+00:00",
-   "ore_fa": 1.6,
-   "animal": "bird",
-   "animale": "uccello",
+   "data": "2026-10-12T02:29:13+00:00",
+   "ore_fa": 14.7,
+   "animal": "red panda",
+   "animale": "panda rosso",
    "named": null,
-   "tags": [],
-   "impatto": 85,
-   "meme": 10,
-   "punteggio": 44,
+   "tags": [
+    "bebè"
+   ],
+   "impatto": 50,
+   "meme": 38,
+   "punteggio": 43,
    "token": {
-    "nome": "Bird",
-    "ticker": "$BIRD",
-    "descrizione": "Memecoin ispirata a una notizia del giorno con protagonista: uccello. Idea community-driven, nessun valore intrinseco.",
-    "dex_solana": 10
+    "nome": "Baby Red Panda",
+    "ticker": "$BREDPA",
+    "descrizione": "Memecoin ispirata a un cucciolo appena nato con protagonista: panda rosso. Idea community-driven, nessun valore intrinseco.",
+    "dex_solana": 0
    }
   },
   {
@@ -470,7 +428,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T11:41:42+00:00",
-   "ore_fa": 5.4,
+   "ore_fa": 5.5,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -736,6 +694,38 @@
     "ticker": "$MILO",
     "descrizione": "Memecoin ispirata a Milo, protagonista di un evento raro o da record (animale: squalo). Idea community-driven, nessun valore intrinseco.",
     "dex_solana": 16
+   }
+  },
+  {
+   "titolo": "Flamingos at a Florida Zoo Rode Out Hurricane Isaias in the Bathroom",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ0ZJcGYzN2lyM1BwdnI3NjNwTEVESGdxYkM0VG9ONDRSbFlDbE1sN1RfSUhoVHFTV2FzTEVhZ1NWNmNFUndGX2UxVDV3bzhqblBMVTl5RDFfMHhFMjRGM0paTFpDS2Nhck0xX2pKaTk5RUkwa3VFdnRESmZMVEwzSTN1Tm4yeDEtemE0S0E4NEE5WEll?oc=5",
+   "fonte": "The New York Times",
+   "fonti": [
+    "The New York Times",
+    "WSVN"
+   ],
+   "n_fonti": 2,
+   "altri_link": [
+    {
+     "fonte": "WSVN",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOWR0dW9IdHdFSmFzenUycjY5c2VSd3JmQU50TUZSUW5jOUx5d0tfSUJUaWhBaG53UlVfLUp3UmhMREF4RU0xYVAtb2hRSURmUXZjRC1KZ3MwazRDTnRUaUtoYzlPRnlXMGpXSXFFYURQVm1UeVl5MU1GTFE3emNMejJDNC1xUQ?oc=5"
+    }
+   ],
+   "data": "2026-10-11T18:51:10+00:00",
+   "ore_fa": 1.6,
+   "animal": "bird",
+   "animale": "uccello",
+   "named": null,
+   "tags": [],
+   "impatto": 71,
+   "meme": 10,
+   "punteggio": 37,
+   "token": {
+    "nome": "Bird",
+    "ticker": "$BIRD",
+    "descrizione": "Memecoin ispirata a una notizia del giorno con protagonista: uccello. Idea community-driven, nessun valore intrinseco.",
+    "dex_solana": 10
    }
   },
   {
@@ -1364,29 +1354,6 @@
    "punteggio": 32
   },
   {
-   "titolo": "Rare civet cat rescued in Baleshwar",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xV1NCd185S28tdWpYd19DOGpsdTNlcnM4Y0FlUzlmOHlDUU1JSEhuSWxtaHpNeWlRbDhBVzFSMGZFeWEyMm5FZnNVTkxPeTdtN2dFZm14eEo2MndOeFRxSVlVT2tTZVdrZ1hUS0lZUVDSAXBBVV95cUxPMVdTQndfOUtvLXVqWHdfQzhqbHUzZXJzOGNBZVM5Zjh5Q1FNSUhIbklsbWh6TXlpUWw4QVcxUjBmRXlhMjJuRWZzVU5MT3k3bTdnRWZteHhKNjJ3TnhUcUlZVU9rU2VXa2dYVEtJWVFQ?oc=5",
-   "fonte": "OrissaPOST",
-   "fonti": [
-    "OrissaPOST"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-11T04:39:09+00:00",
-   "ore_fa": 36.5,
-   "animal": "cat",
-   "animale": "gatto",
-   "named": null,
-   "tags": [
-    "record",
-    "salvataggio"
-   ],
-   "impatto": 20,
-   "meme": 42,
-   "punteggio": 32
-  },
-  {
    "titolo": "Animali malati e feriti nei mercati di Ivrea e Rivarolo: la denuncia",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcEVucTdOYkJJZGItRUp2ZXRjcDE4Zm03cGY5WTlPd2RCMDRsSU9kX21XaEZKRW1laWIzM3lENjN2SWtTWXd2ZWdCWlJIMVZqVTdtY0VoTEg1ZVJKTTF0NHQ5enJZMGtYOGt6NjdPY3lSRjRYVFVhc0llWTdHOHdkb1d5aTl6c3RnaGFxOVBxM0FEbm9FYWhYNWN0Q0pnQnpxQVkzOHlB?oc=5",
@@ -1440,15 +1407,15 @@
   {
    "titolo": "(Buongiorno Regione futuri) Il \"passo leggero\" degli orsi che può ispirare l'uomo",
    "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOQ1A0WWdseGcxTWZRTm5oZDF5eEw1YU1WT2ZaTGtnNkhUcjIybl9USGJQZ3c5Y2RPcHZ1UkwtM0tnTkxYTmQtLVlBYUZ0ZkpscGJKNktER0pzcG9FcnE0SVZGRE1aNHpLN1JkQUtJOXh3WXlDNFRHM2hLWThDd2o5NTBpQlRPZkJqcUJVMllmT2VzMGViSERLWXZNbkplaHlNcEtSei03YnRtdVJNbUY0Z2kwTnJHZDFBWERnTkREMTlhbFNRcVRPMFg0Zm9zOFI4ZzA2U3Z6U0FGQzFPTlpEeHQ3UjZzZF85Wm1MZDZnNEFCWkJhNjBsa2JFWUxETktaWDBJcXpUUEFual90Y3M0eGxkdGYxZzlmU0JhRzZxaVB2RTZucmk0R3JPX1pNVEEwX0g5MG1mQXBYd2FDS19QRGh4RV9sWTl4WXRReDVMVko4cW5FMHR1djZNcXV6VlpIcWtodDRqaEx0RFlETnJZRUd30gHyAkFVX3lxTE5DUDRZZ2x4ZzFNZlFObmhkMXl4TDVhTVZPZlpMa2c2SFRyMjJuX1RIYlBndzljZE9wdnVSTC0zS2dOTFhOZC0tWUFhRnRmSmxwYko2S0RHSnNwb0VycTRJVkZETVo0eks3UmRBS0k5eHdZeUM0VEczaEtZOEN3ajk1MGlCVE9mQmpxQlUyWWZPZXMwZWJIREtZdk1uSmVoeU1wS1J6LTdidG11Uk1tRjRnaTBOckdkMUFYRGdOREQxOWFsU1FxVE8wWDRmb3M4UjhnMDZTdnpTQUZDMU9OWkR4dDdSNnNkXzlabUxkNmc0QUJaQmE2MGxrYkVZTEROS1pYMElxelRQQW5qX3RjczR4bGR0ZjFnOWZTQmFHNnFpUHZFNm5yaTRHck9fWk1UQTBfSDkwbWZBcFh3YUNLX1BEaHhFX2xZOXhZdFF4NUxWSjhxbkUwdHV2Nk1xdXpWWkhxa2h0NGpoTHREWUROcllFR3c?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQOWd4Rzg5aHJTMVlPUWhxeGp5V2FwR2t4QlRjQV96dERiLVF2S3VGVmxxOFE1VUFZQm9vei1HSTRMUkkzemZHM0VaR2F4Sl9qSWZQUTZxYmZTTndkNXhhb25xNW5BSzgyUUJScDVvWnk2bFhRRmc2R0tsczNuX2NxOXA4Mk5GMXMwUkdHelRpTF9HMjlJOUFIOFdBQ3FMYm5tNDd5VG4xWkFla09CdnRCVnlMUEJyZlJiWDN1YlFlbldjNl83TmVDZE1XRTJhaVdyeDhzdi0yVVNWaFR6NkQ4ajdSdU1EYlVfbUUxTXlDZmc2a19ZdDRrRE1ETGFjWGgxUDVfTlhtVE0wX2NoZ1ZCQ3FjcmJ5WnFKbFcxdzd0M2hlaklNQzAzX3VwUHZpLTRKTWVrMzZuWHF4U2RTd3V0RXh3NG90eTB0ZmpvR3cwTzA0NjlqcHI5dlpLUEZrMEFKOGJVZ3hqZUZsOC1L0gHyAkFVX3lxTE5DUDRZZ2x4ZzFNZlFObmhkMXl4TDVhTVZPZlpMa2c2SFRyMjJuX1RIYlBndzljZE9wdnVSTC0zS2dOTFhOZC0tWUFhRnRmSmxwYko2S0RHSnNwb0VycTRJVkZETVo0eks3UmRBS0k5eHdZeUM0VEczaEtZOEN3ajk1MGlCVE9mQmpxQlUyWWZPZXMwZWJIREtZdk1uSmVoeU1wS1J6LTdidG11Uk1tRjRnaTBOckdkMUFYRGdOREQxOWFsU1FxVE8wWDRmb3M4UjhnMDZTdnpTQUZDMU9OWkR4dDdSNnNkXzlabUxkNmc0QUJaQmE2MGxrYkVZTEROS1pYMElxelRQQW5qX3RjczR4bGR0ZjFnOWZTQmFHNnFpUHZFNm5yaTRHck9fWk1UQTBfSDkwbWZBcFh3YUNLX1BEaHhFX2xZOXhZdFF4NUxWSjhxbkUwdHV2Nk1xdXpWWkhxa2h0NGpoTHREWUROcllFR3c?oc=5",
    "fonte": "RaiNews",
    "fonti": [
     "RaiNews"
    ],
    "n_fonti": 1,
    "altri_link": [],
-   "data": "2026-10-12T14:32:56+00:00",
-   "ore_fa": 2.6,
+   "data": "2026-10-12T14:46:00+00:00",
+   "ore_fa": 2.4,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -1497,7 +1464,7 @@
    "tags": [
     "salvataggio"
    ],
-   "impatto": 33,
+   "impatto": 32,
    "meme": 30,
    "punteggio": 31
   },
@@ -1744,6 +1711,32 @@
    "punteggio": 30
   },
   {
+   "titolo": "Hidden In An Arizona Cave, North America's Most Mysterious Mammal Harbors A Genetic Legacy Going Back Thousands Of Years",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNM3JrM0tlQXY4SURYRTJ3M2h4b1dNVzFtLUFnX0ViZnhTWkxtVThaNHVTZFJyR1JTV2YyMlRZenpWWG40bExVdnRHZWVSRzNkUUVlTnhsUzA5YlRIMEZlUC1iUk1Xd1QzOVhFSl9haUR1aEhTZC0tQTVYcXQxalV6UDRjNjBnNnZKc09UdkctMGt0MFpDZE5MaU80M2E1eUp2Zkp1TUpTLW9rclFPbnBUcEk1ck1Pa01Jbkw4Wl9BcjlBRm1rR0wzUUdLRU1TdmZ1a2VKaFZyMDAyNDE5ZlJUc2wxYmtidw?oc=5",
+   "fonte": "IFLScience",
+   "fonti": [
+    "Earth.com",
+    "IFLScience"
+   ],
+   "n_fonti": 2,
+   "altri_link": [
+    {
+     "fonte": "Earth.com",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc2dJQUhCWWN1UDBMWmtRRnJxaE42SG5sV3FkSlZtTDZQM29qcVdzOW43eWRCejNyUUNjXzdzT0FJcU1zQlJSR2k4M0lHNVpzc2Q5emJDajhNRzlHVnhCcm91WGpIVkhFWjlCc0Y2ZWo4VEJTUVRFTHhuSU9zRkxWMnJENjFiZ2JtVDhLNkZ3amRSMS1mQzUyenFuQUp3amp3N0IxY3JHcW5SQlU?oc=5"
+    }
+   ],
+   "data": "2026-10-12T15:51:14+00:00",
+   "ore_fa": 1.3,
+   "animal": "bat",
+   "animale": "pipistrello",
+   "named": null,
+   "tags": [],
+   "impatto": 55,
+   "meme": 10,
+   "punteggio": 30
+  },
+  {
    "titolo": "I Lions Club Valsugana portano la pet therapy in reparto",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQWhlYjBlTTFiNTJiWUJqXzdjSzd4LVY2ZFIxMUFjVUw3cE5wUnhnZDBWeWNEWEpGQ1Y5dGlQMkJnRDdpRDJ5SDBOcHpPVG5OTTYxbzB0Sk9QN1BuaGlZd1Bzckpsem44N0JHa0FQd2ZxVWNQekQwMTZabzNDQ09pQnN4b21TMWZobFNMdm5RVHYzd3hrS3oyRU5RcUI1MHBVQ1B5eHVLNkloMU5QNVE?oc=5",
@@ -1933,7 +1926,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:17:48+00:00",
-   "ore_fa": 2.8,
+   "ore_fa": 2.9,
    "animal": "fish",
    "animale": "pesce",
    "named": null,
@@ -2049,7 +2042,7 @@
     }
    ],
    "data": "2026-10-12T08:47:48+00:00",
-   "ore_fa": 8.3,
+   "ore_fa": 8.4,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -2364,7 +2357,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T11:29:33+00:00",
-   "ore_fa": 53.6,
+   "ore_fa": 53.7,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -2670,7 +2663,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T13:23:51+00:00",
-   "ore_fa": 3.7,
+   "ore_fa": 3.8,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -2895,8 +2888,8 @@
    ],
    "n_fonti": 1,
    "altri_link": [],
-   "data": "2026-10-12T14:17:34+00:00",
-   "ore_fa": 2.8,
+   "data": "2026-10-12T14:15:00+00:00",
+   "ore_fa": 2.9,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -3025,7 +3018,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T03:35:31+00:00",
-   "ore_fa": 13.5,
+   "ore_fa": 13.6,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -3222,6 +3215,26 @@
    "punteggio": 24
   },
   {
+   "titolo": "Emergenza nel Cilento: colonie di cani e gatti rimaste sole dopo il rimpatrio del custode, è corsa contro il tempo",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd1EtSVgzSmN3SUZRSUhqOUhYN0lsWEEtdTc5Tml1SmZza3FpSzh0UWlxb3JFRDNNMGhyeXRRcVNUejNOYmU2enQzR3VWOGZDZnZjc1A0a05reDVaMzJlV3plRzdDLTBfS0ZpVER6cWRzMTdXSXZiNzZUZGdZOUhkNXJOMHFXLWI2QUJlWVYtMnR2V2hHMmxJTktPRHM?oc=5",
+   "fonte": "SalernoToday",
+   "fonti": [
+    "SalernoToday"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T04:01:00+00:00",
+   "ore_fa": 13.1,
+   "animal": "dog",
+   "animale": "cane",
+   "named": null,
+   "tags": [],
+   "impatto": 28,
+   "meme": 20,
+   "punteggio": 24
+  },
+  {
    "titolo": "L'armonia tra uomo e natura riscoperta grazie agli orsi",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxPRFRYNzZhaVRYeWdUMzc5QV8yaXBpN01XRlBZRlF1QTNILXMxX1NjY2pJNWY0czVKenRubG11SVV4S2M2RjRwWXlBN1pKNzhSZTZFOFA4NWp6dEkxNWt2VmVpQ2prRVd4MmNZa0tTT1pMdE5neTc4YXFQM2pjTmdwem9EUGxnN0kwNm5rMTdWY18yUTFEX01UT3pKRlpQYVZlcTlZRHVhMG5vcVI2Q2x1WEJEU2Vqb080clp4djFKVUg5MDNCUzQ0a2VxR291Yi10a2todHd3RXhHR3ZBQkFSVlo0SXR4MlhVcGp3amM2WVJXdi1ZVnFsSW9va2FSQzJnSnRpOWdLSDYtU1BFeklqTGhiNm5vU2poUnR2RHVQakNCTThDWTJnQldkQVJDeW81c3VYVi1EbmJEMldOYXllSlN6cWdxWUhIcUwwcUFmUjJiX1dMUWl6Z2ZQWHRnUHV0eGlfemtfX3p6RjU5bnJuUkVUUHg5SndXbVBfU3B2c1REZGV3c3Q4cFFxTlIydDFvTzFYZWMwa0xlazBzSXUxV3lnMExoVjdVZ19kNWJVRkxCd1NwMFJWcC1XN04tTnpOZVNPSjAzb3dsclU4Ti12TWkybkMyczd0S21xMUlB0gHeA0FVX3lxTE9EVFg3NmFpVFh5Z1QzNzlBXzJpcGk3TVdGUFlGUXVBM0gtczFfU2Njakk1ZjRzNUp6dG5sbXVJVXhLYzZGNHBZeUE3Wko3OFJlNkU4UDg1anp0STE1a3ZWZWlDamtFV3gyY1lrS1NPWkx0Tmd5NzhhcVAzamNOZ3B6b0RQbGc3STA2bmsxN1ZjXzJRMURfTVRPekpGWlBhVmVxOVlEdWEwbm9xUjZDbHVYQkRTZWpvTzRyWnh2MUpVSDkwM0JTNDRrZXFHb3ViLXRra2h0d3dFeEdHdkFCQVJWWjRJdHgyWFVwandqYzZZUld2LVlWcWxJb29rYVJDMmdKdGk5Z0tINi1TUEV6SWpMaGI2bm9TamhSdHZEdVBqQ0JNOENZMmdCV2RBUkN5bzVzdVhWLURuYkQyV05heWVKU3pxZ3FZSEhxTDBxQWZSMmJfV0xRaXpnZlBYdGdQdXR4aV96a19fenpGNTlucm5SRVRQeDlKd1dtUF9TcHZzVERkZXdzdDhwUXFOUjJ0MW9PMVhlYzBrTGVrMHNJdTFXeWcwTGhWN1VnX2Q1YlVGTEJ3U3AwUlZwLVc3Ti1Oek5lU09KMDNvd2xyVThOLXZNaTJuQzJzN3RLbXExSUE?oc=5",
@@ -3241,26 +3254,6 @@
    ],
    "impatto": 14,
    "meme": 32,
-   "punteggio": 24
-  },
-  {
-   "titolo": "Emergenza nel Cilento: colonie di cani e gatti rimaste sole dopo il rimpatrio del custode, è corsa contro il tempo",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd1EtSVgzSmN3SUZRSUhqOUhYN0lsWEEtdTc5Tml1SmZza3FpSzh0UWlxb3JFRDNNMGhyeXRRcVNUejNOYmU2enQzR3VWOGZDZnZjc1A0a05reDVaMzJlV3plRzdDLTBfS0ZpVER6cWRzMTdXSXZiNzZUZGdZOUhkNXJOMHFXLWI2QUJlWVYtMnR2V2hHMmxJTktPRHM?oc=5",
-   "fonte": "SalernoToday",
-   "fonti": [
-    "SalernoToday"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T04:01:00+00:00",
-   "ore_fa": 13.1,
-   "animal": "dog",
-   "animale": "cane",
-   "named": null,
-   "tags": [],
-   "impatto": 28,
-   "meme": 20,
    "punteggio": 24
   },
   {
@@ -3358,7 +3351,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T21:05:40+00:00",
-   "ore_fa": 68.0,
+   "ore_fa": 68.1,
    "animal": "leopard",
    "animale": "leopardo",
    "named": null,
@@ -3771,7 +3764,7 @@
   {
    "titolo": "Florida: Armed School Guardian Denis Keeran Arrested After Phone Search Reveals Animal Abuse Videos",
    "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObWxQTFVacmVvakYzVUw4NDU3MTZuVENNbTBWR3BzcWMxRjdhaXF3R0FuLUszSGFsbU1oRTdnTnlkUlpPeTJHZjY3QUFYSGZKbDlMUTRfOUlnRXg0YllvZHBJVjVRX3haSlNIZ0Z1N0ZIQUZGTWR4bkl6bUR5TDNkcnltcWU3bDdVLW1mNTJwcE1HandPd3JYVDR5cTNUMHBCZFlHZ3ljcXd4Tks2OURPYVdiclE2bTFjZjlkaHM2VkhHSlBsTVB4d0E5MVlxOFV5NnQ2TTFB0gHbAUFVX3lxTE0tbGc3djhvNENKMElKMXZOdXRXbDhMQ0FKQUJfUVFndy13aklVVHJiTWVxTl9wVGNJc2VHVzJiWG40T1YwTUctRjJYTmg5cUtfbVFWV2l0UjVsU1ZJOWcxMUJQcTl5VUFCenZFMzdIeWk0LXpIb2hMS1B0c25scTBOSGhMdGNvZkQ2TXNLWURJQllQRW5HdVlmZVVaaG4xUXFqUXk3YUwydHBwVUhpSzhoMXJfaXQ0OTQyeWRDNU44YmNyYm1Wam5LUm13Mk15R2dyR2lFbUJRQzVrcw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLWxnN3Y4bzRDSjBJSjF2TnV0V2w4TENBSkFCX1FRZ3ctd2pJVVRyYk1lcU5fcFRjSXNlR1cyYlhuNE9WME1HLUYyWE5oOXFLX21RVldpdFI1bFNWSTlnMTFCUHE5eVVBQnp2RTM3SHlpNC16SG9oTEtQdHNubHEwTkhoTHRjb2ZENk1zS1lESUJZUEVuR3VZZmVVWmhuMVFxalF5N2FMMnRwcFVIaUs4aDFyX2l0NDk0MnlkQzVOOGJjcmJtVmpuS1JtdzJNeUdnckdpRW1CUUM1a3PSAdsBQVVfeXFMTS1sZzd2OG80Q0owSUoxdk51dFdsOExDQUpBQl9RUWd3LXdqSVVUcmJNZXFOX3BUY0lzZUdXMmJYbjRPVjBNRy1GMlhOaDlxS19tUVZXaXRSNWxTVkk5ZzExQlBxOXlVQUJ6dkUzN0h5aTQtekhvaExLUHRzbmxxME5IaEx0Y29mRDZNc0tZRElCWVBFbkd1WWZlVVpobjFRcWpReTdhTDJ0cHBVSGlLOGgxcl9pdDQ5NDJ5ZEM1TjhiY3JibVZqbktSbXcyTXlHZ3JHaUVtQlFDNWtz?oc=5",
    "fonte": "LatestLY",
    "fonti": [
     "LatestLY"
@@ -3833,6 +3826,28 @@
    ],
    "impatto": 10,
    "meme": 30,
+   "punteggio": 21
+  },
+  {
+   "titolo": "Fiumicino, un convegno sul benessere e la tutela degli animali: nasce il Premio Letterario Nazionale “La Penna di Noè”",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTllPOGNzMVN0NV9zRFFHenFhMVV0VWtlUUxCbHpGZEJDOUo2ZkJWWkhKSlppTk5FMk9rQkpYTmdpbllUQUVBSWttVmsxU2IwOFMtQ2ZsSm1SYTdJMUNqdGlkX1J6a2t3QktaaFg3WG9uaVpmbUVtVjN1TkFTMno0b0dLS0FpcXF3aWhuX0tpZkEyNmcteWt3XzFVRzZER0FOSmllRmh0cVNRbHZMU3Fxb0ROdWZmejF4MEJhU1JGYl9WWDVsNEdMTmg0WDNSeUgteUdMdlRiaEtCc0lnTXlNTXBrdkpkUVE?oc=5",
+   "fonte": "Fiumicino Online",
+   "fonti": [
+    "Fiumicino Online"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T15:14:37+00:00",
+   "ore_fa": 1.9,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [
+    "record"
+   ],
+   "impatto": 32,
+   "meme": 12,
    "punteggio": 21
   },
   {
@@ -4056,28 +4071,6 @@
    ],
    "impatto": 8,
    "meme": 30,
-   "punteggio": 20
-  },
-  {
-   "titolo": "First new feline species in 100 years discovered in Bolivian forest - ABC News",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZXNrZDlsVFpmY0tJU2dvMlRkb1M1N05Oc3NtSktkaEdSclRLWlJYQTlhNnNvNGRvVmd2aXEwdHNRWGdYTWpxSHFDR080N29HamJKUUpMMmF0X0dEaTFLOHVUV2QtZF8yNXJDR2ZmaURfRWE3SHFIRERkUlBPZ1AyOUVXUUdEQUM4YWhhc0F6YVZTMVB2eHdQX0NNSmJfd9IBowFBVV95cUxORldBbVRDRXprM2p5WllyMTBSN2VoaC1qUDJGT1dWM29DWFhQYV93SENaYlhqb0FQell2NThfc0wyck9qLUZfTzdPQXFONlY2Nnh5aG1qUnAwQWJxWTRhck1sZ2U4R21CN1Q1SUJ2c0lvY0hSdlc0b3FrQWJmSFpYQ3JpMlFSdE1rV3g4N3dQT05CX3NJRmptVHZ0b2czZ0p0SEpN?oc=5",
-   "fonte": "ABC News - Breaking News, Latest News and Videos",
-   "fonti": [
-    "ABC News - Breaking News, Latest News and Videos"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T08:24:03+00:00",
-   "ore_fa": 8.7,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [
-    "record"
-   ],
-   "impatto": 30,
-   "meme": 12,
    "punteggio": 20
   },
   {
@@ -4377,7 +4370,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T12:23:29+00:00",
-   "ore_fa": 28.7,
+   "ore_fa": 28.8,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -4541,7 +4534,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:11:28+00:00",
-   "ore_fa": 4.9,
+   "ore_fa": 5.0,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -4964,7 +4957,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T11:05:47+00:00",
-   "ore_fa": 30.0,
+   "ore_fa": 30.1,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -5168,7 +5161,7 @@
   {
    "titolo": "UK Zoo Tiger Spared After Mauling Man To Death On Camera (WATCH)",
    "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeVVBenhMNzFzb3ZRQTBUYkctaDhfQjZyYUhGa1BOYVQ3YXVEQ3ZjYXpVdlVXSkNrSXd6eDFPTTd4YlpQZlVQajFiY3ZGMGJ1eVEweTRHVnZQSUx1TkJGeVBvRzBzOFB5a0JHckJrN0w2c2dmek11QzZxcDNldGc4eDY3VGF5S3Y1VFFZcUFOREMtYnkxbHhsdlgzTlpjUUtOSjRtRVo3YVRHUldheHVkdVNSeWtVaG5EdmZ5cHQtZjBEY1U3VzVHaUNzcUY5ZUZEYTJTR0FaQzBLbGJoQnVSTdIB4AFBVV95cUxNeVVBenhMNzFzb3ZRQTBUYkctaDhfQjZyYUhGa1BOYVQ3YXVEQ3ZjYXpVdlVXSkNrSXd6eDFPTTd4YlpQZlVQajFiY3ZGMGJ1eVEweTRHVnZQSUx1TkJGeVBvRzBzOFB5a0JHckJrN0w2c2dmek11QzZxcDNldGc4eDY3VGF5S3Y1VFFZcUFOREMtYnkxbHhsdlgzTlpjUUtOSjRtRVo3YVRHUldheHVkdVNSeWtVaG5EdmZ5cHQtZjBEY1U3VzVHaUNzcUY5ZUZEYTJTR0FaQzBLbGJoQnVSTQ?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeTVvc2NWbG5lTUpnUWV5Z1VTN3pYWUd3czVXX2M3VEU0MmIwMnVzU3FwVkttTGdXRzZxdW12cTZjZ3Bta25RUVByb01xaTZMTW9VM0ItbmoxRGxieWRQSTBhazFDTElzaGl5eXluRXJuWG5oTlFuYmtvWWlOX2RkUmgyUHRxX1Y3ZWMwWW5PYkpXU25ndVk3QWEtMjMxWUxteGpPLWdLclVpS3ZlYjdtNE1Ic1RXYmlhWGxpX093NHZnaEJkeUkwZnlpVklzSDVpNE5xX2Q2SlZDZXPSAeABQVVfeXFMTXlVQXp4TDcxc292UUEwVGJHLWg4X0I2cmFIRmtQTmFUN2F1REN2Y2F6VXZVV0pDa0l3engxT003eGJaUGZVUGoxYmN2RjBidXlRMHk0R1Z2UElMdU5CRnlQb0cwczhQeWtCR3JCazdMNnNnZnpNdUM2cXAzZXRnOHg2N1RheUt2NVRRWXFBTkRDLWJ5MWx4bHZYM05aY1FLTko0bUVaN2FUR1JXYXh1ZHVTUnlrVWhuRHZmeXB0LWYwRGNVN1c1R2lDc3FGOWVGRGEyU0dBWkMwS2xiaEJ1Uk0?oc=5",
    "fonte": "Asianet Newsable",
    "fonti": [
     "Asianet Newsable"
@@ -5285,6 +5278,26 @@
    "tags": [],
    "impatto": 22,
    "meme": 10,
+   "punteggio": 15
+  },
+  {
+   "titolo": "“Haunt the Zoo” returns Saturdays and Sundays through October 31, 2026",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdkhwNlNaSFY4SkJHMU1UX3JoY01XSGJfalZ1RXlZRGlrd0YxZVhHeDBraHRjN183bURPVVZYOXZfV0Z5TVAxNzVlR0NFRzJNSnJkRXA2QWFaTHlXSlMxM3F5YWFQRnpkd0E3dEtweUFfSmU3c0RwUnAza3BWa1BmRmJxUmdpendPbFdfMF9rSUJXa3FvWlVJdkdvV0nSAaIBQVVfeXFMTUU0X0tVVUxEdzNBVmY2dGFrLWwxX0MwOE9vUTBaUEVSS1FqNUJFamRMNHNzRG94cl85c3ZlS3RzYW5heUNmSnpXWU9tWFpGYXRUaThWbkdQRG81WDBHMjNJSm5yZ284clBQZFdPWUtkZUtxQ0RtSEk3NjI3OHhuVkZJQmtJcXUwVWRCTkRLVHpiSmc4bHpLYnI2YUtJaHJET2pn?oc=5",
+   "fonte": "KFOR",
+   "fonti": [
+    "KFOR"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T16:55:17+00:00",
+   "ore_fa": 0.2,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 33,
+   "meme": 0,
    "punteggio": 15
   },
   {
@@ -5482,7 +5495,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:47:51+00:00",
-   "ore_fa": 1.3,
+   "ore_fa": 1.4,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -5809,7 +5822,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T11:29:46+00:00",
-   "ore_fa": 5.6,
+   "ore_fa": 5.7,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -5939,6 +5952,26 @@
    "punteggio": 14
   },
   {
+   "titolo": "The difference our supporters made for wild animals in September",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSMy1ra1RGYUI2dHctQlZVNUJxSU1ITHVmMFZDTnI2MFI4dlJkdFFVVjBVaFkybURtUGRaQVlDRVUwZ1ZjNC1CaE1qaEMxVjlESEx3cDhtRFdCUEhxZ05xYVZxMXBOb3FNeGRBVjZhSWo4cUdIQUxkc2E1MDkzY1E?oc=5",
+   "fonte": "Animal Survival International",
+   "fonti": [
+    "Animal Survival International"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T12:02:00+00:00",
+   "ore_fa": 5.1,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 31,
+   "meme": 0,
+   "punteggio": 14
+  },
+  {
    "titolo": "Zoologic: Francois Langurs at Saint Louis Zoo",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSkZqRlpPcmhMMkNBUEFGZE1lNWcxR2xDSFpZSGVlS0lWeXF3X3J0Mks0dE1GM3hGb3JhWnAzNXJXVTZxa1pKUVhwTmFNdjRKWGVIdzNLNThQdElqMFd2U2hsVzZnUVI2b01hdDdvZW1oX2xOVnNpemV2Z2dIYXE3ZW52ZmthRWs4WWxFVjVYUkVfajEzNVcweVNOTVNwZFFWdVZUQWt2VkpobE4wU3dNLXN4a1lPc21GN0RaMTJZY0h4Zw?oc=5",
@@ -6033,7 +6066,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T11:11:43+00:00",
-   "ore_fa": 5.9,
+   "ore_fa": 6.0,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -6085,26 +6118,6 @@
    "punteggio": 14
   },
   {
-   "titolo": "Bats living in an Arizona cave carry a genetic legacy thousands of years old",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc2dJQUhCWWN1UDBMWmtRRnJxaE42SG5sV3FkSlZtTDZQM29qcVdzOW43eWRCejNyUUNjXzdzT0FJcU1zQlJSR2k4M0lHNVpzc2Q5emJDajhNRzlHVnhCcm91WGpIVkhFWjlCc0Y2ZWo4VEJTUVRFTHhuSU9zRkxWMnJENjFiZ2JtVDhLNkZ3amRSMS1mQzUyenFuQUp3amp3N0IxY3JHcW5SQlU?oc=5",
-   "fonte": "Earth.com",
-   "fonti": [
-    "Earth.com"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-11T04:29:00+00:00",
-   "ore_fa": 36.7,
-   "animal": "bat",
-   "animale": "pipistrello",
-   "named": null,
-   "tags": [],
-   "impatto": 20,
-   "meme": 10,
-   "punteggio": 14
-  },
-  {
    "titolo": "The race to save tiny bee almost no one knew existed",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMUFMc1lhUnZ0REVYT1kxZTNlcThZR1ZwdVNPeEU0Z3QxNzBQbGw4VWpSRUNBT3R2S0Y5bXFrazItQTNMSXQ1cEJ6N0hOSlZSUm9Qb1FKQko4ZVdqdzkxZGFkblV1M3h1UG1NdkdISm9fYUhfdkNRNTlIZ244SW94UFJNbzRmRnkyTGI2aGtPN3E5TWlIVVdva2pQWHNpOUk?oc=5",
@@ -6127,7 +6140,7 @@
   {
    "titolo": "Gli animali hanno diritto d’immagine? No, ma attenzione se fate una fotografia",
    "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMWxpRnRncjNwcFpTdzd5QWxvX0FkVl91SGFtZkx4aWhUdHkyNFdYTUhPVDJtdUZneEFMYUhtX01MQmFfZU85Y1RlNF9XRHZBcGlSLXdyWi1ZMzJjR2JqMUI5VDdzUmdsRWtpcXZ3bzgzQ3VkOWdTRVVWeGlLbk1RcjU3STVFNEYzZHFqekJJMEpBN201MGh3VS03MEsydDdpMzNQc0lOTkdja2ExWVdWejd2Q0Z6QVd6akIyLWFB0gHDAUFVX3lxTE5JUTNoNlpfT2hJNWVGdy1iMlZrek53dWhreHNHVkV5RkE2RUUxdnFycWNwTVRDZldKWjNJT3dRdENsaUVibDB0MmliVVJUV090OEx1X21mNXF5UjIxZGpqNEJBR0NFWEwxNXYtLS1QUVVLQmRoRTJXaEdZd1pIVWVxUXdIOVVnYk95Z09XQzVtTlgyRklDdlI4Y1ZjY2xzX1RSamNhd3FoSEZvT2RuMjdpNUw0WjM3emphbTVxODZCOW9rNA?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSVEzaDZaX09oSTVlRnctYjJWa3pOd3Voa3hzR1ZFeUZBNkVFMXZxcnFjcE1UQ2ZXSlozSU93UXRDbGlFYmwwdDJpYlVSVFdPdDhMdV9tZjVxeVIyMWRqajRCQUdDRVhMMTV2LS0tUFFVS0JkaEUyV2hHWXdaSFVlcVF3SDlVZ2JPeWdPV0M1bU5YMkZJQ3ZSOGNWY2Nsc19UUmpjYXdxaEhGb09kbjI3aTVMNFozN3pqYW01cTg2QjlvazTSAcMBQVVfeXFMTklRM2g2Wl9PaEk1ZUZ3LWIyVmt6Tnd1aGt4c0dWRXlGQTZFRTF2cXJxY3BNVENmV0paM0lPd1F0Q2xpRWJsMHQyaWJVUlRXT3Q4THVfbWY1cXlSMjFkamo0QkFHQ0VYTDE1di0tLVBRVUtCZGhFMldoR1l3WkhVZXFRd0g5VWdiT3lnT1dDNW1OWDJGSUN2UjhjVmNjbHNfVFJqY2F3cWhIRm9PZG4yN2k1TDRaMzd6amFtNXE4NkI5b2s0?oc=5",
    "fonte": "La Provincia Pavese",
    "fonti": [
     "La Provincia Pavese"
@@ -6205,26 +6218,6 @@
    "punteggio": 14
   },
   {
-   "titolo": "Le Zucche del Brenta: un villaggio d’autunno tra giochi, animali e laboratori",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2IwYWVfUW5JdTl0ekpGWVRhUkszTHdEVVpRbUJMVk5oSk5PZ3o4MHdBcmNrT2t3NEpwTGtZdlNodlZLdnlKZE5qZ3ZfUXZxQ0tPd053ZkVCcF9CU1ZVdllkbV9DSVJNRDF4aVpzWnpsT3RsSEIzZTIzSFg5RnhxNUt2T3k?oc=5",
-   "fonte": "VeneziaToday",
-   "fonti": [
-    "VeneziaToday"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T14:53:54+00:00",
-   "ore_fa": 2.2,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 32,
-   "meme": 0,
-   "punteggio": 14
-  },
-  {
    "titolo": "Pacchetti solidali con gli animali – Roma – 16/17 ottobre",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNHdOLVd0RUxUX2gzc0tJYllGN1I5QTJkRHNjZmpva0N2cFJud05seUd4NktVU1RVRzlSZWFLWmdaYjlmclhNZWtHV2tBdWpKMFhjckU3ckI4YnN5SWlFMEJwVHlfRkNMR05fMEdMOEFfbnBNSWpQRzZMWmVmYll6T1JaUDZiaDVHU2c?oc=5",
@@ -6256,6 +6249,26 @@
    "altri_link": [],
    "data": "2026-10-12T14:25:20+00:00",
    "ore_fa": 2.7,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 32,
+   "meme": 0,
+   "punteggio": 14
+  },
+  {
+   "titolo": "Le Zucche del Brenta: un villaggio d’autunno tra giochi, animali e laboratori",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd2IwYWVfUW5JdTl0ekpGWVRhUkszTHdEVVpRbUJMVk5oSk5PZ3o4MHdBcmNrT2t3NEpwTGtZdlNodlZLdnlKZE5qZ3ZfUXZxQ0tPd053ZkVCcF9CU1ZVdllkbV9DSVJNRDF4aVpzWnpsT3RsSEIzZTIzSFg5RnhxNUt2T3k?oc=5",
+   "fonte": "VeneziaToday",
+   "fonti": [
+    "VeneziaToday"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T14:53:54+00:00",
+   "ore_fa": 2.3,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -6387,26 +6400,6 @@
    "punteggio": 14
   },
   {
-   "titolo": "Quella richiesta impossibile: gli animali della casa del bosco nell’abitazione del Comune",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWnRzTVVqY3QtV2NONmotRm9vVnctWGNCeVVLcHdxVU91WVNUMmhBT3ZLN2lUeHh3WDJydUs3NHk3Y2pXeDZoRXhHV01vNERuQWZ0VlViVTNjUENPazVtWFotd3NhU3A5MXRiaGN0WUJzNmVBcnhuaVJRS2c1eUJqcWJ4eTE3dmlqc3U2c0FFS29hWHRJU2VQd2dhbDZnUUpJa3dtLUdsTk1fRkV0NDMyOUlkcmRMdzlxaVZaVmR6clR5TnFvZjA4cXVRcUZSUnZ4WHM4?oc=5",
-   "fonte": "il Centro",
-   "fonti": [
-    "il Centro"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T08:40:01+00:00",
-   "ore_fa": 8.5,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 30,
-   "meme": 0,
-   "punteggio": 14
-  },
-  {
    "titolo": "Animali che attraversano, auto senza assicurazione, colpi di sonno: tredici incidenti stradali nel fine settimana, super lavoro per i carabinieri",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4N19heUNOSkxHUF84ejIyUW5tUlp3NmhsWVBETllma0YyUmI1U2JxQ2FrVkZ0X2R6N1htcVBVaG9IekZUU0NDRzZ0WHFycVVtOVVPckstTHJZeXk1WFlwa1ZnVVpJWDNpS2tZUk8xZETSAXZBVV95cUxPeGNXVHpxVG85Q01wdGI4dzVKTHRIMXZ2VzRodXhpWHBobXZkbWRnd0RTeDFSRHhoSU1kS2RMVmp0Ny1zaHZjc3BVcDlxUTIxYnpnaEx1ZlFPdENRemtiUnkxY0ZnTE1lSjlrZURPVFk5cFlpbS1B?oc=5",
@@ -6447,26 +6440,6 @@
    "punteggio": 14
   },
   {
-   "titolo": "Treviso, l’allocco colpito da una vetrata torna libero dopo un mese di cure: il lavoro del Cras",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTDFUcWV2d0VGZnBCNU1ULXV6dmhUTEFaSXhlbVdqZ01aNVdjejZuVElYVXpvM3ZlRWdtWmRCRG04ZV81d1FtY0VLdEZya1pCRnI5RkhURzNXN3pWYlo5SWFham9Ybl9FdGttRHNSOTBQajBHeExrRmdYZFgwbndKTkFTYllPODU2ZFRyYlNOc1FiX3RQbVFuby1haVpJZ1hsWTB0cktJZktaUQ?oc=5",
-   "fonte": "Tribuna di Treviso",
-   "fonti": [
-    "Tribuna di Treviso"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T07:11:26+00:00",
-   "ore_fa": 10.0,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 30,
-   "meme": 0,
-   "punteggio": 14
-  },
-  {
    "titolo": "Fauna selvatica, dalla Regione Siciliana 4 milioni di euro per sostenere le aziende agricole",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTnNzZHVidlZUMUViTXpDZnZhMVZWRmtzVnNld0NhdGhwZ0lHU09xVmlrSnRQYjREZVlXSm9lUUc4ejBXWk5sb0VBVzNoN1hwUVRiZ1ZJZ3dhZ1E5SWFuRUViNFVteGNFNWp1dkNwUDd2X0g4d1lWblhzN01XWk8tZDYyUGs0NEpaU3VBeGZZT1ZDcUlITGVWcnFRcHRBS3NuNDNJekZVUVNzSVFHSmJ2aW8wX1VDbmxZQUFlWjFRTmk?oc=5",
@@ -6487,6 +6460,26 @@
    "punteggio": 14
   },
   {
+   "titolo": "Treviso, l’allocco colpito da una vetrata torna libero dopo un mese di cure: il lavoro del Cras",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTDFUcWV2d0VGZnBCNU1ULXV6dmhUTEFaSXhlbVdqZ01aNVdjejZuVElYVXpvM3ZlRWdtWmRCRG04ZV81d1FtY0VLdEZya1pCRnI5RkhURzNXN3pWYlo5SWFham9Ybl9FdGttRHNSOTBQajBHeExrRmdYZFgwbndKTkFTYllPODU2ZFRyYlNOc1FiX3RQbVFuby1haVpJZ1hsWTB0cktJZktaUQ?oc=5",
+   "fonte": "Tribuna di Treviso",
+   "fonti": [
+    "Tribuna di Treviso"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T07:11:26+00:00",
+   "ore_fa": 10.0,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 30,
+   "meme": 0,
+   "punteggio": 14
+  },
+  {
    "titolo": "Cronaca. Controlli sulla caccia nel Riminese: raffica di sanzioni e sequestri da parte delle Guardie Zoofile ENPA",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTTBTQlNCMDFINzNvUzBBeXl5ZXg1dER4bEFGYnBzUFdONUMtbVV3UzRZakFhZmNfeFMydlNxMUExcXNDdFdFdVF5bnRIc1FPWTBkbHZaaFdyY2JBQVhuZTFaaGZwZnV2eEplMWlRdEdKY2V0V2MxWUFVSzE2alpyTWcyMWh1SDRsM0o3SG5VVnpUZnhjY2tGZGladGFGcWF4TTRqWUlvWUNZa1Z4cFZpOThUVUNHRDJ0Qlk5cWdKUFRLcktjOEZ6dm5jYmVnc1E3?oc=5",
@@ -6497,7 +6490,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T13:47:56+00:00",
-   "ore_fa": 3.3,
+   "ore_fa": 3.4,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -6544,26 +6537,6 @@
    "tags": [],
    "impatto": 17,
    "meme": 10,
-   "punteggio": 13
-  },
-  {
-   "titolo": "Pima Animal Care Center (PACC)",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPa3VmTVpmUmE5LW1oRTM3VFZmQWd2dFp1REpEMWxsSXN6bDBad1drZVhDemdQclFlbjZYSko0VEZxQi1hejlzRURBT0htbFFHU1RZY0tGSjF1aHFZLW5XM1FSeWJRYldFS1VkbnFfZk0xYWhsbXk3VGcxdmw3ak91NDFfdnEwUzVhNjdCbDRxM1VFSXViaTg0WjNNME5BX3JGclZ6dW1NcGE3SVJUcU1wS3p4a2x3Zkh3S0tlMW93aTF4Z3ZINk9JODRnUnNDOGxpSEthdDNKSDJLdWFJWnBBNmFyUFNTZThFZFZ4bVluZWJoVGNaS1BQd2RYRUJLZndpRThoXzVUdnZKa2J6Rkhla0N6QWJCV3BjOEFUMXNGTXVSOGhxVGxxNW4yb2R5YV9lOVhYWFlzb1hBaDg?oc=5",
-   "fonte": "Pima County, AZ (.gov)",
-   "fonti": [
-    "Pima County, AZ (.gov)"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T03:00:30+00:00",
-   "ore_fa": 14.1,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 28,
-   "meme": 0,
    "punteggio": 13
   },
   {
@@ -6807,6 +6780,26 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T05:00:00+00:00",
+   "ore_fa": 12.1,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 29,
+   "meme": 0,
+   "punteggio": 13
+  },
+  {
+   "titolo": "Gli animali domestici preziosi alleati per il benessere psicofisico 17/10/2024",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWDB2Mkl0bm1YYmU0UDFmUDFxenQzRWNXNFBvSGJlYzNHZFpKSXVGMC0tUkVLZG1lZlk3M2NzUzVyNTlvZ0NsOEMtc0NCX2R1YmNuY3dvaTVmXzE0UmFTeTY2WldJQ2R0ZDYwWTFfYmx4RkhZOTF6Q2dLVnM3YlE2YlU2QXpnR3l4c19FaXN1VEpSMEhpUUhVWThwOERoQTVMUUNuSDlNZU02ck1heU96b1ZB?oc=5",
+   "fonte": "L'eco del sud",
+   "fonti": [
+    "L'eco del sud"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T05:05:39+00:00",
    "ore_fa": 12.1,
    "animal": null,
    "animale": "generico",
@@ -7081,26 +7074,6 @@
    "punteggio": 11
   },
   {
-   "titolo": "Abbattimenti di lupi Svizzera 2026/27: il contatore per cantone e branco",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Ya1AtWElucEZvZE5GSDZpZDZ0QzFQUGpjYkhBOGUwZm9uWE0yd3poQ0dtcW1YZ1JzQzZadjMwRlM1Y1UzdWs0bzBBem1hUV8zMkMzd2dIaER1WUxaLU04TkhIOUJTb2E3U1E?oc=5",
-   "fonte": "Wild beim Wild",
-   "fonti": [
-    "Wild beim Wild"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-10T07:00:00+00:00",
-   "ore_fa": 58.1,
-   "animal": "wolf",
-   "animale": "lupo",
-   "named": null,
-   "tags": [],
-   "impatto": 13,
-   "meme": 10,
-   "punteggio": 11
-  },
-  {
    "titolo": "Cinghiali, Cia Lazio Nord: «I costi dei danni non possono ricadere solo sulle aziende»",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcHFCVHdhRm9RSU5sS1EyX1EtTWcwakpCR1dKN25JdHdVb2xoYUY1ODhOSVN3RkhKLTVfY1NfZjRRemt1ZHRhY0ZPTGdLMTJiajQ5WlhxRVlNdlo2R0VUdUpVenZjSkR1ZjNLZkhGVUxDbG4zUmFwZGdwWWdua3pmUDhqODA5Y25sVFNQb3JIODhHYnJaZ1F2c3FhZDhqaXBMdGpuS2pZSS1UMy00TFV4VG8xUlZoajRMVjhzZ3FNMlZ3OHFJRlJWY01iaU5KUQ?oc=5",
@@ -7117,6 +7090,26 @@
    "named": null,
    "tags": [],
    "impatto": 12,
+   "meme": 10,
+   "punteggio": 11
+  },
+  {
+   "titolo": "Abbattimenti di lupi Svizzera 2026/27: il contatore per cantone e branco",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Ya1AtWElucEZvZE5GSDZpZDZ0QzFQUGpjYkhBOGUwZm9uWE0yd3poQ0dtcW1YZ1JzQzZadjMwRlM1Y1UzdWs0bzBBem1hUV8zMkMzd2dIaER1WUxaLU04TkhIOUJTb2E3U1E?oc=5",
+   "fonte": "Wild beim Wild",
+   "fonti": [
+    "Wild beim Wild"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-10T07:00:00+00:00",
+   "ore_fa": 58.1,
+   "animal": "wolf",
+   "animale": "lupo",
+   "named": null,
+   "tags": [],
+   "impatto": 13,
    "meme": 10,
    "punteggio": 11
   },
@@ -7195,7 +7188,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T19:47:52+00:00",
-   "ore_fa": 69.3,
+   "ore_fa": 69.4,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -7294,6 +7287,26 @@
    "punteggio": 10
   },
   {
+   "titolo": "PH scientists decode genome of endangered Visayan spotted deer",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYm5LaUdWdEM5UmJJNnRFT19kNzN6OUY2REdTRDhBbWxlWjZhSDRRUGs5VV9vSThGeVp0ZzRfamZoNTY5T2JQUnQ4VExrU1ZzRFRCMW9hUGJQRlpIMi1hTTNqMEs5Q2xfOWVXcXZsVzloVjh3bWJ4TWQ2b05vMDJyaFN1dXdVWmtXYWsyYw?oc=5",
+   "fonte": "Explained PH",
+   "fonti": [
+    "Explained PH"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-09T21:23:18+00:00",
+   "ore_fa": 67.8,
+   "animal": "deer",
+   "animale": "cervo",
+   "named": null,
+   "tags": [],
+   "impatto": 9,
+   "meme": 10,
+   "punteggio": 10
+  },
+  {
    "titolo": "\"With the head of a horse, the body of a gorilla, and the appetite of a giant panda, it really does look like a Frankenstein’s monster.\"",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mWW1waHoyZE5FcFZXdEVibHNISnlPVnVfeWpXSXVELXN5ME9LLW9MXzFiVkJQc2xjNk92U3ppcmNTVHRkbi1EZFpYNG14S2FQRUdmZWJNMzZBelVROXJGUXM1T0U3Mm1KUFNzMURKQWwwUQ?oc=5",
@@ -7371,26 +7384,6 @@
    "tags": [],
    "impatto": 19,
    "meme": 0,
-   "punteggio": 9
-  },
-  {
-   "titolo": "PH scientists decode genome of endangered Visayan spotted deer",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYm5LaUdWdEM5UmJJNnRFT19kNzN6OUY2REdTRDhBbWxlWjZhSDRRUGs5VV9vSThGeVp0ZzRfamZoNTY5T2JQUnQ4VExrU1ZzRFRCMW9hUGJQRlpIMi1hTTNqMEs5Q2xfOWVXcXZsVzloVjh3bWJ4TWQ2b05vMDJyaFN1dXdVWmtXYWsyYw?oc=5",
-   "fonte": "Explained PH",
-   "fonti": [
-    "Explained PH"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-09T18:31:23+00:00",
-   "ore_fa": 70.6,
-   "animal": "deer",
-   "animale": "cervo",
-   "named": null,
-   "tags": [],
-   "impatto": 8,
-   "meme": 10,
    "punteggio": 9
   },
   {
@@ -7604,7 +7597,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T06:05:55+00:00",
-   "ore_fa": 59.0,
+   "ore_fa": 59.1,
    "animal": null,
    "animale": "generico",
    "named": null,
