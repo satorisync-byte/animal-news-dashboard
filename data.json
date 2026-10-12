@@ -1,5 +1,5 @@
 {
- "generato": "2026-10-12T18:07:38.208116+00:00",
+ "generato": "2026-10-12T18:15:45.578696+00:00",
  "finestra_ore": 120,
  "feed": [
   {
@@ -42,7 +42,7 @@
    "modo": "Google News",
    "status": 200,
    "totali": 100,
-   "recenti_rilevanti": 37,
+   "recenti_rilevanti": 42,
    "ok": true,
    "stato": "funzionante"
   },
@@ -228,7 +228,7 @@
    "url": "https://news.google.com/rss/search?q=viral%20animal%20video%20when%3A5d&hl=en-US&gl=US&ceid=US:en",
    "modo": "Google News",
    "status": 200,
-   "totali": 52,
+   "totali": 50,
    "recenti_rilevanti": 38,
    "ok": true,
    "stato": "funzionante"
@@ -338,8 +338,8 @@
    "url": "https://news.google.com/rss/search?q=site%3Anews.mongabay.com%20animals%20OR%20wildlife%20OR%20species%20when%3A5d&hl=en-US&gl=US&ceid=US:en",
    "modo": "Google News (nativo: 200)",
    "status": 200,
-   "totali": 49,
-   "recenti_rilevanti": 47,
+   "totali": 48,
+   "recenti_rilevanti": 46,
    "ok": true,
    "stato": "funzionante"
   },
@@ -347,7 +347,7 @@
    "feed": "Discover Wildlife",
    "categoria": "Wildlife",
    "url": "https://news.google.com/rss/search?q=site%3Adiscoverwildlife.com%20when%3A5d&hl=en-US&gl=US&ceid=US:en",
-   "modo": "Google News (nativo: HTTPSConnectionPool(host='www.discoverwildlife.com', port=44)",
+   "modo": "Google News (nativo: 404)",
    "status": 200,
    "totali": 42,
    "recenti_rilevanti": 42,
@@ -503,7 +503,7 @@
    "url": "https://news.google.com/rss/search?q=Australia%20wildlife%20OR%20zoo%20when%3A5d&hl=en-US&gl=US&ceid=US:en",
    "modo": "Google News",
    "status": 200,
-   "totali": 43,
+   "totali": 44,
    "recenti_rilevanti": 31,
    "ok": true,
    "stato": "funzionante"
@@ -525,8 +525,8 @@
    "url": "https://news.google.com/rss/search?q=zoo%20OR%20wildlife%20China%20OR%20Japan%20OR%20Thailand%20when%3A5d&hl=en-US&gl=US&ceid=US:en",
    "modo": "Google News",
    "status": 200,
-   "totali": 54,
-   "recenti_rilevanti": 48,
+   "totali": 53,
+   "recenti_rilevanti": 47,
    "ok": true,
    "stato": "funzionante"
   },
@@ -536,8 +536,8 @@
    "url": "https://news.google.com/rss/search?q=Europe%20zoo%20OR%20%22zoo%22%20Germany%20OR%20France%20OR%20Spain%20OR%20UK%20when%3A5d&hl=en-US&gl=US&ceid=US:en",
    "modo": "Google News",
    "status": 200,
-   "totali": 48,
-   "recenti_rilevanti": 42,
+   "totali": 49,
+   "recenti_rilevanti": 43,
    "ok": true,
    "stato": "funzionante"
   },
@@ -718,12 +718,12 @@
    "stato": "fallito"
   }
  ],
- "storie_totali": 913,
+ "storie_totali": 912,
  "servizi": {
   "google_trends": "US: OK (10 ricerche); IT: OK (10 ricerche)",
-  "verifica_date": "196 pagine controllate, 157 storie con data verificabile, 1 scartate perché più vecchie di 5 giorni",
-  "dexscreener": "48/48 richieste OK (resto da cache)",
-  "pump_fun": "25/25 richieste OK"
+  "verifica_date": "3 pagine controllate, 157 storie con data verificabile, 1 scartate perché più vecchie di 5 giorni",
+  "dexscreener": "0/0 richieste OK (resto da cache)",
+  "pump_fun": "13/13 richieste OK"
  },
  "scartate_vecchie": 1,
  "esempi_scartate": [
@@ -751,7 +751,7 @@
     }
    ],
    "data": "2026-10-12T10:00:52+00:00",
-   "ore_fa": 8.1,
+   "ore_fa": 8.2,
    "animal": "cat",
    "animale": "gatto",
    "named": "Pumpkin",
@@ -898,8 +898,8 @@
     ],
     "per_ticker": {
      "PUMPK": 0,
-     "PUMCAT": 0,
-     "CATNIP": 3
+     "CATNIP": 3,
+     "PUMCAT": 0
     },
     "pump_ok": true
    },
@@ -962,7 +962,7 @@
     }
    ],
    "data": "2026-10-10T18:08:15+00:00",
-   "ore_fa": 2.7,
+   "ore_fa": 2.9,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -978,7 +978,7 @@
     "Regionali",
     "Testate"
    ],
-   "regione": "Europa",
+   "regione": "Oceania",
    "link_esterno": null,
    "reddit_score": null,
    "reddit_commenti": null,
@@ -1082,9 +1082,9 @@
      }
     ],
     "per_ticker": {
+     "VTIGER": 0,
      "TIGRO": 0,
-     "TIGINU": 0,
-     "VTIGER": 0
+     "TIGINU": 0
     },
     "pump_ok": true
    },
@@ -1113,7 +1113,7 @@
     }
    ],
    "data": "2026-10-10T14:10:00+00:00",
-   "ore_fa": 51.9,
+   "ore_fa": 52.1,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -1250,7 +1250,7 @@
     }
    ],
    "data": "2026-10-12T17:49:00+00:00",
-   "ore_fa": 0.3,
+   "ore_fa": 0.4,
    "animal": "red panda",
    "animale": "panda rosso",
    "named": null,
@@ -1341,9 +1341,9 @@
      }
     ],
     "per_ticker": {
-     "PBONK": 0,
      "AILUR": 0,
-     "BPANDA": 1
+     "BPANDA": 1,
+     "PBONK": 0
     },
     "pump_ok": true
    },
@@ -1377,7 +1377,7 @@
     }
    ],
    "data": "2026-10-12T02:29:13+00:00",
-   "ore_fa": 15.6,
+   "ore_fa": 15.7,
    "animal": "red panda",
    "animale": "panda rosso",
    "named": null,
@@ -1468,9 +1468,9 @@
      }
     ],
     "per_ticker": {
-     "PANINU": 0,
      "FIREF": 0,
-     "BPANDA": 1
+     "BPANDA": 1,
+     "PANINU": 0
     },
     "pump_ok": true
    },
@@ -1489,17 +1489,12 @@
    "fonte": "The New York Times",
    "fonti": [
     "BorderReport",
-    "Pensacola News Journal",
     "The New York Times",
     "WHIO TV",
     "WSVN"
    ],
-   "n_fonti": 5,
+   "n_fonti": 4,
    "altri_link": [
-    {
-     "fonte": "Pensacola News Journal",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ1NnQ3NrMUJIdHp5U2pEaExMcHRoQWJlRFNJdnE5ZFRyYmhUN2VNbndlQzVKVFpJQWJxcUotckxWUzRxamVncVdHMEpRdzFudjZZNEJwN3kxUHM0Zlg4d1p4dkVZemNfWmNXYjdZOExHSmtGS2pFa0FMa3FwMlRXVFA0dTlXN1B1c2ZzMUhnak5yTW50SXVjQkNrNXhoTFNDemFPQXJsdUMzdEE5X1JDVWNJSmR3OW1yUEFzNUFrX0xQbE1UVUk5WVIxTnI?oc=5"
-    },
     {
      "fonte": "WSVN",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOWR0dW9IdHdFSmFzenUycjY5c2VSd3JmQU50TUZSUW5jOUx5d0tfSUJUaWhBaG53UlVfLUp3UmhMREF4RU0xYVAtb2hRSURmUXZjRC1KZ3MwazRDTnRUaUtoYzlPRnlXMGpXSXFFYURQVm1UeVl5MU1GTFE3emNMejJDNC1xUQ?oc=5"
@@ -1514,12 +1509,12 @@
     }
    ],
    "data": "2026-10-11T20:43:05+00:00",
-   "ore_fa": 0.6,
+   "ore_fa": 2.7,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
    "tags": [],
-   "impatto": 100,
+   "impatto": 99,
    "meme": 10,
    "punteggio": 50,
    "categoria": "Testate",
@@ -1658,8 +1653,8 @@
      }
     ],
     "per_ticker": {
-     "BIRB": 3,
      "MBIRD": 0,
+     "BIRB": 3,
      "UCOIN": 0
     },
     "pump_ok": true
@@ -1710,7 +1705,7 @@
     }
    ],
    "data": "2026-10-11T13:48:00+00:00",
-   "ore_fa": 2.9,
+   "ore_fa": 3.0,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -1738,6 +1733,7 @@
     "serie": [
      40,
      42,
+     50,
      50
     ]
    },
@@ -1806,7 +1802,7 @@
       "ticker": "Altai",
       "liq": 2010,
       "vol24": 206704,
-      "eta_g": 2.0,
+      "eta_g": 2.1,
       "url": "https://dexscreener.com/solana/2gddgvyktlbm67zcc1hxbj4f8w6fbgwq8j64jkmua44y",
       "fonte": "DexScreener"
      },
@@ -1861,7 +1857,7 @@
     }
    ],
    "data": "2026-10-10T22:44:00+00:00",
-   "ore_fa": 43.4,
+   "ore_fa": 43.5,
    "animal": "fox",
    "animale": "volpe",
    "named": null,
@@ -2008,8 +2004,8 @@
      }
     ],
     "per_ticker": {
-     "VOLINU": 0,
      "BABFOX": 0,
+     "VOLINU": 0,
      "FOXY": 3
     },
     "pump_ok": true
@@ -2060,7 +2056,7 @@
     }
    ],
    "data": "2026-10-10T20:38:06+00:00",
-   "ore_fa": 3.9,
+   "ore_fa": 4.1,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -2182,8 +2178,8 @@
     ],
     "per_ticker": {
      "TKING": 0,
-     "TCOIN": 0,
-     "MTIGER": 0
+     "MTIGER": 0,
+     "TCOIN": 0
     },
     "pump_ok": true
    },
@@ -2206,7 +2202,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T21:17:21+00:00",
-   "ore_fa": 20.8,
+   "ore_fa": 20.9,
    "animal": "octopus",
    "animale": "polpo",
    "named": null,
@@ -2231,7 +2227,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     49
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -2320,9 +2318,9 @@
      }
     ],
     "per_ticker": {
-     "CUB": 0,
+     "EARMS": 0,
      "PCOIN": 0,
-     "EARMS": 0
+     "CUB": 0
     },
     "pump_ok": true
    },
@@ -2351,7 +2349,7 @@
     }
    ],
    "data": "2026-10-09T21:05:40+00:00",
-   "ore_fa": 69.0,
+   "ore_fa": 69.1,
    "animal": "leopard",
    "animale": "leopardo",
    "named": null,
@@ -2461,8 +2459,8 @@
     ],
     "per_ticker": {
      "LPARD": 0,
-     "LCOIN": 0,
-     "CUB": 0
+     "CUB": 0,
+     "LCOIN": 0
     },
     "pump_ok": true
    },
@@ -2485,7 +2483,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T11:41:42+00:00",
-   "ore_fa": 6.4,
+   "ore_fa": 6.5,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -2622,9 +2620,9 @@
      }
     ],
     "per_ticker": {
+     "ECOIN": 0,
      "ELLIE": 3,
-     "CUB": 0,
-     "ECOIN": 0
+     "CUB": 0
     },
     "pump_ok": true
    },
@@ -2669,7 +2667,7 @@
     }
    ],
    "data": "2026-10-11T23:48:25+00:00",
-   "ore_fa": 18.3,
+   "ore_fa": 18.4,
    "animal": "orangutan",
    "animale": "orango",
    "named": null,
@@ -2786,8 +2784,8 @@
     ],
     "per_ticker": {
      "SAVED": 0,
-     "JUNMAN": 0,
-     "OMOON": 0
+     "OMOON": 0,
+     "JUNMAN": 0
     },
     "pump_ok": true
    },
@@ -2819,6 +2817,10 @@
     },
     {
      "fonte": "BBC",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fdlJlRWhlX2JFbVFraTRiVUdkX2NoTThQSTJlMVNlZDhQYVVvVW1WaERseUM2STFSWE10dGJ1TTMtcHM2SV9ZekJIb3pjbTlYeHg3d3BpVVZIQmZHb2c?oc=5"
+    },
+    {
+     "fonte": "BBC",
      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FeHdFV0RUUWN0c29RbzdLN3NWM2NHdHpRTk5RS245OVp5NlNrMUhvbnVjRW9vX0NKdXh6cjhDN29jWm1NaVowYWNaREs0ZHJ4LUxZ?oc=5"
     },
     {
@@ -2828,14 +2830,10 @@
     {
      "fonte": "BBC",
      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1fNkdYSHNRS2NvT1Z2bWRYOVRSQ0l6NnJrWmNEam5faVc1UHVjX2t1MVZtVWNpR2pEaGVONzVqUkdBS3dTVVNtWWlEYmhNbnExV29OaFJlLUFtQUZzdUE?oc=5"
-    },
-    {
-     "fonte": "BBC",
-     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hNVE4NkdyTkFGQVVpeEh4aDBpQWRjT0FBN0xKRV9BdWtWbWg0NjNlV24zWndpRklocW45UllwTGZnZkozbi1sZWsxVDZtNmhqMUxyM3BPdmVpZjg?oc=5"
     }
    ],
    "data": "2026-10-12T15:16:08+00:00",
-   "ore_fa": 2.8,
+   "ore_fa": 3.0,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -2953,8 +2951,8 @@
      }
     ],
     "per_ticker": {
-     "TIGRO": 0,
      "TIGCAT": 0,
+     "TIGRO": 0,
      "VTIGER": 0
     },
     "pump_ok": true
@@ -2977,11 +2975,11 @@
     "Al Jazeera",
     "CIProud.com",
     "CNN",
+    "KIRO 7 News Seattle",
     "NBC News",
     "NDTV",
     "South China Morning Post",
-    "VnExpress International",
-    "WSB-TV"
+    "VnExpress International"
    ],
    "n_fonti": 9,
    "altri_link": [
@@ -2990,8 +2988,8 @@
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Wb3o1MFdzU20zVTRyaDM2OXRmMnNXd2xLZXZfQVNHQ2NQcUw1dHREdVJ0YjMzNnIyc3lJVEl6aEVoTHViX1FmVDNubXV4ZnlmdFdBVnMwWEk3RzJCd0ljZE5uc0JsUThBNmQ4TXlwZ0ZScUlMWHJYU0E4OFlXa0E?oc=5"
     },
     {
-     "fonte": "WSB-TV",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZDFpZjVlN0lSa1c4cmxkVzBqVWVaLVFWNnlJZkI2dDlmR1RXd1E5T1d5bE9ROVYyNG5uWlVkYW02eDhwa2FFSXNaVTBSZGRyeXR4bzU2Ymwzdl92WDh2VDd4dkw4cXpQeHc3QkkxTlI0THphcTk2dVJmMUdmdFVEdm9HMkQxVlMyM3ZQNmhqamRTdkpxOTVUbGtxNEJoM2FOcHk1NHg3ZktCX21Ld2lBV1BHMzRXNnViQ3RUbFZTMNIB0wFBVV95cUxOTF83bFp6Sm10MThiMUU5Qlh1MEVxd0FzN3lWdFJpd3JyUVhFdnEtMG1iZEpPWFdGOXpaQU96NmF0SEZ6XzUzQjREa0NZZkZXSWx5TWpnTHJrNHRmOWRySWw1V0xHYlJRSDZuMng3aTVDUDJrRy1ZZllQQVFvRWl6UW1MMFVuRkZzX2Y1N2dNVWRKdkF2NS1yTTJMZEJBaHFoeTJZY0szaU1PQzd3b001V1U0QWt4YzR1b0tUNXAxb2ZneTN1aE1aOW5QRWFUOTlWcHNJ?oc=5"
+     "fonte": "KIRO 7 News Seattle",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTVNWUjRYVzRaMnNHVllqa0c4QklSaEswcTZ0QmpGNHJwUXV1NlRnU1BQY3RaLWRLeFFSRVdYR1loSXdueXJXaXVnNTZqd3hWTW1RQjM0M291Vlp0TmEwUFh5UnBJLTJTWTFfV3BjcjhTcWE5RWxOdmFkeHJScGJFNEhDRXNJeWJFYUFVZHA1MmV0Q0RwZzBOWkl4WEFGS3FzRUF1YmFUSUJWemxGT2tKbjlBZTZDSS1CTG9ISERsa9IB0wFBVV95cUxNUlNGMXZMdXZPZzNRZzhxamJONUNURWJQZnZqOFB2eDFWVm5PQVR1ZnJUNjhLWmJuVkZXd292LTZUc3pzWTB5dVRFeUdLdmRlZUJ5RnViaGpJT3dROFNkdzZBOU9wdklvU1RwTVRsRUsxQUxfVjR3YTk3T1E1aHVPSUQzWUN5SmY0bGFOV19uRkthXzB4bG56OXpBbl9ZTHkwTW0yay02UU5hcjMzWXRONUxMV0xGZ3JQNUZiazVnRV9jTHBSSW1kMWoyV0ZNdHBBVFpz?oc=5"
     },
     {
      "fonte": "NBC News",
@@ -3007,7 +3005,7 @@
     }
    ],
    "data": "2026-10-10T22:29:00+00:00",
-   "ore_fa": 5.7,
+   "ore_fa": 5.8,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -3128,8 +3126,8 @@
     ],
     "per_ticker": {
      "TKING": 0,
-     "TCOIN": 0,
-     "MTIGER": 0
+     "MTIGER": 0,
+     "TCOIN": 0
     },
     "pump_ok": true
    },
@@ -3158,7 +3156,7 @@
     }
    ],
    "data": "2026-10-08T10:55:42+00:00",
-   "ore_fa": 103.2,
+   "ore_fa": 103.3,
    "animal": "dog",
    "animale": "cane",
    "named": "Duke",
@@ -3166,7 +3164,7 @@
     "salvataggio",
     "nome"
    ],
-   "impatto": 34,
+   "impatto": 33,
    "meme": 58,
    "punteggio": 47,
    "categoria": "Testate",
@@ -3269,7 +3267,7 @@
       "ticker": "Doggo",
       "liq": 0,
       "vol24": 1909,
-      "eta_g": 0.1,
+      "eta_g": 0.2,
       "url": "https://dexscreener.com/solana/9sjbjbefdrcpgh335me2ohkzfajoapjdrtvzmbkhiigk",
       "fonte": "DexScreener"
      }
@@ -3332,8 +3330,8 @@
     ],
     "per_ticker": {
      "DOGGO": 6,
-     "DUKDO": 0,
-     "DUKDOG": 0
+     "DUKDOG": 0,
+     "DUKDO": 0
     },
     "pump_ok": true
    },
@@ -3362,7 +3360,7 @@
     }
    ],
    "data": "2026-10-09T13:37:49+00:00",
-   "ore_fa": 70.9,
+   "ore_fa": 71.0,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -3458,7 +3456,7 @@
       "ticker": "POX",
       "liq": 99205,
       "vol24": 11,
-      "eta_g": 775.0,
+      "eta_g": 775.1,
       "url": "https://dexscreener.com/solana/2z9sgdshwvdkddakfqs5qj7ecaj18cwchwcsdy9crwun",
       "fonte": "DexScreener"
      },
@@ -3541,7 +3539,7 @@
     }
    ],
    "data": "2026-10-09T09:40:01+00:00",
-   "ore_fa": 71.3,
+   "ore_fa": 71.4,
    "animal": "seal",
    "animale": "foca",
    "named": null,
@@ -3624,7 +3622,7 @@
       "ticker": "SEAL",
       "liq": 20025,
       "vol24": 8245,
-      "eta_g": 2.1,
+      "eta_g": 2.2,
       "url": "https://dexscreener.com/solana/27xkwhux5rkrjjxr5ebqc3zkdxscgzvmr329agzdxrc9",
       "fonte": "DexScreener"
      },
@@ -3657,9 +3655,9 @@
      }
     ],
     "per_ticker": {
-     "PSEAL": 0,
+     "STEAM": 0,
      "FBONK": 0,
-     "STEAM": 0
+     "PSEAL": 0
     },
     "pump_ok": true
    },
@@ -3682,7 +3680,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T21:42:44+00:00",
-   "ore_fa": 68.4,
+   "ore_fa": 68.5,
    "animal": "dog",
    "animale": "cane",
    "named": "Paralyzed",
@@ -3794,7 +3792,7 @@
       "ticker": "Doggo",
       "liq": 0,
       "vol24": 1909,
-      "eta_g": 0.1,
+      "eta_g": 0.2,
       "url": "https://dexscreener.com/solana/9sjbjbefdrcpgh335me2ohkzfajoapjdrtvzmbkhiigk",
       "fonte": "DexScreener"
      }
@@ -3856,9 +3854,9 @@
      }
     ],
     "per_ticker": {
-     "PARDOG": 0,
      "DOGGO": 6,
-     "PARAL": 0
+     "PARAL": 0,
+     "PARDOG": 0
     },
     "pump_ok": true
    },
@@ -3887,7 +3885,7 @@
     }
    ],
    "data": "2026-10-10T06:23:36+00:00",
-   "ore_fa": 59.7,
+   "ore_fa": 59.8,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -3954,8 +3952,8 @@
     "simili": [],
     "per_ticker": {
      "WCARD": 0,
-     "BIMBO": 0,
-     "ABONK": 0
+     "ABONK": 0,
+     "BIMBO": 0
     },
     "pump_ok": true
    },
@@ -3984,7 +3982,7 @@
     }
    ],
    "data": "2026-10-12T13:38:35+00:00",
-   "ore_fa": 4.5,
+   "ore_fa": 4.6,
    "animal": "fish",
    "animale": "pesce",
    "named": null,
@@ -4102,8 +4100,8 @@
     ],
     "per_ticker": {
      "MFISH": 0,
-     "PCOIN": 0,
-     "GILL": 0
+     "GILL": 0,
+     "PCOIN": 0
     },
     "pump_ok": true
    },
@@ -4132,7 +4130,7 @@
     }
    ],
    "data": "2026-10-09T01:36:19+00:00",
-   "ore_fa": 88.5,
+   "ore_fa": 88.6,
    "animal": "octopus",
    "animale": "polpo",
    "named": null,
@@ -4249,9 +4247,9 @@
      }
     ],
     "per_ticker": {
-     "PMOON": 0,
+     "WEIRD": 1,
      "EARMS": 0,
-     "WEIRD": 1
+     "PMOON": 0
     },
     "pump_ok": true
    },
@@ -4280,7 +4278,7 @@
     }
    ],
    "data": "2026-10-11T16:40:01+00:00",
-   "ore_fa": 25.4,
+   "ore_fa": 25.6,
    "animal": "orangutan",
    "animale": "orango",
    "named": null,
@@ -4397,9 +4395,9 @@
      }
     ],
     "per_ticker": {
+     "SAVED": 0,
      "OCOIN": 0,
-     "JUNMAN": 0,
-     "SAVED": 0
+     "JUNMAN": 0
     },
     "pump_ok": true
    },
@@ -4428,7 +4426,7 @@
     }
    ],
    "data": "2026-10-12T16:40:48+00:00",
-   "ore_fa": 1.4,
+   "ore_fa": 1.5,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -4547,8 +4545,8 @@
     ],
     "per_ticker": {
      "TKING": 0,
-     "MTIGER": 0,
-     "TMOON": 0
+     "TMOON": 0,
+     "MTIGER": 0
     },
     "pump_ok": true
    },
@@ -4577,7 +4575,7 @@
     }
    ],
    "data": "2026-10-11T15:00:04+00:00",
-   "ore_fa": 27.1,
+   "ore_fa": 27.2,
    "animal": "red panda",
    "animale": "panda rosso",
    "named": null,
@@ -4737,7 +4735,7 @@
     }
    ],
    "data": "2026-10-10T14:43:02+00:00",
-   "ore_fa": 51.4,
+   "ore_fa": 51.5,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -4872,9 +4870,9 @@
      }
     ],
     "per_ticker": {
-     "ELLIE": 2,
      "MEME": 3,
-     "ECOIN": 0
+     "ECOIN": 0,
+     "ELLIE": 2
     },
     "pump_ok": true
    },
@@ -4897,7 +4895,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T08:09:09+00:00",
-   "ore_fa": 9.9,
+   "ore_fa": 10.1,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -4921,7 +4919,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     43
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -4974,9 +4974,9 @@
      }
     ],
     "per_ticker": {
+     "ORSCAT": 0,
      "BBEAR": 0,
-     "UNBEA": 0,
-     "ORSCAT": 0
+     "UNBEA": 0
     },
     "pump_ok": true
    },
@@ -5005,7 +5005,7 @@
     }
    ],
    "data": "2026-10-09T08:23:26+00:00",
-   "ore_fa": 81.7,
+   "ore_fa": 81.8,
    "animal": "snake",
    "animale": "serpente",
    "named": null,
@@ -5170,8 +5170,8 @@
     ],
     "per_ticker": {
      "SBONK": 0,
-     "KSNAKE": 0,
-     "NOODLE": 5
+     "NOODLE": 5,
+     "KSNAKE": 0
     },
     "pump_ok": true
    },
@@ -5194,7 +5194,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:02:44+00:00",
-   "ore_fa": 4.0,
+   "ore_fa": 4.2,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -5339,9 +5339,9 @@
      }
     ],
     "per_ticker": {
-     "MLION": 0,
+     "ROAR": 3,
      "LMOON": 0,
-     "ROAR": 3
+     "MLION": 0
     },
     "pump_ok": true
    },
@@ -5364,7 +5364,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T16:40:31+00:00",
-   "ore_fa": 1.4,
+   "ore_fa": 1.6,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -5526,9 +5526,9 @@
      }
     ],
     "per_ticker": {
+     "CBONK": 0,
      "PUMDOG": 0,
-     "WOOF": 2,
-     "CBONK": 0
+     "WOOF": 2
     },
     "pump_ok": true
    },
@@ -5551,7 +5551,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T06:53:39+00:00",
-   "ore_fa": 107.2,
+   "ore_fa": 107.3,
    "animal": "giraffe",
    "animale": "giraffa",
    "named": null,
@@ -5628,7 +5628,7 @@
     }
    ],
    "data": "2026-10-09T14:47:40+00:00",
-   "ore_fa": 75.3,
+   "ore_fa": 75.4,
    "animal": "leopard",
    "animale": "leopardo",
    "named": null,
@@ -5674,7 +5674,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T22:03:51+00:00",
-   "ore_fa": 20.0,
+   "ore_fa": 20.2,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -5698,7 +5698,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     42
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -5722,7 +5724,7 @@
     }
    ],
    "data": "2026-10-08T20:20:31+00:00",
-   "ore_fa": 93.8,
+   "ore_fa": 93.9,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": "Aldabra Atoll",
@@ -5774,14 +5776,14 @@
     }
    ],
    "data": "2026-10-09T07:31:08+00:00",
-   "ore_fa": 7.1,
+   "ore_fa": 7.2,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
    "tags": [
     "insolito"
    ],
-   "impatto": 62,
+   "impatto": 61,
    "meme": 24,
    "punteggio": 41,
    "categoria": "Testate",
@@ -5821,7 +5823,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:29:26+00:00",
-   "ore_fa": 2.6,
+   "ore_fa": 2.7,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -5868,7 +5870,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T11:52:15+00:00",
-   "ore_fa": 6.2,
+   "ore_fa": 6.4,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -5916,7 +5918,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T11:00:24+00:00",
-   "ore_fa": 31.1,
+   "ore_fa": 31.2,
    "animal": "chimpanzee",
    "animale": "scimpanzé",
    "named": null,
@@ -5924,7 +5926,7 @@
     "virale",
     "record"
    ],
-   "impatto": 44,
+   "impatto": 43,
    "meme": 37,
    "punteggio": 40,
    "categoria": "Testate",
@@ -5963,7 +5965,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T21:07:14+00:00",
-   "ore_fa": 21.0,
+   "ore_fa": 21.1,
    "animal": "owl",
    "animale": "gufo",
    "named": null,
@@ -6015,12 +6017,12 @@
     }
    ],
    "data": "2026-10-12T01:03:00+00:00",
-   "ore_fa": 16.7,
+   "ore_fa": 16.9,
    "animal": "lion",
    "animale": "leone",
    "named": null,
    "tags": [],
-   "impatto": 77,
+   "impatto": 76,
    "meme": 10,
    "punteggio": 40,
    "categoria": "Testate",
@@ -6049,7 +6051,7 @@
     "traffic": "500+",
     "link": "https://trends.google.com/trends/explore?geo=US&date=now%201-d&q=crimson%20rescued%20mountain%20lion%20cub"
    },
-   "impatto_base": 69,
+   "impatto_base": 68,
    "bonus": {
     "trend": 0,
     "google_trends": 8
@@ -6074,7 +6076,7 @@
     }
    ],
    "data": "2026-10-09T10:35:51+00:00",
-   "ore_fa": 79.5,
+   "ore_fa": 79.6,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -6147,7 +6149,7 @@
     }
    ],
    "data": "2026-10-09T20:12:50+00:00",
-   "ore_fa": 69.9,
+   "ore_fa": 70.0,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -6201,7 +6203,7 @@
     }
    ],
    "data": "2026-10-12T09:22:14+00:00",
-   "ore_fa": 4.1,
+   "ore_fa": 4.2,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -6245,7 +6247,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T16:00:00+00:00",
-   "ore_fa": 50.1,
+   "ore_fa": 50.2,
    "animal": "giraffe",
    "animale": "giraffa",
    "named": null,
@@ -6292,7 +6294,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T21:02:02+00:00",
-   "ore_fa": 69.1,
+   "ore_fa": 69.2,
    "animal": "horse",
    "animale": "cavallo",
    "named": "You",
@@ -6340,7 +6342,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T05:09:31+00:00",
-   "ore_fa": 12.9,
+   "ore_fa": 13.1,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -6397,7 +6399,7 @@
     }
    ],
    "data": "2026-10-11T18:20:20+00:00",
-   "ore_fa": 23.8,
+   "ore_fa": 23.9,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -6453,7 +6455,7 @@
     }
    ],
    "data": "2026-10-12T12:48:35+00:00",
-   "ore_fa": 5.3,
+   "ore_fa": 5.4,
    "animal": "whale",
    "animale": "balena",
    "named": null,
@@ -6512,7 +6514,7 @@
     }
    ],
    "data": "2026-10-12T02:40:58+00:00",
-   "ore_fa": 15.4,
+   "ore_fa": 15.5,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -6564,7 +6566,7 @@
     }
    ],
    "data": "2026-10-09T10:00:01+00:00",
-   "ore_fa": 80.1,
+   "ore_fa": 80.2,
    "animal": "orangutan",
    "animale": "orango",
    "named": null,
@@ -6609,7 +6611,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:13:09+00:00",
-   "ore_fa": 2.9,
+   "ore_fa": 3.0,
    "animal": "seal",
    "animale": "foca",
    "named": null,
@@ -6659,10 +6661,11 @@
     "WBTV",
     "WDAM-TV",
     "WFIE | 14 News",
+    "WKYT",
     "WTOC",
     "fox8live.com"
    ],
-   "n_fonti": 11,
+   "n_fonti": 12,
    "altri_link": [
     {
      "fonte": "fox8live.com",
@@ -6686,7 +6689,7 @@
     }
    ],
    "data": "2026-10-12T13:32:02+00:00",
-   "ore_fa": 4.6,
+   "ore_fa": 4.7,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -6711,6 +6714,7 @@
     "serie": [
      36,
      36,
+     37,
      37
     ]
    },
@@ -6738,7 +6742,7 @@
     }
    ],
    "data": "2026-10-11T09:00:00+00:00",
-   "ore_fa": 33.1,
+   "ore_fa": 33.2,
    "animal": "leopard",
    "animale": "leopardo",
    "named": null,
@@ -6784,7 +6788,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T17:04:00+00:00",
-   "ore_fa": 73.0,
+   "ore_fa": 73.2,
    "animal": "squirrel",
    "animale": "scoiattolo",
    "named": null,
@@ -6831,7 +6835,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T15:16:11+00:00",
-   "ore_fa": 74.8,
+   "ore_fa": 75.0,
    "animal": "giraffe",
    "animale": "giraffa",
    "named": null,
@@ -6884,7 +6888,7 @@
     }
    ],
    "data": "2026-10-11T20:39:06+00:00",
-   "ore_fa": 21.4,
+   "ore_fa": 21.6,
    "animal": "leopard",
    "animale": "leopardo",
    "named": null,
@@ -6929,7 +6933,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T11:30:57+00:00",
-   "ore_fa": 30.6,
+   "ore_fa": 30.7,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -6980,7 +6984,7 @@
     }
    ],
    "data": "2026-10-12T12:02:15+00:00",
-   "ore_fa": 6.1,
+   "ore_fa": 6.2,
    "animal": "snake",
    "animale": "serpente",
    "named": null,
@@ -7027,7 +7031,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-07T18:15:23+00:00",
-   "ore_fa": 119.8,
+   "ore_fa": 120.0,
    "animal": "raccoon",
    "animale": "procione",
    "named": null,
@@ -7074,7 +7078,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T22:03:33+00:00",
-   "ore_fa": 68.0,
+   "ore_fa": 68.2,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -7138,7 +7142,7 @@
     }
    ],
    "data": "2026-10-12T17:54:45+00:00",
-   "ore_fa": 0.2,
+   "ore_fa": 0.3,
    "animal": "chimpanzee",
    "animale": "scimpanzé",
    "named": "August",
@@ -7184,7 +7188,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T16:44:01+00:00",
-   "ore_fa": 1.4,
+   "ore_fa": 1.5,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -7238,7 +7242,7 @@
     }
    ],
    "data": "2026-10-12T15:21:11+00:00",
-   "ore_fa": 2.7,
+   "ore_fa": 2.9,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -7290,7 +7294,7 @@
     }
    ],
    "data": "2026-10-08T07:28:12+00:00",
-   "ore_fa": 106.6,
+   "ore_fa": 106.8,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -7336,7 +7340,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T22:12:14+00:00",
-   "ore_fa": 43.9,
+   "ore_fa": 44.0,
    "animal": "orangutan",
    "animale": "orango",
    "named": null,
@@ -7382,7 +7386,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T09:37:00+00:00",
-   "ore_fa": 32.5,
+   "ore_fa": 32.6,
    "animal": "lion",
    "animale": "leone",
    "named": "Gus",
@@ -7436,7 +7440,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T04:28:00+00:00",
-   "ore_fa": 13.6,
+   "ore_fa": 13.8,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -7490,7 +7494,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T00:29:00+00:00",
-   "ore_fa": 17.6,
+   "ore_fa": 17.7,
    "animal": "eagle",
    "animale": "aquila",
    "named": "Saetbyeol",
@@ -7537,7 +7541,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T08:26:36+00:00",
-   "ore_fa": 9.7,
+   "ore_fa": 9.8,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -7595,7 +7599,7 @@
     }
    ],
    "data": "2026-10-12T09:20:41+00:00",
-   "ore_fa": 8.7,
+   "ore_fa": 8.9,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -7642,7 +7646,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T11:51:02+00:00",
-   "ore_fa": 6.2,
+   "ore_fa": 6.4,
    "animal": "gorilla",
    "animale": "gorilla",
    "named": null,
@@ -7687,7 +7691,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T11:16:35+00:00",
-   "ore_fa": 6.8,
+   "ore_fa": 7.0,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -7733,7 +7737,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:13:05+00:00",
-   "ore_fa": 5.9,
+   "ore_fa": 6.0,
    "animal": "gorilla",
    "animale": "gorilla",
    "named": null,
@@ -7778,7 +7782,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T13:00:13+00:00",
-   "ore_fa": 77.1,
+   "ore_fa": 77.2,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -7824,7 +7828,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:48:38+00:00",
-   "ore_fa": 3.3,
+   "ore_fa": 3.4,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -7876,7 +7880,7 @@
     }
    ],
    "data": "2026-10-12T09:28:09+00:00",
-   "ore_fa": 8.6,
+   "ore_fa": 8.8,
    "animal": "panda",
    "animale": "panda",
    "named": null,
@@ -7921,7 +7925,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T08:04:29+00:00",
-   "ore_fa": 82.0,
+   "ore_fa": 82.2,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -7967,7 +7971,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:40:20+00:00",
-   "ore_fa": 2.4,
+   "ore_fa": 2.6,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -8020,7 +8024,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T17:09:00+00:00",
-   "ore_fa": 24.9,
+   "ore_fa": 25.1,
    "animal": "parrot",
    "animale": "pappagallo",
    "named": null,
@@ -8067,7 +8071,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T11:12:00+00:00",
-   "ore_fa": 6.9,
+   "ore_fa": 7.0,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -8121,7 +8125,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:12:43+00:00",
-   "ore_fa": 0.9,
+   "ore_fa": 1.0,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -8167,7 +8171,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:12:46+00:00",
-   "ore_fa": 0.9,
+   "ore_fa": 1.0,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -8213,7 +8217,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:53:47+00:00",
-   "ore_fa": 0.2,
+   "ore_fa": 0.3,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -8265,7 +8269,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T13:33:00+00:00",
-   "ore_fa": 4.5,
+   "ore_fa": 4.7,
    "animal": "hippo",
    "animale": "ippopotamo",
    "named": null,
@@ -8319,7 +8323,7 @@
     }
    ],
    "data": "2026-10-12T05:58:50+00:00",
-   "ore_fa": 12.1,
+   "ore_fa": 12.2,
    "animal": "owl",
    "animale": "gufo",
    "named": null,
@@ -8369,7 +8373,7 @@
     }
    ],
    "data": "2026-10-12T00:53:22+00:00",
-   "ore_fa": 17.2,
+   "ore_fa": 17.3,
    "animal": "panda",
    "animale": "panda",
    "named": null,
@@ -8414,7 +8418,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T13:35:00+00:00",
-   "ore_fa": 28.5,
+   "ore_fa": 28.6,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -8451,46 +8455,6 @@
    "link_articolo": "https://www.globaltimes.cn/page/202610/1372014.shtml"
   },
   {
-   "titolo": "🔥 A red squirrel",
-   "sommario": "",
-   "link": "https://www.reddit.com/r/NatureIsFuckingLit/comments/1x3yswm/a_red_squirrel/",
-   "fonte": "Reddit r/NatureIsFuckingLit",
-   "fonti": [
-    "Reddit r/NatureIsFuckingLit"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T10:57:10+00:00",
-   "ore_fa": 7.1,
-   "animal": "squirrel",
-   "animale": "scoiattolo",
-   "named": null,
-   "tags": [],
-   "impatto": 32,
-   "meme": 35,
-   "punteggio": 34,
-   "categoria": "Reddit/Community",
-   "categorie": [
-    "Reddit/Community"
-   ],
-   "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null,
-   "img": null,
-   "id": "5bacb214",
-   "trend": {
-    "stato": "nuova",
-    "nuove_fonti_6h": 0,
-    "delta_punteggio_6h": 0,
-    "serie": []
-   },
-   "bonus": {
-    "trend": 0,
-    "google_trends": 0
-   }
-  },
-  {
    "titolo": "🔥 Synchronised elephant swimming",
    "sommario": "",
    "link": "https://www.reddit.com/r/NatureIsFuckingLit/comments/1x4315v/synchronised_elephant_swimming/",
@@ -8501,7 +8465,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:15:53+00:00",
-   "ore_fa": 3.8,
+   "ore_fa": 4.0,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -8523,7 +8487,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     34
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -8541,7 +8507,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:00:58+00:00",
-   "ore_fa": 4.1,
+   "ore_fa": 4.2,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -8593,7 +8559,7 @@
     }
    ],
    "data": "2026-10-08T04:00:11+00:00",
-   "ore_fa": 110.1,
+   "ore_fa": 110.2,
    "animal": "owl",
    "animale": "gufo",
    "named": null,
@@ -8642,7 +8608,7 @@
     }
    ],
    "data": "2026-10-09T12:06:00+00:00",
-   "ore_fa": 78.0,
+   "ore_fa": 78.1,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -8687,7 +8653,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T08:29:49+00:00",
-   "ore_fa": 33.6,
+   "ore_fa": 33.7,
    "animal": "frog",
    "animale": "rana",
    "named": null,
@@ -8712,7 +8678,8 @@
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
     "serie": [
-     31
+     31,
+     33
     ]
    },
    "bonus": {
@@ -8738,7 +8705,7 @@
     }
    ],
    "data": "2026-10-09T19:00:00+00:00",
-   "ore_fa": 71.1,
+   "ore_fa": 71.2,
    "animal": "leopard",
    "animale": "leopardo",
    "named": null,
@@ -8791,7 +8758,7 @@
     }
    ],
    "data": "2026-10-09T00:13:00+00:00",
-   "ore_fa": 89.9,
+   "ore_fa": 90.0,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -8837,7 +8804,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T17:27:34+00:00",
-   "ore_fa": 72.6,
+   "ore_fa": 72.8,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -8873,6 +8840,48 @@
    "data_verificata": true
   },
   {
+   "titolo": "🔥 A red squirrel",
+   "sommario": "",
+   "link": "https://www.reddit.com/r/NatureIsFuckingLit/comments/1x3yswm/a_red_squirrel/",
+   "fonte": "Reddit r/NatureIsFuckingLit",
+   "fonti": [
+    "Reddit r/NatureIsFuckingLit"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T10:57:10+00:00",
+   "ore_fa": 7.3,
+   "animal": "squirrel",
+   "animale": "scoiattolo",
+   "named": null,
+   "tags": [],
+   "impatto": 31,
+   "meme": 35,
+   "punteggio": 33,
+   "categoria": "Reddit/Community",
+   "categorie": [
+    "Reddit/Community"
+   ],
+   "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "img": null,
+   "id": "5bacb214",
+   "trend": {
+    "stato": "nuova",
+    "nuove_fonti_6h": 0,
+    "delta_punteggio_6h": 0,
+    "serie": [
+     34
+    ]
+   },
+   "bonus": {
+    "trend": 0,
+    "google_trends": 0
+   }
+  },
+  {
    "titolo": "Monkeys as service animals? The ‘bizarre’, tortured history of humans and primates",
    "sommario": "Ape Sh*t, a new zine by writer and designer Carrie McLaren, looks at the ways monkeys and apes have communicated to humans that they’re individuals too Zines have always lent themselves to weird and wonderful topics, from sci-fi reflections to punk fanzines to radical political tracts. The underground, often homemade publications have offered readers and writers a way to throw themselves into nich",
    "link": "https://www.theguardian.com/lifeandstyle/2026/oct/08/ape-sht-zine-carrie-mclaren-monkeys-humans",
@@ -8883,7 +8892,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T12:00:19+00:00",
-   "ore_fa": 102.1,
+   "ore_fa": 102.2,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -8928,7 +8937,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T05:43:09+00:00",
-   "ore_fa": 84.4,
+   "ore_fa": 84.5,
    "animal": "squirrel",
    "animale": "scoiattolo",
    "named": null,
@@ -8973,7 +8982,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T01:10:35+00:00",
-   "ore_fa": 16.9,
+   "ore_fa": 17.1,
    "animal": "otter",
    "animale": "lontra",
    "named": null,
@@ -9023,7 +9032,7 @@
     }
    ],
    "data": "2026-10-12T08:47:48+00:00",
-   "ore_fa": 9.3,
+   "ore_fa": 9.4,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -9075,7 +9084,7 @@
     }
    ],
    "data": "2026-10-10T08:02:57+00:00",
-   "ore_fa": 58.0,
+   "ore_fa": 58.2,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -9138,7 +9147,7 @@
     }
    ],
    "data": "2026-10-12T09:15:26+00:00",
-   "ore_fa": 8.8,
+   "ore_fa": 9.0,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -9182,7 +9191,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T11:32:45+00:00",
-   "ore_fa": 78.5,
+   "ore_fa": 78.7,
    "animal": "leopard",
    "animale": "leopardo",
    "named": null,
@@ -9235,7 +9244,7 @@
     }
    ],
    "data": "2026-10-09T18:10:54+00:00",
-   "ore_fa": 14.8,
+   "ore_fa": 15.0,
    "animal": "frog",
    "animale": "rana",
    "named": null,
@@ -9281,7 +9290,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T10:09:00+00:00",
-   "ore_fa": 55.9,
+   "ore_fa": 56.1,
    "animal": "whale",
    "animale": "balena",
    "named": null,
@@ -9329,7 +9338,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:48:41+00:00",
-   "ore_fa": 5.3,
+   "ore_fa": 5.4,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -9382,7 +9391,7 @@
     }
    ],
    "data": "2026-10-12T09:13:57+00:00",
-   "ore_fa": 8.9,
+   "ore_fa": 9.0,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -9428,7 +9437,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:32:56+00:00",
-   "ore_fa": 3.5,
+   "ore_fa": 3.7,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -9474,7 +9483,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T15:00:39+00:00",
-   "ore_fa": 75.1,
+   "ore_fa": 75.2,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -9520,7 +9529,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:49:56+00:00",
-   "ore_fa": 3.3,
+   "ore_fa": 3.4,
    "animal": "frog",
    "animale": "rana",
    "named": null,
@@ -9564,7 +9573,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T12:53:00+00:00",
-   "ore_fa": 53.2,
+   "ore_fa": 53.3,
    "animal": "parrot",
    "animale": "pappagallo",
    "named": null,
@@ -9623,7 +9632,7 @@
     }
    ],
    "data": "2026-10-09T05:30:42+00:00",
-   "ore_fa": 84.6,
+   "ore_fa": 84.7,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -9668,7 +9677,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T17:13:00+00:00",
-   "ore_fa": 72.9,
+   "ore_fa": 73.0,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -9726,7 +9735,7 @@
     }
    ],
    "data": "2026-10-09T16:56:38+00:00",
-   "ore_fa": 73.2,
+   "ore_fa": 73.3,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -9778,7 +9787,7 @@
     }
    ],
    "data": "2026-10-09T13:05:55+00:00",
-   "ore_fa": 77.0,
+   "ore_fa": 77.1,
    "animal": "fish",
    "animale": "pesce",
    "named": null,
@@ -9828,7 +9837,7 @@
     }
    ],
    "data": "2026-10-09T12:45:55+00:00",
-   "ore_fa": 77.3,
+   "ore_fa": 77.5,
    "animal": "whale",
    "animale": "balena",
    "named": null,
@@ -9872,7 +9881,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:37:00+00:00",
-   "ore_fa": 5.5,
+   "ore_fa": 5.6,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -9925,7 +9934,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T07:25:08+00:00",
-   "ore_fa": 82.7,
+   "ore_fa": 82.8,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -9971,7 +9980,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T22:31:00+00:00",
-   "ore_fa": 19.6,
+   "ore_fa": 19.7,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -10008,19 +10017,15 @@
    "data_verificata": true
   },
   {
-   "titolo": "Dalla parte degli animali: L'alimentazione per i cani attivi Video",
+   "titolo": "Dalla parte degli animali: Dieci calopsite Video",
    "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOGs1dUVKcTNzVjFtekNHMHNSYnRVNjJEOFZ3UjNfb0ZHOTZmS19lbS1KbWNUSXV2ZG5DcDVYYkZRNmY2RzNBeDhucHdscWVxTXMxU0NLdkRDOFNzM0h3eHUyVFlDbngzUVVZWUMtbUxHSW9UUDdTYU95S3kzdmFsTWE5V0JOOUJyQXI3SkVOVVBoU3QxYmFrZEN6WTNoaldJWWJoUEExWnJnQkQzb0oxLUZ5bFgwZw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcmpYbVRVWGZPWExWSGRMTlVQZGdsQ01xa2UxWHFHNWhCVTliakFKVlNVWWFHNnpKYkY3RXVYcTltQWsxUFAzU2c2R1pkQTI0UVYtSTFnVGkxN1NGMG1EN0NWU2dXYmpkcWxYUktVaWpsd2xRV1JEckdwZGhuV1RXbm9Kc2tSeUZDYzY2LXJzRkZjY1N2NHRkMDJXcDI5Q0k?oc=5",
    "fonte": "Mediaset Infinity",
    "fonti": [
     "Mediaset Infinity"
    ],
    "n_fonti": 1,
    "altri_link": [
-    {
-     "fonte": "Mediaset Infinity",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcmpYbVRVWGZPWExWSGRMTlVQZGdsQ01xa2UxWHFHNWhCVTliakFKVlNVWWFHNnpKYkY3RXVYcTltQWsxUFAzU2c2R1pkQTI0UVYtSTFnVGkxN1NGMG1EN0NWU2dXYmpkcWxYUktVaWpsd2xRV1JEckdwZGhuV1RXbm9Kc2tSeUZDYzY2LXJzRkZjY1N2NHRkMDJXcDI5Q0k?oc=5"
-    },
     {
      "fonte": "Mediaset Infinity",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONkZpY0JyZXg4NU1pNnVORkZoWi1PbWhXSWVCVHM0V0JKeEh6c2ZmQlEzTnA4WEtOX3Bxd0VrZmFrZ0FxVl82WloxcUxpc21LTWZyZ0FtRU1sQllIMFBMOEZwME1tNEM0c0Q5c3NOOXJWUkVYUkk2N2NldXV0SmlTSEdJMjVfUEo2OUF3dnRMdnVqcjFsWUdlaVgxSFR6RDlh?oc=5"
@@ -10038,8 +10043,8 @@
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNY2dMMTBEekNZRVE4bnRoMDZrU01qV1dNYjU3cGhUQ2prSE9KNF83MTA5UHdHNFJiYXhra1k5RFFNLWlZc2xzN1R6ZXpJWmVVTHNSX0I4ZkpHVGVFY0dub1hndnduOVFnaE5GSTJLblQ1WG1PLS1rV3VIZU5fYVlBYWhWWVJ4R0ppczZxQndQdl9iMGZFbEJyVUpqNk90eUIzbHlWMEFB?oc=5"
     }
    ],
-   "data": "2026-10-11T09:50:01+00:00",
-   "ore_fa": 32.3,
+   "data": "2026-10-11T09:23:51+00:00",
+   "ore_fa": 32.8,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -10083,7 +10088,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T11:29:33+00:00",
-   "ore_fa": 54.6,
+   "ore_fa": 54.7,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -10128,7 +10133,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:46:20+00:00",
-   "ore_fa": 0.3,
+   "ore_fa": 0.5,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -10173,7 +10178,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T06:01:00+00:00",
-   "ore_fa": 60.1,
+   "ore_fa": 60.2,
    "animal": "koala",
    "animale": "koala",
    "named": "Watoru",
@@ -10218,7 +10223,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T18:43:59+00:00",
-   "ore_fa": 23.4,
+   "ore_fa": 23.5,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -10242,7 +10247,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     31
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -10266,7 +10273,7 @@
     }
    ],
    "data": "2026-10-09T09:00:44+00:00",
-   "ore_fa": 81.1,
+   "ore_fa": 81.2,
    "animal": "spider",
    "animale": "ragno",
    "named": null,
@@ -10320,7 +10327,7 @@
     }
    ],
    "data": "2026-10-10T06:30:44+00:00",
-   "ore_fa": 59.6,
+   "ore_fa": 59.7,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -10366,7 +10373,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T06:37:24+00:00",
-   "ore_fa": 35.5,
+   "ore_fa": 35.6,
    "animal": "owl",
    "animale": "gufo",
    "named": null,
@@ -10409,7 +10416,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T10:22:56+00:00",
-   "ore_fa": 103.7,
+   "ore_fa": 103.8,
    "animal": "dinosaur",
    "animale": "dinosauro",
    "named": null,
@@ -10454,7 +10461,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T11:04:22+00:00",
-   "ore_fa": 103.0,
+   "ore_fa": 103.2,
    "animal": "orangutan",
    "animale": "orango",
    "named": null,
@@ -10498,7 +10505,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T22:47:10+00:00",
-   "ore_fa": 67.3,
+   "ore_fa": 67.4,
    "animal": "shark",
    "animale": "squalo",
    "named": null,
@@ -10544,7 +10551,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T09:59:00+00:00",
-   "ore_fa": 32.1,
+   "ore_fa": 32.2,
    "animal": "orangutan",
    "animale": "orango",
    "named": null,
@@ -10587,7 +10594,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T13:00:00+00:00",
-   "ore_fa": 5.1,
+   "ore_fa": 5.2,
    "animal": "mouse",
    "animale": "topo",
    "named": null,
@@ -10631,7 +10638,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T07:27:18+00:00",
-   "ore_fa": 10.6,
+   "ore_fa": 10.8,
    "animal": "dinosaur",
    "animale": "dinosauro",
    "named": null,
@@ -10682,7 +10689,7 @@
     }
    ],
    "data": "2026-10-12T11:13:23+00:00",
-   "ore_fa": 6.9,
+   "ore_fa": 7.0,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -10727,7 +10734,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T02:53:00+00:00",
-   "ore_fa": 63.2,
+   "ore_fa": 63.3,
    "animal": "giraffe",
    "animale": "giraffa",
    "named": null,
@@ -10771,7 +10778,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T22:50:00+00:00",
-   "ore_fa": 91.3,
+   "ore_fa": 91.4,
    "animal": "squirrel",
    "animale": "scoiattolo",
    "named": null,
@@ -10815,7 +10822,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T10:06:14+00:00",
-   "ore_fa": 8.0,
+   "ore_fa": 8.1,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -10849,51 +10856,6 @@
    }
   },
   {
-   "titolo": "La tartaruga a due teste nata negli Stati Uniti: perché la bicefalia sembra essere più comune nei rettili",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ2RBTVJrbHVOM3FiUXZwVGN5aHp0WGY5Z2ZlMnZ3UzFZMS1OX2pBNkpPOXBLS3dZVWN4akdtbFliQlNIM0k3dW1NZjNEc2FJa0Y1WEs5Y0dEUkRTZXVCWnVLWUtTQUtmTFpsTzNWQ0NRUkRubXpCQVg5c0YtOF9kV2VYQTdJNUxYTHR6RV9VZXRSWHJUZlFMQ1FwRnRWY1d6OUxlck1RLXZUQ3JmNTE3dXBLLW5kQ0VxNDlJc0xodS04MDl1elVqQ01uY2pFamVV?oc=5",
-   "fonte": "Fanpage",
-   "fonti": [
-    "Fanpage"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T10:55:48+00:00",
-   "ore_fa": 7.2,
-   "animal": "turtle",
-   "animale": "tartaruga",
-   "named": null,
-   "tags": [
-    "bebè"
-   ],
-   "impatto": 32,
-   "meme": 28,
-   "punteggio": 30,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": "Europa",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null,
-   "img": null,
-   "id": "a12dbe48",
-   "trend": {
-    "stato": "nuova",
-    "nuove_fonti_6h": 0,
-    "delta_punteggio_6h": 0,
-    "serie": [
-     29,
-     30
-    ]
-   },
-   "bonus": {
-    "trend": 0,
-    "google_trends": 0
-   }
-  },
-  {
    "titolo": "Otto oranghi salvati dagli incendi in Indonesia tornano liberi nelle foreste del Borneo",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3dNaXd6RGdUWmRmV29wYk1pTkRDRC1ibkxyd3ZWaDY2RThYbnEwQnVreU0xRnR3S3pNS01xZ0tucktMQWNzclZNZEVyOXZrSTdXNHR3c3U3bTJZTm9GaTZQY3RYYkJHaVczdG9acFRIVE93WXVxQXBHSFhndmEydkRIcXY2eDdWQXY3QXI3UWY0Y1AxQl9XZ0pfZmxCWV8tVl9pNTFDWDEyeVJEbWJPTEVLWm1BVWhkc3c?oc=5",
@@ -10904,7 +10866,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T09:10:38+00:00",
-   "ore_fa": 8.9,
+   "ore_fa": 9.1,
    "animal": "orangutan",
    "animale": "orango",
    "named": null,
@@ -10948,7 +10910,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-07T22:34:44+00:00",
-   "ore_fa": 115.5,
+   "ore_fa": 115.6,
    "animal": "raccoon",
    "animale": "procione",
    "named": null,
@@ -10992,7 +10954,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:31:00+00:00",
-   "ore_fa": 0.6,
+   "ore_fa": 0.7,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -11036,7 +10998,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T16:45:45+00:00",
-   "ore_fa": 1.3,
+   "ore_fa": 1.5,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -11080,7 +11042,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T04:00:37+00:00",
-   "ore_fa": 86.1,
+   "ore_fa": 86.2,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -11126,7 +11088,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:55:47+00:00",
-   "ore_fa": 2.2,
+   "ore_fa": 2.3,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -11171,7 +11133,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T00:36:29+00:00",
-   "ore_fa": 89.5,
+   "ore_fa": 89.6,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -11227,7 +11189,7 @@
     }
    ],
    "data": "2026-10-08T03:10:00+00:00",
-   "ore_fa": 107.8,
+   "ore_fa": 107.9,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -11270,7 +11232,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T17:02:00+00:00",
-   "ore_fa": 49.1,
+   "ore_fa": 49.2,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -11319,7 +11281,7 @@
     }
    ],
    "data": "2026-10-08T18:38:25+00:00",
-   "ore_fa": 95.5,
+   "ore_fa": 95.6,
    "animal": "shark",
    "animale": "squalo",
    "named": null,
@@ -11362,7 +11324,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:00:01+00:00",
-   "ore_fa": 1.1,
+   "ore_fa": 1.2,
    "animal": "otter",
    "animale": "lontra",
    "named": null,
@@ -11405,7 +11367,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:02:37+00:00",
-   "ore_fa": 6.1,
+   "ore_fa": 6.2,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -11447,7 +11409,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T07:11:35+00:00",
-   "ore_fa": 10.9,
+   "ore_fa": 11.0,
    "animal": null,
    "animale": "generico",
    "named": "Ghostly",
@@ -11492,7 +11454,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T14:53:08+00:00",
-   "ore_fa": 27.2,
+   "ore_fa": 27.3,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -11537,7 +11499,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T05:06:58+00:00",
-   "ore_fa": 37.0,
+   "ore_fa": 37.1,
    "animal": "squirrel",
    "animale": "scoiattolo",
    "named": null,
@@ -11582,7 +11544,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T04:30:31+00:00",
-   "ore_fa": 85.6,
+   "ore_fa": 85.7,
    "animal": "snake",
    "animale": "serpente",
    "named": null,
@@ -11617,6 +11579,51 @@
    }
   },
   {
+   "titolo": "La tartaruga a due teste nata negli Stati Uniti: perché la bicefalia sembra essere più comune nei rettili",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ2RBTVJrbHVOM3FiUXZwVGN5aHp0WGY5Z2ZlMnZ3UzFZMS1OX2pBNkpPOXBLS3dZVWN4akdtbFliQlNIM0k3dW1NZjNEc2FJa0Y1WEs5Y0dEUkRTZXVCWnVLWUtTQUtmTFpsTzNWQ0NRUkRubXpCQVg5c0YtOF9kV2VYQTdJNUxYTHR6RV9VZXRSWHJUZlFMQ1FwRnRWY1d6OUxlck1RLXZUQ3JmNTE3dXBLLW5kQ0VxNDlJc0xodS04MDl1elVqQ01uY2pFamVV?oc=5",
+   "fonte": "Fanpage",
+   "fonti": [
+    "Fanpage"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T10:55:48+00:00",
+   "ore_fa": 7.3,
+   "animal": "turtle",
+   "animale": "tartaruga",
+   "named": null,
+   "tags": [
+    "bebè"
+   ],
+   "impatto": 31,
+   "meme": 28,
+   "punteggio": 29,
+   "categoria": "Testate",
+   "categorie": [
+    "Testate"
+   ],
+   "regione": "Europa",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "img": null,
+   "id": "a12dbe48",
+   "trend": {
+    "stato": "nuova",
+    "nuove_fonti_6h": 0,
+    "delta_punteggio_6h": 0,
+    "serie": [
+     29,
+     30
+    ]
+   },
+   "bonus": {
+    "trend": 0,
+    "google_trends": 0
+   }
+  },
+  {
    "titolo": "Former Kruger ranger found guilty in decade-long rhino poaching case",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQX2Mzck9sVktjTTY1VnNFclN5QjFGSEZXUENXUHVnb1BRVHRmN0xXZGd3N3o1ZXRNYzQ0MkYyVmlRdk1RNlM3ZXBWWWFTOU9feVJzOEhsUXVIT2xKMUdYMl9TRGQ0dkdKRmNrTTdZTmlKRGQ0a2x1S1FQMGlqaHgxa0hwcEpHMGVpUV96Q0Rrancwd0FDTGJj?oc=5",
@@ -11633,7 +11640,7 @@
     }
    ],
    "data": "2026-10-12T08:30:37+00:00",
-   "ore_fa": 9.6,
+   "ore_fa": 9.7,
    "animal": "rhino",
    "animale": "rinoceronte",
    "named": null,
@@ -11675,7 +11682,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T22:51:36+00:00",
-   "ore_fa": 67.2,
+   "ore_fa": 67.4,
    "animal": "fox",
    "animale": "volpe",
    "named": null,
@@ -11720,7 +11727,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T13:33:00+00:00",
-   "ore_fa": 28.5,
+   "ore_fa": 28.7,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -11765,7 +11772,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T16:31:55+00:00",
-   "ore_fa": 1.6,
+   "ore_fa": 1.7,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -11787,7 +11794,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     29
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -11805,7 +11814,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T16:13:43+00:00",
-   "ore_fa": 73.9,
+   "ore_fa": 74.0,
    "animal": "whale",
    "animale": "balena",
    "named": null,
@@ -11849,7 +11858,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T17:28:10+00:00",
-   "ore_fa": 72.6,
+   "ore_fa": 72.8,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -11899,7 +11908,7 @@
     }
    ],
    "data": "2026-10-09T19:53:46+00:00",
-   "ore_fa": 70.2,
+   "ore_fa": 70.3,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -11935,56 +11944,6 @@
    "data_verificata": true
   },
   {
-   "titolo": "AI platforms offer promise in limiting the illegal wildlife trade",
-   "sommario": "New University of Kent research has found promising signs that AI platforms have the potential to limit the illegal wildlife trade. The research paper titled \"Assessing safeguards against the illegal wildlife trade on AI platforms\" is published in Conservation Biology.",
-   "link": "https://phys.org/news/2026-10-ai-platforms-limiting-illegal-wildlife.html",
-   "fonte": "Phys.org Ecology",
-   "fonti": [
-    "Phys.org",
-    "Phys.org Ecology"
-   ],
-   "n_fonti": 2,
-   "altri_link": [
-    {
-     "fonte": "Phys.org",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4tSGJFRWthdnhqclhlYWxHWFRXaktsMk9xaEx5c2ZQaWpfaXhYQnBuSTU2cW5qQXI2UDhpdG5lX1I3SGhsOWRrc1dRUVBzS3UyanR4MGFPSWNTV1VfVGtTNG1Dd29EUW53ckw0WVpuQmV6RWRQYy14cG00NnBIUQ?oc=5"
-    }
-   ],
-   "data": "2026-10-12T11:00:09+00:00",
-   "ore_fa": 7.1,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 62,
-   "meme": 0,
-   "punteggio": 28,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null,
-   "img": "https://scx1.b-cdn.net/csz/news/tmb/2025/grok.jpg",
-   "id": "f81ec662",
-   "trend": {
-    "stato": "nuova",
-    "nuove_fonti_6h": 0,
-    "delta_punteggio_6h": 0,
-    "serie": [
-     27,
-     28
-    ]
-   },
-   "bonus": {
-    "trend": 0,
-    "google_trends": 0
-   },
-   "data_verificata": true
-  },
-  {
    "titolo": "Scientists listened to the rumbles of elephants on the African savannah. Here's what they discovered",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUXlQNzlqbXh3T3VvVHZJbU5QWWJCWFJKNDVveUFkQ3ZVV0xodEh5NDlUbE04VFp1VFlGZDM4cHlBNnBIRFB1ZWFtX0ViRVJkZEhIa0VBdUxrVVRPRFRNRDVlX3VmT2w4aFZ2SzVmck1XeEp1WmxaS1pXSk8xOUd1QWZuZlpIQQ?oc=5",
@@ -11995,7 +11954,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T09:14:51+00:00",
-   "ore_fa": 80.8,
+   "ore_fa": 81.0,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -12045,7 +12004,7 @@
     }
    ],
    "data": "2026-10-09T21:57:43+00:00",
-   "ore_fa": 68.1,
+   "ore_fa": 68.3,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -12088,7 +12047,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:17:48+00:00",
-   "ore_fa": 3.8,
+   "ore_fa": 3.9,
    "animal": "fish",
    "animale": "pesce",
    "named": null,
@@ -12132,7 +12091,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:45:00+00:00",
-   "ore_fa": 5.3,
+   "ore_fa": 5.5,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -12183,7 +12142,7 @@
     }
    ],
    "data": "2026-10-12T05:45:23+00:00",
-   "ore_fa": 12.3,
+   "ore_fa": 12.5,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -12228,7 +12187,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T09:00:00+00:00",
-   "ore_fa": 33.1,
+   "ore_fa": 33.2,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -12273,7 +12232,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T08:55:31+00:00",
-   "ore_fa": 9.2,
+   "ore_fa": 9.3,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -12319,7 +12278,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-07T22:24:56+00:00",
-   "ore_fa": 115.7,
+   "ore_fa": 115.8,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -12364,12 +12323,12 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T01:25:34+00:00",
-   "ore_fa": 64.7,
+   "ore_fa": 64.8,
    "animal": "dog",
    "animale": "cane",
    "named": null,
    "tags": [],
-   "impatto": 20,
+   "impatto": 19,
    "meme": 35,
    "punteggio": 28,
    "categoria": "Wildlife",
@@ -12413,7 +12372,7 @@
     }
    ],
    "data": "2026-10-11T14:03:30+00:00",
-   "ore_fa": 28.0,
+   "ore_fa": 28.2,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -12436,7 +12395,8 @@
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
     "serie": [
-     16
+     16,
+     28
     ]
    },
    "bonus": {
@@ -12455,7 +12415,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T20:39:00+00:00",
-   "ore_fa": 69.4,
+   "ore_fa": 69.6,
    "animal": "squirrel",
    "animale": "scoiattolo",
    "named": null,
@@ -12480,7 +12440,8 @@
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
     "serie": [
-     23
+     23,
+     28
     ]
    },
    "bonus": {
@@ -12499,7 +12460,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T06:25:34+00:00",
-   "ore_fa": 11.7,
+   "ore_fa": 11.8,
    "animal": "whale",
    "animale": "balena",
    "named": null,
@@ -12521,7 +12482,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     28
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -12544,7 +12507,7 @@
     }
    ],
    "data": "2026-10-10T13:19:09+00:00",
-   "ore_fa": 52.8,
+   "ore_fa": 52.9,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -12589,7 +12552,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T17:38:51+00:00",
-   "ore_fa": 72.4,
+   "ore_fa": 72.6,
    "animal": "frog",
    "animale": "rana",
    "named": null,
@@ -12631,7 +12594,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T08:44:49+00:00",
-   "ore_fa": 9.3,
+   "ore_fa": 9.5,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -12675,7 +12638,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T08:37:03+00:00",
-   "ore_fa": 9.5,
+   "ore_fa": 9.6,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -12719,7 +12682,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T10:20:05+00:00",
-   "ore_fa": 79.8,
+   "ore_fa": 79.9,
    "animal": "jaguar",
    "animale": "giaguaro",
    "named": null,
@@ -12769,7 +12732,7 @@
     }
    ],
    "data": "2026-10-10T14:42:13+00:00",
-   "ore_fa": 51.4,
+   "ore_fa": 51.5,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -12812,7 +12775,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T19:40:06+00:00",
-   "ore_fa": 94.4,
+   "ore_fa": 94.6,
    "animal": "seal",
    "animale": "foca",
    "named": null,
@@ -12847,6 +12810,56 @@
    "data_verificata": true
   },
   {
+   "titolo": "AI platforms offer promise in limiting the illegal wildlife trade",
+   "sommario": "New University of Kent research has found promising signs that AI platforms have the potential to limit the illegal wildlife trade. The research paper titled \"Assessing safeguards against the illegal wildlife trade on AI platforms\" is published in Conservation Biology.",
+   "link": "https://phys.org/news/2026-10-ai-platforms-limiting-illegal-wildlife.html",
+   "fonte": "Phys.org Ecology",
+   "fonti": [
+    "Phys.org",
+    "Phys.org Ecology"
+   ],
+   "n_fonti": 2,
+   "altri_link": [
+    {
+     "fonte": "Phys.org",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4tSGJFRWthdnhqclhlYWxHWFRXaktsMk9xaEx5c2ZQaWpfaXhYQnBuSTU2cW5qQXI2UDhpdG5lX1I3SGhsOWRrc1dRUVBzS3UyanR4MGFPSWNTV1VfVGtTNG1Dd29EUW53ckw0WVpuQmV6RWRQYy14cG00NnBIUQ?oc=5"
+    }
+   ],
+   "data": "2026-10-12T11:00:09+00:00",
+   "ore_fa": 7.2,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 61,
+   "meme": 0,
+   "punteggio": 27,
+   "categoria": "Testate",
+   "categorie": [
+    "Testate"
+   ],
+   "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "img": "https://scx1.b-cdn.net/csz/news/tmb/2025/grok.jpg",
+   "id": "f81ec662",
+   "trend": {
+    "stato": "nuova",
+    "nuove_fonti_6h": 0,
+    "delta_punteggio_6h": 0,
+    "serie": [
+     27,
+     28
+    ]
+   },
+   "bonus": {
+    "trend": 0,
+    "google_trends": 0
+   },
+   "data_verificata": true
+  },
+  {
    "titolo": "Wildlife populations have declined 73% since 1970—but many of the world's animals still aren't being counted",
    "sommario": "Wildlife populations around the world have declined by an average of 73% since 1970. That's according to the WWF's new 2026 Living Planet Index—a major estimate, updated every two years, of the changing state of nature. This does not mean that 73% of the world's animals have disappeared. Rather, it is the average decline in the size of wildlife populations being monitored.",
    "link": "https://phys.org/news/2026-10-wildlife-populations-declined-world-animals.html",
@@ -12863,7 +12876,7 @@
     }
    ],
    "data": "2026-10-12T00:30:01+00:00",
-   "ore_fa": 17.6,
+   "ore_fa": 17.7,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -12907,7 +12920,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T18:00:07+00:00",
-   "ore_fa": 24.1,
+   "ore_fa": 24.2,
    "animal": "fox",
    "animale": "volpe",
    "named": null,
@@ -12951,7 +12964,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T16:00:06+00:00",
-   "ore_fa": 98.1,
+   "ore_fa": 98.2,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -12996,7 +13009,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:55:16+00:00",
-   "ore_fa": 0.2,
+   "ore_fa": 0.3,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -13041,7 +13054,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T15:06:00+00:00",
-   "ore_fa": 99.0,
+   "ore_fa": 99.1,
    "animal": "bat",
    "animale": "pipistrello",
    "named": null,
@@ -13086,7 +13099,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T08:04:00+00:00",
-   "ore_fa": 82.0,
+   "ore_fa": 82.2,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -13136,7 +13149,7 @@
     }
    ],
    "data": "2026-10-12T05:41:46+00:00",
-   "ore_fa": 10.3,
+   "ore_fa": 10.5,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -13178,7 +13191,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T16:22:06+00:00",
-   "ore_fa": 1.7,
+   "ore_fa": 1.9,
    "animal": "fox",
    "animale": "volpe",
    "named": null,
@@ -13224,7 +13237,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:45:59+00:00",
-   "ore_fa": 0.3,
+   "ore_fa": 0.5,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -13269,7 +13282,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T16:44:34+00:00",
-   "ore_fa": 97.4,
+   "ore_fa": 97.5,
    "animal": "capybara",
    "animale": "capibara",
    "named": null,
@@ -13313,7 +13326,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T21:13:00+00:00",
-   "ore_fa": 92.9,
+   "ore_fa": 93.0,
    "animal": "red panda",
    "animale": "panda rosso",
    "named": null,
@@ -13357,7 +13370,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:20:16+00:00",
-   "ore_fa": 5.8,
+   "ore_fa": 5.9,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -13401,7 +13414,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T09:26:00+00:00",
-   "ore_fa": 104.7,
+   "ore_fa": 104.8,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -13446,7 +13459,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T10:13:59+00:00",
-   "ore_fa": 55.9,
+   "ore_fa": 56.0,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -13491,7 +13504,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T19:16:01+00:00",
-   "ore_fa": 70.8,
+   "ore_fa": 71.0,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -13534,7 +13547,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T20:27:22+00:00",
-   "ore_fa": 69.6,
+   "ore_fa": 69.8,
    "animal": null,
    "animale": "generico",
    "named": "Student",
@@ -13579,7 +13592,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T20:24:20+00:00",
-   "ore_fa": 69.7,
+   "ore_fa": 69.8,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -13622,7 +13635,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T13:32:24+00:00",
-   "ore_fa": 100.6,
+   "ore_fa": 100.7,
    "animal": "dog",
    "animale": "cane",
    "named": "Purebred",
@@ -13666,7 +13679,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T11:17:26+00:00",
-   "ore_fa": 102.8,
+   "ore_fa": 102.9,
    "animal": "dog",
    "animale": "cane",
    "named": "Purebred",
@@ -13716,7 +13729,7 @@
     }
    ],
    "data": "2026-10-10T19:18:20+00:00",
-   "ore_fa": 46.8,
+   "ore_fa": 46.9,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -13762,7 +13775,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T22:47:48+00:00",
-   "ore_fa": 19.3,
+   "ore_fa": 19.4,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -13784,7 +13797,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     27
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -13802,7 +13817,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T03:43:59+00:00",
-   "ore_fa": 14.4,
+   "ore_fa": 14.5,
    "animal": "leopard",
    "animale": "leopardo",
    "named": null,
@@ -13824,7 +13839,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     27
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -13842,7 +13859,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T05:58:05+00:00",
-   "ore_fa": 12.1,
+   "ore_fa": 12.3,
    "animal": "wolf",
    "animale": "lupo",
    "named": null,
@@ -13864,47 +13881,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
-   },
-   "bonus": {
-    "trend": 0,
-    "google_trends": 0
-   }
-  },
-  {
-   "titolo": "🔥 A majestic kangaroo hopping away into the water…",
-   "sommario": "",
-   "link": "https://www.reddit.com/r/NatureIsFuckingLit/comments/1x3isht/a_majestic_kangaroo_hopping_away_into_the_water/",
-   "fonte": "Reddit r/NatureIsFuckingLit",
-   "fonti": [
-    "Reddit r/NatureIsFuckingLit"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-11T20:35:51+00:00",
-   "ore_fa": 21.5,
-   "animal": "kangaroo",
-   "animale": "canguro",
-   "named": null,
-   "tags": [],
-   "impatto": 29,
-   "meme": 25,
-   "punteggio": 27,
-   "categoria": "Reddit/Community",
-   "categorie": [
-    "Reddit/Community"
-   ],
-   "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null,
-   "img": null,
-   "id": "abef89a1",
-   "trend": {
-    "stato": "nuova",
-    "nuove_fonti_6h": 0,
-    "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     27
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -13922,7 +13901,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T02:14:12+00:00",
-   "ore_fa": 15.9,
+   "ore_fa": 16.0,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -13944,7 +13923,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     27
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -13962,7 +13943,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T07:00:41+00:00",
-   "ore_fa": 83.1,
+   "ore_fa": 83.2,
    "animal": "seal",
    "animale": "foca",
    "named": null,
@@ -14005,7 +13986,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T09:02:27+00:00",
-   "ore_fa": 57.1,
+   "ore_fa": 57.2,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -14055,7 +14036,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T09:27:20+00:00",
-   "ore_fa": 80.6,
+   "ore_fa": 80.8,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -14097,7 +14078,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T10:19:22+00:00",
-   "ore_fa": 79.8,
+   "ore_fa": 79.9,
    "animal": "squirrel",
    "animale": "scoiattolo",
    "named": null,
@@ -14139,7 +14120,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T11:13:13+00:00",
-   "ore_fa": 78.9,
+   "ore_fa": 79.0,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -14181,7 +14162,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T19:06:53+00:00",
-   "ore_fa": 95.0,
+   "ore_fa": 95.1,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -14226,7 +14207,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T02:22:00+00:00",
-   "ore_fa": 111.7,
+   "ore_fa": 111.9,
    "animal": "penguin",
    "animale": "pinguino",
    "named": null,
@@ -14270,7 +14251,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T09:16:38+00:00",
-   "ore_fa": 32.8,
+   "ore_fa": 33.0,
    "animal": "panda",
    "animale": "panda",
    "named": null,
@@ -14312,7 +14293,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T13:44:56+00:00",
-   "ore_fa": 28.3,
+   "ore_fa": 28.5,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -14362,7 +14343,7 @@
     }
    ],
    "data": "2026-10-12T17:57:43+00:00",
-   "ore_fa": 0.1,
+   "ore_fa": 0.3,
    "animal": "giraffe",
    "animale": "giraffa",
    "named": null,
@@ -14394,48 +14375,6 @@
    }
   },
   {
-   "titolo": "Granby Zoo releases more than 730 young turtles after record egg intake",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0wZmgtNWNsb2hBQVVVVjlfdi1aYkJGZ2pKanZCc2lxY3RDOXRSLWRRNTdheE9rZVZfZW9QV2Vqa1NOeXNFWGtSTWZCSWQ5cUFVM2FZdnFZOHRkanZjX2p1UnN5bjZMQXU2anlUcUdnUHRabHRZM1Jz?oc=5",
-   "fonte": "The Pulse of the Eastern Townships",
-   "fonti": [
-    "The Pulse of the Eastern Townships"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T13:28:20+00:00",
-   "ore_fa": 4.6,
-   "animal": "turtle",
-   "animale": "tartaruga",
-   "named": null,
-   "tags": [
-    "record"
-   ],
-   "impatto": 32,
-   "meme": 22,
-   "punteggio": 26,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null,
-   "img": null,
-   "id": "54eb03bc",
-   "trend": {
-    "stato": "nuova",
-    "nuove_fonti_6h": 0,
-    "delta_punteggio_6h": 0,
-    "serie": []
-   },
-   "bonus": {
-    "trend": 0,
-    "google_trends": 0
-   }
-  },
-  {
    "titolo": "Stunning Photo Book Reminds Us of the Beauty and Fragility of Giraffes [Interview]",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfR3FtX1BiVUg1bm5xSnh3bGhsaXhFZEJTdzh3WU1HM3RNVGRUMnh5cEpnaDQwUnNHUXZUOU1fSjlXSFdFNWY0a3ZKamZiWk9tX212RGcyT3N4VG1JSzd3?oc=5",
@@ -14446,7 +14385,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:41:17+00:00",
-   "ore_fa": 0.4,
+   "ore_fa": 0.5,
    "animal": "giraffe",
    "animale": "giraffa",
    "named": null,
@@ -14488,7 +14427,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T17:56:52+00:00",
-   "ore_fa": 48.1,
+   "ore_fa": 48.3,
    "animal": "leopard",
    "animale": "leopardo",
    "named": null,
@@ -14532,7 +14471,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T23:07:00+00:00",
-   "ore_fa": 43.0,
+   "ore_fa": 43.1,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -14575,7 +14514,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T23:15:00+00:00",
-   "ore_fa": 42.8,
+   "ore_fa": 43.0,
    "animal": "raccoon",
    "animale": "procione",
    "named": null,
@@ -14618,7 +14557,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T03:01:18+00:00",
-   "ore_fa": 15.1,
+   "ore_fa": 15.2,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -14662,7 +14601,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T15:54:27+00:00",
-   "ore_fa": 50.2,
+   "ore_fa": 50.3,
    "animal": null,
    "animale": "generico",
    "named": "Wild",
@@ -14707,7 +14646,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-07T19:18:40+00:00",
-   "ore_fa": 118.8,
+   "ore_fa": 118.9,
    "animal": "dog",
    "animale": "cane",
    "named": "Georgie",
@@ -14752,7 +14691,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T07:14:30+00:00",
-   "ore_fa": 10.9,
+   "ore_fa": 11.0,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -14797,7 +14736,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T19:03:00+00:00",
-   "ore_fa": 71.0,
+   "ore_fa": 71.2,
    "animal": "fox",
    "animale": "volpe",
    "named": null,
@@ -14842,7 +14781,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T07:02:56+00:00",
-   "ore_fa": 11.0,
+   "ore_fa": 11.2,
    "animal": "snake",
    "animale": "serpente",
    "named": null,
@@ -14887,7 +14826,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:30:11+00:00",
-   "ore_fa": 5.6,
+   "ore_fa": 5.7,
    "animal": "horse",
    "animale": "cavallo",
    "named": null,
@@ -14931,7 +14870,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:20:00+00:00",
-   "ore_fa": 0.8,
+   "ore_fa": 0.9,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -14973,7 +14912,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:29:06+00:00",
-   "ore_fa": 0.6,
+   "ore_fa": 0.7,
    "animal": null,
    "animale": "generico",
    "named": "Marijoa",
@@ -15017,7 +14956,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T16:09:29+00:00",
-   "ore_fa": 1.9,
+   "ore_fa": 2.1,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -15060,7 +14999,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T04:33:00+00:00",
-   "ore_fa": 13.5,
+   "ore_fa": 13.7,
    "animal": "shark",
    "animale": "squalo",
    "named": null,
@@ -15105,7 +15044,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T22:45:53+00:00",
-   "ore_fa": 91.3,
+   "ore_fa": 91.5,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -15147,7 +15086,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T22:50:03+00:00",
-   "ore_fa": 91.3,
+   "ore_fa": 91.4,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -15189,7 +15128,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:32:19+00:00",
-   "ore_fa": 0.6,
+   "ore_fa": 0.7,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -15231,7 +15170,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:02:05+00:00",
-   "ore_fa": 1.1,
+   "ore_fa": 1.2,
    "animal": "hippo",
    "animale": "ippopotamo",
    "named": null,
@@ -15273,7 +15212,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T16:42:33+00:00",
-   "ore_fa": 1.4,
+   "ore_fa": 1.5,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -15317,7 +15256,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:55:11+00:00",
-   "ore_fa": 2.2,
+   "ore_fa": 2.3,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -15360,7 +15299,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:15:00+00:00",
-   "ore_fa": 0.8,
+   "ore_fa": 1.0,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -15402,7 +15341,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T05:50:00+00:00",
-   "ore_fa": 84.3,
+   "ore_fa": 84.4,
    "animal": "snake",
    "animale": "serpente",
    "named": null,
@@ -15453,7 +15392,7 @@
     }
    ],
    "data": "2026-10-10T16:42:30+00:00",
-   "ore_fa": 49.4,
+   "ore_fa": 49.5,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -15507,7 +15446,7 @@
     }
    ],
    "data": "2026-10-10T15:00:29+00:00",
-   "ore_fa": 51.1,
+   "ore_fa": 51.2,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -15539,6 +15478,48 @@
    }
   },
   {
+   "titolo": "🔥 A majestic kangaroo hopping away into the water…",
+   "sommario": "",
+   "link": "https://www.reddit.com/r/NatureIsFuckingLit/comments/1x3isht/a_majestic_kangaroo_hopping_away_into_the_water/",
+   "fonte": "Reddit r/NatureIsFuckingLit",
+   "fonti": [
+    "Reddit r/NatureIsFuckingLit"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-11T20:35:51+00:00",
+   "ore_fa": 21.6,
+   "animal": "kangaroo",
+   "animale": "canguro",
+   "named": null,
+   "tags": [],
+   "impatto": 28,
+   "meme": 25,
+   "punteggio": 26,
+   "categoria": "Reddit/Community",
+   "categorie": [
+    "Reddit/Community"
+   ],
+   "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "img": null,
+   "id": "abef89a1",
+   "trend": {
+    "stato": "nuova",
+    "nuove_fonti_6h": 0,
+    "delta_punteggio_6h": 0,
+    "serie": [
+     27
+    ]
+   },
+   "bonus": {
+    "trend": 0,
+    "google_trends": 0
+   }
+  },
+  {
    "titolo": "Country diary: A passing osprey needs to eat – but the local terns won’t let it | Claire Stares",
    "sommario": "Chichester harbour, Hampshire: I witness a battle of wills as this magnificent raptor attempts to fuel up on sea bass, before it heads south on migration The autumnal sunlight gilded the sea as our boat drifted off Fowley Island , a small, uninhabited tidal saltmarsh between Thorney Island and Hayling Island. A colony of grey seals lay sprawled along the intertidal mudflats, their size and promine",
    "link": "https://www.theguardian.com/environment/2026/oct/09/country-diary-a-passing-osprey-needs-to-eat-but-the-local-terns-wont-let-it",
@@ -15549,7 +15530,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T04:30:38+00:00",
-   "ore_fa": 85.6,
+   "ore_fa": 85.7,
    "animal": "seal",
    "animale": "foca",
    "named": null,
@@ -15592,7 +15573,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T14:48:51+00:00",
-   "ore_fa": 27.3,
+   "ore_fa": 27.4,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -15637,7 +15618,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T16:58:42+00:00",
-   "ore_fa": 73.1,
+   "ore_fa": 73.2,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -15692,7 +15673,7 @@
     }
    ],
    "data": "2026-10-09T07:06:35+00:00",
-   "ore_fa": 83.0,
+   "ore_fa": 83.1,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -15737,7 +15718,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T23:10:02+00:00",
-   "ore_fa": 90.9,
+   "ore_fa": 91.1,
    "animal": "bee",
    "animale": "ape",
    "named": null,
@@ -15782,7 +15763,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T21:58:48+00:00",
-   "ore_fa": 44.1,
+   "ore_fa": 44.2,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -15809,7 +15790,8 @@
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
     "serie": [
-     23
+     23,
+     25
     ]
    },
    "bonus": {
@@ -15829,7 +15811,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T03:00:10+00:00",
-   "ore_fa": 63.1,
+   "ore_fa": 63.2,
    "animal": "wolf",
    "animale": "lupo",
    "named": null,
@@ -15874,7 +15856,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:00:00+00:00",
-   "ore_fa": 3.1,
+   "ore_fa": 3.2,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -15929,7 +15911,7 @@
     }
    ],
    "data": "2026-10-07T23:02:18+00:00",
-   "ore_fa": 104.9,
+   "ore_fa": 105.1,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -15952,7 +15934,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     25
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -15970,7 +15954,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:13:00+00:00",
-   "ore_fa": 2.9,
+   "ore_fa": 3.0,
    "animal": "penguin",
    "animale": "pinguino",
    "named": null,
@@ -16012,7 +15996,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:25:28+00:00",
-   "ore_fa": 2.7,
+   "ore_fa": 2.8,
    "animal": "giraffe",
    "animale": "giraffa",
    "named": null,
@@ -16054,7 +16038,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T13:28:10+00:00",
-   "ore_fa": 4.6,
+   "ore_fa": 4.8,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -16096,12 +16080,12 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T11:00:00+00:00",
-   "ore_fa": 7.1,
+   "ore_fa": 7.2,
    "animal": "otter",
    "animale": "lontra",
    "named": null,
    "tags": [],
-   "impatto": 32,
+   "impatto": 31,
    "meme": 20,
    "punteggio": 25,
    "categoria": "Testate",
@@ -16128,48 +16112,6 @@
    }
   },
   {
-   "titolo": "Ask the Memphian: Will Memphis get pandas again? What the zoo says",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZWxwSXM4QUpwUXZiNmpBMGF0b29tcnBXZWVjQXVIYnBYemxVNUxMWmwwYXFWQXlNMlkyTG42SHlwd0U0bmVCZTJtUnBuaWk0Ui1idTlMMGl2SGdsRllNT0VxSEpaUGMzYzZfbGQ0YmhDS2I1NVo0SjFOY1ZiNDFhV3VONlRMb0wwM003LUZ2LUw2TWI2R0J2SDBrcFBHYVVVa0VaaFE0RFQzTU5DcDRLMndiamloUQ?oc=5",
-   "fonte": "Daily Memphian",
-   "fonti": [
-    "Daily Memphian"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T09:00:00+00:00",
-   "ore_fa": 9.1,
-   "animal": "panda",
-   "animale": "panda",
-   "named": null,
-   "tags": [],
-   "impatto": 31,
-   "meme": 20,
-   "punteggio": 25,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null,
-   "img": null,
-   "id": "2726c548",
-   "trend": {
-    "stato": "nuova",
-    "nuove_fonti_6h": 0,
-    "delta_punteggio_6h": 0,
-    "serie": [
-     25
-    ]
-   },
-   "bonus": {
-    "trend": 0,
-    "google_trends": 0
-   }
-  },
-  {
    "titolo": "West Michigan Zoo Welcomes 3 Baby Capybaras - But You'll Have to Hurry If You Want to See Them",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhLW82RjhBcTgxREtjbFBBdGJOeFhrUFBhaHJUUVk5dVM5UjJFajJBZ0dTTllEclJYMHRmMjg4eWtLZEF2V0VmVFFnV0dhU0hPZjF6QVBtQ3lidVAwaWdoN1o4YWcyVXJzODhQag?oc=5",
@@ -16180,7 +16122,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-07T18:22:44+00:00",
-   "ore_fa": 119.7,
+   "ore_fa": 119.8,
    "animal": "capybara",
    "animale": "capibara",
    "named": null,
@@ -16224,7 +16166,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-07T21:18:00+00:00",
-   "ore_fa": 116.8,
+   "ore_fa": 116.9,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -16268,7 +16210,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T05:30:51+00:00",
-   "ore_fa": 108.6,
+   "ore_fa": 108.7,
    "animal": "giraffe",
    "animale": "giraffa",
    "named": null,
@@ -16312,7 +16254,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T10:37:08+00:00",
-   "ore_fa": 7.5,
+   "ore_fa": 7.6,
    "animal": "gorilla",
    "animale": "gorilla",
    "named": null,
@@ -16354,7 +16296,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T07:29:36+00:00",
-   "ore_fa": 82.6,
+   "ore_fa": 82.7,
    "animal": "pig",
    "animale": "maiale",
    "named": null,
@@ -16398,7 +16340,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T17:57:16+00:00",
-   "ore_fa": 24.1,
+   "ore_fa": 24.3,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -16444,7 +16386,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T18:05:18+00:00",
-   "ore_fa": 72.0,
+   "ore_fa": 72.1,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -16489,7 +16431,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T07:22:46+00:00",
-   "ore_fa": 10.7,
+   "ore_fa": 10.8,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -16532,12 +16474,12 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T11:00:00+00:00",
-   "ore_fa": 7.1,
+   "ore_fa": 7.2,
    "animal": "dog",
    "animale": "cane",
    "named": null,
    "tags": [],
-   "impatto": 32,
+   "impatto": 31,
    "meme": 20,
    "punteggio": 25,
    "categoria": "Testate",
@@ -16574,7 +16516,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T13:55:34+00:00",
-   "ore_fa": 4.2,
+   "ore_fa": 4.3,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -16616,7 +16558,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T13:54:02+00:00",
-   "ore_fa": 4.2,
+   "ore_fa": 4.3,
    "animal": "rabbit",
    "animale": "coniglio",
    "named": null,
@@ -16658,7 +16600,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:21:08+00:00",
-   "ore_fa": 3.7,
+   "ore_fa": 3.9,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -16700,7 +16642,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:17:00+00:00",
-   "ore_fa": 3.8,
+   "ore_fa": 3.9,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -16742,7 +16684,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T09:18:34+00:00",
-   "ore_fa": 8.8,
+   "ore_fa": 8.9,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -16785,7 +16727,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:17:34+00:00",
-   "ore_fa": 3.8,
+   "ore_fa": 3.9,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -16827,7 +16769,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:22:34+00:00",
-   "ore_fa": 2.7,
+   "ore_fa": 2.9,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -16869,7 +16811,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:43:34+00:00",
-   "ore_fa": 5.4,
+   "ore_fa": 5.5,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -16911,7 +16853,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T08:15:00+00:00",
-   "ore_fa": 9.8,
+   "ore_fa": 10.0,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -16960,7 +16902,7 @@
     }
    ],
    "data": "2026-10-10T14:18:21+00:00",
-   "ore_fa": 51.8,
+   "ore_fa": 51.9,
    "animal": "rhino",
    "animale": "rinoceronte",
    "named": null,
@@ -17003,7 +16945,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T07:38:21+00:00",
-   "ore_fa": 10.5,
+   "ore_fa": 10.6,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -17046,7 +16988,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:40:58+00:00",
-   "ore_fa": 3.4,
+   "ore_fa": 3.5,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -17088,7 +17030,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T06:45:00+00:00",
-   "ore_fa": 11.3,
+   "ore_fa": 11.5,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -17131,7 +17073,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T06:52:00+00:00",
-   "ore_fa": 11.2,
+   "ore_fa": 11.4,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -17174,7 +17116,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T22:53:10+00:00",
-   "ore_fa": 67.2,
+   "ore_fa": 67.3,
    "animal": "orangutan",
    "animale": "orango",
    "named": null,
@@ -17219,7 +17161,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T10:30:43+00:00",
-   "ore_fa": 7.6,
+   "ore_fa": 7.7,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -17262,7 +17204,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T09:56:00+00:00",
-   "ore_fa": 8.2,
+   "ore_fa": 8.3,
    "animal": "panda",
    "animale": "panda",
    "named": null,
@@ -17305,7 +17247,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T06:44:00+00:00",
-   "ore_fa": 11.4,
+   "ore_fa": 11.5,
    "animal": "panda",
    "animale": "panda",
    "named": null,
@@ -17354,7 +17296,7 @@
     }
    ],
    "data": "2026-10-08T03:31:41+00:00",
-   "ore_fa": 110.6,
+   "ore_fa": 110.7,
    "animal": "panda",
    "animale": "panda",
    "named": null,
@@ -17396,7 +17338,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T04:30:47+00:00",
-   "ore_fa": 61.6,
+   "ore_fa": 61.7,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -17447,7 +17389,7 @@
     }
    ],
    "data": "2026-10-11T02:00:41+00:00",
-   "ore_fa": 40.1,
+   "ore_fa": 40.2,
    "animal": "shark",
    "animale": "squalo",
    "named": null,
@@ -17490,7 +17432,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T13:00:00+00:00",
-   "ore_fa": 101.1,
+   "ore_fa": 101.2,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -17532,7 +17474,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T15:27:00+00:00",
-   "ore_fa": 74.6,
+   "ore_fa": 74.8,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -17581,7 +17523,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T15:51:43+00:00",
-   "ore_fa": 98.2,
+   "ore_fa": 98.4,
    "animal": "otter",
    "animale": "lontra",
    "named": null,
@@ -17623,7 +17565,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T06:54:48+00:00",
-   "ore_fa": 83.2,
+   "ore_fa": 83.3,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -17673,7 +17615,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T14:48:27+00:00",
-   "ore_fa": 99.3,
+   "ore_fa": 99.4,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -17715,7 +17657,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T08:37:58+00:00",
-   "ore_fa": 105.5,
+   "ore_fa": 105.6,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -17760,7 +17702,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:40:04+00:00",
-   "ore_fa": 5.4,
+   "ore_fa": 5.6,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -17804,7 +17746,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T07:12:26+00:00",
-   "ore_fa": 10.9,
+   "ore_fa": 11.0,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -17849,7 +17791,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T10:32:59+00:00",
-   "ore_fa": 31.5,
+   "ore_fa": 31.7,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -17899,7 +17841,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T16:04:17+00:00",
-   "ore_fa": 2.0,
+   "ore_fa": 2.2,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -17943,12 +17885,12 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:48:09+00:00",
-   "ore_fa": 2.3,
+   "ore_fa": 2.4,
    "animal": "shark",
    "animale": "squalo",
    "named": null,
    "tags": [],
-   "impatto": 41,
+   "impatto": 40,
    "meme": 10,
    "punteggio": 24,
    "categoria": "Wildlife",
@@ -17990,7 +17932,7 @@
     }
    ],
    "data": "2026-10-12T16:19:00+00:00",
-   "ore_fa": 1.8,
+   "ore_fa": 1.9,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -18040,7 +17982,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:15:08+00:00",
-   "ore_fa": 3.8,
+   "ore_fa": 4.0,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -18090,7 +18032,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:03:52+00:00",
-   "ore_fa": 3.0,
+   "ore_fa": 3.2,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -18140,7 +18082,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T13:16:00+00:00",
-   "ore_fa": 76.8,
+   "ore_fa": 77.0,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -18184,7 +18126,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T11:52:00+00:00",
-   "ore_fa": 78.2,
+   "ore_fa": 78.4,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -18228,7 +18170,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T20:06:15+00:00",
-   "ore_fa": 22.0,
+   "ore_fa": 22.1,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -18273,7 +18215,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T07:00:00+00:00",
-   "ore_fa": 83.1,
+   "ore_fa": 83.2,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -18317,7 +18259,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T03:35:31+00:00",
-   "ore_fa": 14.5,
+   "ore_fa": 14.6,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -18364,14 +18306,14 @@
     }
    ],
    "data": "2026-10-11T11:00:00+00:00",
-   "ore_fa": 31.1,
+   "ore_fa": 31.2,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
    "tags": [
     "record"
    ],
-   "impatto": 27,
+   "impatto": 26,
    "meme": 22,
    "punteggio": 24,
    "categoria": "Testate",
@@ -18409,7 +18351,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:33:00+00:00",
-   "ore_fa": 2.5,
+   "ore_fa": 2.7,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -18459,7 +18401,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T05:55:06+00:00",
-   "ore_fa": 12.2,
+   "ore_fa": 12.3,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -18504,7 +18446,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T03:26:56+00:00",
-   "ore_fa": 14.6,
+   "ore_fa": 14.8,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -18546,7 +18488,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T05:47:25+00:00",
-   "ore_fa": 12.3,
+   "ore_fa": 12.4,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -18588,7 +18530,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T03:00:01+00:00",
-   "ore_fa": 15.1,
+   "ore_fa": 15.2,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -18630,7 +18572,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T09:30:13+00:00",
-   "ore_fa": 8.6,
+   "ore_fa": 8.7,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -18675,7 +18617,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T04:30:00+00:00",
-   "ore_fa": 13.6,
+   "ore_fa": 13.7,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -18717,7 +18659,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T04:01:00+00:00",
-   "ore_fa": 14.1,
+   "ore_fa": 14.2,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -18764,7 +18706,7 @@
     }
    ],
    "data": "2026-10-09T23:53:43+00:00",
-   "ore_fa": 66.2,
+   "ore_fa": 66.3,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -18809,7 +18751,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T19:16:46+00:00",
-   "ore_fa": 94.8,
+   "ore_fa": 94.9,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -18853,7 +18795,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T19:03:25+00:00",
-   "ore_fa": 95.0,
+   "ore_fa": 95.2,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -18897,7 +18839,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T22:45:25+00:00",
-   "ore_fa": 91.3,
+   "ore_fa": 91.5,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -18947,7 +18889,7 @@
     }
    ],
    "data": "2026-10-12T11:50:26+00:00",
-   "ore_fa": 6.3,
+   "ore_fa": 6.4,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -18989,7 +18931,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T22:00:35+00:00",
-   "ore_fa": 92.1,
+   "ore_fa": 92.2,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -19033,7 +18975,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T12:01:17+00:00",
-   "ore_fa": 54.1,
+   "ore_fa": 54.2,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -19078,7 +19020,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T02:40:00+00:00",
-   "ore_fa": 15.4,
+   "ore_fa": 15.6,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -19120,12 +19062,12 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T11:00:56+00:00",
-   "ore_fa": 55.1,
+   "ore_fa": 55.2,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
    "tags": [],
-   "impatto": 39,
+   "impatto": 38,
    "meme": 10,
    "punteggio": 23,
    "categoria": "Testate",
@@ -19164,7 +19106,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T05:08:32+00:00",
-   "ore_fa": 109.0,
+   "ore_fa": 109.1,
    "animal": "octopus",
    "animale": "polpo",
    "named": null,
@@ -19206,7 +19148,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T06:18:17+00:00",
-   "ore_fa": 59.8,
+   "ore_fa": 59.9,
    "animal": "fox",
    "animale": "volpe",
    "named": null,
@@ -19230,7 +19172,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     23
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -19248,7 +19192,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T05:26:40+00:00",
-   "ore_fa": 108.6,
+   "ore_fa": 108.8,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -19296,7 +19240,7 @@
     }
    ],
    "data": "2026-10-08T18:28:27+00:00",
-   "ore_fa": 95.6,
+   "ore_fa": 95.8,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -19345,7 +19289,7 @@
     }
    ],
    "data": "2026-10-07T23:12:27+00:00",
-   "ore_fa": 102.1,
+   "ore_fa": 102.2,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -19388,7 +19332,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T19:00:00+00:00",
-   "ore_fa": 23.1,
+   "ore_fa": 23.2,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -19433,7 +19377,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T09:18:53+00:00",
-   "ore_fa": 104.8,
+   "ore_fa": 104.9,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -19484,7 +19428,7 @@
     }
    ],
    "data": "2026-10-10T11:30:46+00:00",
-   "ore_fa": 54.6,
+   "ore_fa": 54.7,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -19526,7 +19470,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T13:46:50+00:00",
-   "ore_fa": 76.3,
+   "ore_fa": 76.4,
    "animal": "leopard",
    "animale": "leopardo",
    "named": null,
@@ -19570,7 +19514,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T08:00:27+00:00",
-   "ore_fa": 82.1,
+   "ore_fa": 82.2,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -19612,7 +19556,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T23:34:25+00:00",
-   "ore_fa": 18.5,
+   "ore_fa": 18.7,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -19657,7 +19601,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T22:19:29+00:00",
-   "ore_fa": 91.8,
+   "ore_fa": 91.9,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -19701,7 +19645,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T04:00:00+00:00",
-   "ore_fa": 14.1,
+   "ore_fa": 14.2,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -19751,7 +19695,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T03:11:13+00:00",
-   "ore_fa": 14.9,
+   "ore_fa": 15.0,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -19796,7 +19740,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T03:55:28+00:00",
-   "ore_fa": 38.2,
+   "ore_fa": 38.3,
    "animal": "pig",
    "animale": "maiale",
    "named": null,
@@ -19841,7 +19785,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T09:46:58+00:00",
-   "ore_fa": 80.3,
+   "ore_fa": 80.4,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -19885,7 +19829,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:55:08+00:00",
-   "ore_fa": 0.2,
+   "ore_fa": 0.3,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -19929,7 +19873,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:05:31+00:00",
-   "ore_fa": 1.0,
+   "ore_fa": 1.1,
    "animal": "leopard",
    "animale": "leopardo",
    "named": null,
@@ -19975,7 +19919,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T12:40:35+00:00",
-   "ore_fa": 29.4,
+   "ore_fa": 29.6,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -20018,7 +19962,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:56:32+00:00",
-   "ore_fa": 5.2,
+   "ore_fa": 5.3,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -20040,7 +19984,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     23
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -20058,7 +20004,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T13:07:57+00:00",
-   "ore_fa": 5.0,
+   "ore_fa": 5.1,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -20080,7 +20026,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     23
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -20098,7 +20046,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T04:46:35+00:00",
-   "ore_fa": 37.3,
+   "ore_fa": 37.5,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -20143,7 +20091,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T08:53:45+00:00",
-   "ore_fa": 105.2,
+   "ore_fa": 105.3,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -20192,7 +20140,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T10:12:06+00:00",
-   "ore_fa": 7.9,
+   "ore_fa": 8.0,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -20235,7 +20183,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:12:07+00:00",
-   "ore_fa": 5.9,
+   "ore_fa": 6.0,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -20277,7 +20225,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T13:28:35+00:00",
-   "ore_fa": 4.6,
+   "ore_fa": 4.8,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -20325,7 +20273,7 @@
     }
    ],
    "data": "2026-10-07T18:33:36+00:00",
-   "ore_fa": 113.9,
+   "ore_fa": 114.1,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -20367,7 +20315,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T09:00:12+00:00",
-   "ore_fa": 81.1,
+   "ore_fa": 81.2,
    "animal": "octopus",
    "animale": "polpo",
    "named": null,
@@ -20410,7 +20358,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T00:40:11+00:00",
-   "ore_fa": 89.4,
+   "ore_fa": 89.6,
    "animal": "cow",
    "animale": "mucca",
    "named": null,
@@ -20455,7 +20403,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T15:17:00+00:00",
-   "ore_fa": 26.8,
+   "ore_fa": 26.9,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -20500,7 +20448,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T08:57:00+00:00",
-   "ore_fa": 81.1,
+   "ore_fa": 81.3,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -20542,7 +20490,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T07:55:55+00:00",
-   "ore_fa": 82.2,
+   "ore_fa": 82.3,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -20584,7 +20532,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T15:41:38+00:00",
-   "ore_fa": 74.4,
+   "ore_fa": 74.5,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -20607,7 +20555,8 @@
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
     "serie": [
-     23
+     23,
+     22
     ]
    },
    "bonus": {
@@ -20626,7 +20575,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T11:22:00+00:00",
-   "ore_fa": 78.7,
+   "ore_fa": 78.9,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -20668,7 +20617,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T08:49:13+00:00",
-   "ore_fa": 81.3,
+   "ore_fa": 81.4,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -20710,7 +20659,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T21:24:05+00:00",
-   "ore_fa": 44.7,
+   "ore_fa": 44.8,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -20753,7 +20702,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T18:56:21+00:00",
-   "ore_fa": 71.2,
+   "ore_fa": 71.3,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -20802,7 +20751,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T19:15:00+00:00",
-   "ore_fa": 94.8,
+   "ore_fa": 95.0,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -20852,7 +20801,7 @@
     }
    ],
    "data": "2026-10-09T04:00:00+00:00",
-   "ore_fa": 86.1,
+   "ore_fa": 86.2,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -20896,7 +20845,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T13:08:34+00:00",
-   "ore_fa": 101.0,
+   "ore_fa": 101.1,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -20940,7 +20889,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T02:47:13+00:00",
-   "ore_fa": 87.3,
+   "ore_fa": 87.4,
    "animal": "wolf",
    "animale": "lupo",
    "named": null,
@@ -20984,7 +20933,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T03:30:19+00:00",
-   "ore_fa": 62.6,
+   "ore_fa": 62.7,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -21029,7 +20978,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T04:23:14+00:00",
-   "ore_fa": 109.7,
+   "ore_fa": 109.8,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -21063,49 +21012,6 @@
    }
   },
   {
-   "titolo": "Draft Plan Targets Fox Threat to Australian Wildlife",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzS3NpNDlxdHY5U1dpVGlWem9sUEtTdGJRbmJPT1BXRzFpcHVUY1E2ajRvMTI5ekFMZE1yaHhxU3JsQ3daZExmNkFZNTRwX3RqdGpYemZ1aWg5ZXNFMlJSR3FuNGdsa0JNazZRS081V2ppR3BjNHF5XzBjYjY3M2s?oc=5",
-   "fonte": "Oz Arab Media",
-   "fonti": [
-    "Oz Arab Media"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-10T20:30:31+00:00",
-   "ore_fa": 45.6,
-   "animal": "fox",
-   "animale": "volpe",
-   "named": null,
-   "tags": [],
-   "impatto": 24,
-   "meme": 20,
-   "punteggio": 22,
-   "categoria": "Regionali",
-   "categorie": [
-    "Regionali"
-   ],
-   "regione": "Oceania",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null,
-   "img": null,
-   "id": "6fbde9ec",
-   "trend": {
-    "stato": "nuova",
-    "nuove_fonti_6h": 0,
-    "delta_punteggio_6h": 0,
-    "serie": [
-     19,
-     22
-    ]
-   },
-   "bonus": {
-    "trend": 0,
-    "google_trends": 0
-   }
-  },
-  {
    "titolo": "Australia Considers New Plan to Combat Invasive Red Foxes Threatening Native Wildlife",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM1Y3U1NPNkpveENBUnVzY3p2cmNMc0hRSW1YZmN4UW1RekFNTTFMMDJibzNmUGk1cWEyUTBMRXNORWZTS2o4RnhOUnlHZ1ZPVVlCUERrN1oxeHRmcmFfMlpvbnhUVGRXTkl6YUMyNW4yeTdIXzEtRHFsSGhCNHBDSEZGQVlIc0FSNGxKcE9nX0ZFVXBia1pscTFFM3BGT1YweFRLSDkxMGVSNFhWV3Z3QU5R?oc=5",
@@ -21116,7 +21022,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T04:53:22+00:00",
-   "ore_fa": 37.2,
+   "ore_fa": 37.3,
    "animal": "fox",
    "animale": "volpe",
    "named": null,
@@ -21159,7 +21065,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T02:09:12+00:00",
-   "ore_fa": 87.9,
+   "ore_fa": 88.1,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -21203,7 +21109,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T23:12:28+00:00",
-   "ore_fa": 90.9,
+   "ore_fa": 91.0,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -21247,7 +21153,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T12:11:25+00:00",
-   "ore_fa": 101.9,
+   "ore_fa": 102.0,
    "animal": "orangutan",
    "animale": "orango",
    "named": "Orange Plague",
@@ -21291,7 +21197,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T02:40:38+00:00",
-   "ore_fa": 15.4,
+   "ore_fa": 15.6,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -21313,7 +21219,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     22
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -21331,7 +21239,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T02:55:38+00:00",
-   "ore_fa": 15.2,
+   "ore_fa": 15.3,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -21353,7 +21261,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     22
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -21371,7 +21281,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T10:23:41+00:00",
-   "ore_fa": 7.7,
+   "ore_fa": 7.8,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -21393,7 +21303,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     22
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -21411,7 +21323,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T01:49:44+00:00",
-   "ore_fa": 16.3,
+   "ore_fa": 16.4,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -21433,7 +21345,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     22
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -21451,7 +21365,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T10:52:55+00:00",
-   "ore_fa": 7.2,
+   "ore_fa": 7.3,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -21473,7 +21387,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     22
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -21491,7 +21407,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T05:09:30+00:00",
-   "ore_fa": 12.9,
+   "ore_fa": 13.1,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -21513,7 +21429,9 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
-    "serie": []
+    "serie": [
+     22
+    ]
    },
    "bonus": {
     "trend": 0,
@@ -21531,7 +21449,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T13:00:00+00:00",
-   "ore_fa": 77.1,
+   "ore_fa": 77.2,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -21573,7 +21491,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-07T23:59:00+00:00",
-   "ore_fa": 114.1,
+   "ore_fa": 114.2,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -21622,7 +21540,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T20:02:00+00:00",
-   "ore_fa": 70.1,
+   "ore_fa": 70.2,
    "animal": "fish",
    "animale": "pesce",
    "named": null,
@@ -21665,7 +21583,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T09:40:24+00:00",
-   "ore_fa": 80.4,
+   "ore_fa": 80.6,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -21709,7 +21627,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T14:00:17+00:00",
-   "ore_fa": 100.1,
+   "ore_fa": 100.2,
    "animal": "bee",
    "animale": "ape",
    "named": null,
@@ -21754,7 +21672,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T21:59:11+00:00",
-   "ore_fa": 92.1,
+   "ore_fa": 92.2,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -21796,7 +21714,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T11:04:35+00:00",
-   "ore_fa": 31.0,
+   "ore_fa": 31.2,
    "animal": "shark",
    "animale": "squalo",
    "named": null,
@@ -21839,7 +21757,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:50:55+00:00",
-   "ore_fa": 5.2,
+   "ore_fa": 5.4,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -21883,7 +21801,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:51:23+00:00",
-   "ore_fa": 2.2,
+   "ore_fa": 2.4,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -21927,7 +21845,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T11:10:23+00:00",
-   "ore_fa": 102.9,
+   "ore_fa": 103.1,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -21975,7 +21893,7 @@
     }
    ],
    "data": "2026-10-08T18:52:31+00:00",
-   "ore_fa": 95.2,
+   "ore_fa": 95.4,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -22009,51 +21927,6 @@
    }
   },
   {
-   "titolo": "Miley Cyrus adopted a shelter tortoise, and the rescue story behind it will make your day",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQnJYNEdEMkVLdW9BRW9NTEJneXRCdUowUkYyM0xLa0RpM3o4SlM2MUZDS09KMDhZUno2a1lRejRNVXUyQW1jeW04d3FDMU50SVVKWjBOelhSODczUnh3TzlkS1NTOUtiYlVJQUVsU1N5VklfQjRiTGtSYzllWEUwc2lCWUx4ZkhZbkhlbUdZVnVDN244bVNBSkNKSUFSM0FFa3BpazNGczdvczVXdEFsZ1dDdGxIRmhtNWx1dFFlOFZkbExveWJ3ajFPaTBpNm1NSF9MeE9la2ppLThPeWdj?oc=5",
-   "fonte": "Yahoo Creators",
-   "fonti": [
-    "Yahoo Creators"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-10T10:58:17+00:00",
-   "ore_fa": 55.1,
-   "animal": "turtle",
-   "animale": "tartaruga",
-   "named": null,
-   "tags": [
-    "salvataggio"
-   ],
-   "impatto": 22,
-   "meme": 20,
-   "punteggio": 21,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null,
-   "img": null,
-   "id": "3720eba8",
-   "trend": {
-    "stato": "nuova",
-    "nuove_fonti_6h": 0,
-    "delta_punteggio_6h": 0,
-    "serie": [
-     17,
-     21
-    ]
-   },
-   "bonus": {
-    "trend": 0,
-    "google_trends": 0
-   }
-  },
-  {
    "titolo": "Outlander actor Steven Cree opens bear sanctuary in Armenia; three rescued Syrian brown bears move from f",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOR3RZbGpuVkV1ODlHTHRvd0NWV0hEaDN2aWpnaVlqYUZjRlhHTXd0VnhLblJPZ2FDRktPZzYwamJ2cDlCams2TzI3bzhTMGRjZlA0Y1ZIQVRQTlFqQ3JNZmxIb0hnRXNLOThUVHNqcDFPZmtfR2pQU1NaVzVvcWExeVVBUXRtUXFyampFcXJjSENXXzJyUkJQZWVXQjdCQ0VMVTBFRXZBUUNEZWFzZ2JyZXk2VDQ2cV9PWjBpWUpfUkVuVXR0c0pVdWd6Vl9QOGZERkROT3dEaXdlRFluMlJaYkhvV0FiODQwbmxYNjQ0Tm5LSUpSM0NwUVZIR0Y4MDdrSEMzcHctY3p5ZVh0b1pOZVI0ek9nNGhhWVQwS3R1T1FzNUwxTmstbkhvMkg3LWcwY0xFMnpmNXhTS2dYaEtn0gHEAkFVX3lxTE5ILWM0LVlwMXlQbjktQi1fZXVjUlplYm00UnE4Q1FtZzA5cFpKUlFsN3FtQ050X25aZE01RTNtb3diRm1lOW1uMUhLdUNVdmRza184Uk9yUWxhdzdyRHIxc2ZSakFmRDgtWThLZ1JEWlFpMW41RUtidzFYaEZDbDVrMWlKRUhXRGhaMGhZeDNpOXh2ZVRBay1pTUNsRmNmemlURjIzLTRKclFUX0Vlcjk4cjZQTDd5R3QydjlGME9PVWZQTWMyYUNENzRrdDdVck43LTNNc2FaemswZExqWDlTMHZ4UHlrNFY4NWFWLTZHanVnQ2pmYjVUalJkaFdiNXBHcmloYjRBYlBFU3B6UkhtVWRoQXUxRENONVlhSThGa0NGVW5tTUlvSlZQclJvZ3N3VXF3SS04dTZ5QWdUZjJ4bG83RA?oc=5",
@@ -22064,7 +21937,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T05:07:00+00:00",
-   "ore_fa": 109.0,
+   "ore_fa": 109.1,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -22108,7 +21981,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-07T21:45:00+00:00",
-   "ore_fa": 116.3,
+   "ore_fa": 116.5,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -22152,7 +22025,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T08:24:03+00:00",
-   "ore_fa": 9.7,
+   "ore_fa": 9.8,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -22197,7 +22070,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:14:37+00:00",
-   "ore_fa": 2.9,
+   "ore_fa": 3.0,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -22241,7 +22114,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T17:05:20+00:00",
-   "ore_fa": 1.0,
+   "ore_fa": 1.1,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -22285,7 +22158,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T10:39:30+00:00",
-   "ore_fa": 31.4,
+   "ore_fa": 31.6,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -22325,25 +22198,23 @@
    }
   },
   {
-   "titolo": "Adelaide filmmaker’s Back to the Bush follows 10 years of rare native animals returning to the wild",
+   "titolo": "Draft Plan Targets Fox Threat to Australian Wildlife",
    "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZnd1OVV5NTBNR0J5OGVoUHVZdVRxeW5YM0lUblVYZ2NfOHU0Vi1WcUZ2bTNYbW9uVDBacU5aLW5Sd3BOSzVfeXdoMmdDWTd6S1JPV2Z1N0NIMS1YVVlzMU1DYU1FTXdVSkRtZVo1a0hTcF9BdFlkSHZmdTJGSXVLelJYWC1kUS1pb2FqOGJoN2UxTnQwUTc0Z25PaHlWQTc3cDVUTTZGbVN0YkRGMDdHc0xuaEJBSFpnLUtHa0Zrb0NNYWpLZWc?oc=5",
-   "fonte": "Glam Adelaide",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzS3NpNDlxdHY5U1dpVGlWem9sUEtTdGJRbmJPT1BXRzFpcHVUY1E2ajRvMTI5ekFMZE1yaHhxU3JsQ3daZExmNkFZNTRwX3RqdGpYemZ1aWg5ZXNFMlJSR3FuNGdsa0JNazZRS081V2ppR3BjNHF5XzBjYjY3M2s?oc=5",
+   "fonte": "Oz Arab Media",
    "fonti": [
-    "Glam Adelaide"
+    "Oz Arab Media"
    ],
    "n_fonti": 1,
    "altri_link": [],
-   "data": "2026-10-12T17:56:38+00:00",
-   "ore_fa": 0.2,
-   "animal": null,
-   "animale": "generico",
+   "data": "2026-10-10T20:30:31+00:00",
+   "ore_fa": 45.7,
+   "animal": "fox",
+   "animale": "volpe",
    "named": null,
-   "tags": [
-    "record"
-   ],
-   "impatto": 33,
-   "meme": 12,
+   "tags": [],
+   "impatto": 23,
+   "meme": 20,
    "punteggio": 21,
    "categoria": "Regionali",
    "categorie": [
@@ -22354,13 +22225,14 @@
    "reddit_score": null,
    "reddit_commenti": null,
    "img": null,
-   "id": "2888a0c6",
+   "id": "6fbde9ec",
    "trend": {
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
     "serie": [
-     21
+     19,
+     22
     ]
    },
    "bonus": {
@@ -22379,12 +22251,12 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T15:48:18+00:00",
-   "ore_fa": 50.3,
+   "ore_fa": 50.4,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
    "tags": [],
-   "impatto": 23,
+   "impatto": 22,
    "meme": 20,
    "punteggio": 21,
    "categoria": "Regionali",
@@ -22422,7 +22294,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-08T17:10:00+00:00",
-   "ore_fa": 96.9,
+   "ore_fa": 97.1,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -22466,7 +22338,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T18:00:13+00:00",
-   "ore_fa": 48.1,
+   "ore_fa": 48.2,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -22489,7 +22361,8 @@
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
     "serie": [
-     18
+     18,
+     21
     ]
    },
    "bonus": {
@@ -22508,7 +22381,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T21:33:59+00:00",
-   "ore_fa": 20.5,
+   "ore_fa": 20.7,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -22530,7 +22403,171 @@
     "stato": "nuova",
     "nuove_fonti_6h": 0,
     "delta_punteggio_6h": 0,
+    "serie": [
+     21
+    ]
+   },
+   "bonus": {
+    "trend": 0,
+    "google_trends": 0
+   }
+  },
+  {
+   "titolo": "🔥 The Majestic Canopy of a Giant Tree (Samanea saman)",
+   "sommario": "",
+   "link": "https://www.reddit.com/r/NatureIsFuckingLit/comments/1x3i31c/the_majestic_canopy_of_a_giant_tree_samanea_saman/",
+   "fonte": "Reddit r/NatureIsFuckingLit",
+   "fonti": [
+    "Reddit r/NatureIsFuckingLit"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-11T20:07:04+00:00",
+   "ore_fa": 22.1,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 28,
+   "meme": 15,
+   "punteggio": 21,
+   "categoria": "Reddit/Community",
+   "categorie": [
+    "Reddit/Community"
+   ],
+   "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "img": null,
+   "id": "f9f88cb4",
+   "trend": {
+    "stato": "nuova",
+    "nuove_fonti_6h": 0,
+    "delta_punteggio_6h": 0,
     "serie": []
+   },
+   "bonus": {
+    "trend": 0,
+    "google_trends": 0
+   }
+  },
+  {
+   "titolo": "🔥 A few bugs I met",
+   "sommario": "",
+   "link": "https://www.reddit.com/r/NatureIsFuckingLit/comments/1x3jlqx/a_few_bugs_i_met/",
+   "fonte": "Reddit r/NatureIsFuckingLit",
+   "fonti": [
+    "Reddit r/NatureIsFuckingLit"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-11T21:09:18+00:00",
+   "ore_fa": 21.1,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 29,
+   "meme": 15,
+   "punteggio": 21,
+   "categoria": "Reddit/Community",
+   "categorie": [
+    "Reddit/Community"
+   ],
+   "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "img": null,
+   "id": "3042a064",
+   "trend": {
+    "stato": "nuova",
+    "nuove_fonti_6h": 0,
+    "delta_punteggio_6h": 0,
+    "serie": []
+   },
+   "bonus": {
+    "trend": 0,
+    "google_trends": 0
+   }
+  },
+  {
+   "titolo": "🔥 Tropical Storm Isaias filmed bubbling with lightning this morning",
+   "sommario": "",
+   "link": "https://www.reddit.com/r/NatureIsFuckingLit/comments/1x3j7ji/tropical_storm_isaias_filmed_bubbling_with/",
+   "fonte": "Reddit r/NatureIsFuckingLit",
+   "fonti": [
+    "Reddit r/NatureIsFuckingLit"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-11T20:53:18+00:00",
+   "ore_fa": 21.3,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 29,
+   "meme": 15,
+   "punteggio": 21,
+   "categoria": "Reddit/Community",
+   "categorie": [
+    "Reddit/Community"
+   ],
+   "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "img": null,
+   "id": "041facdc",
+   "trend": {
+    "stato": "nuova",
+    "nuove_fonti_6h": 0,
+    "delta_punteggio_6h": 0,
+    "serie": []
+   },
+   "bonus": {
+    "trend": 0,
+    "google_trends": 0
+   }
+  },
+  {
+   "titolo": "Knutsford birds of prey centre striving to save 'nature's binmen'",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fMWZod1d4N2YyaVF2UmlpWkNmWVFnN3E2NDRHSWRWYXQwbER2MVhuSUtpV3Q4QUxlOXgwdUZhYjE4bmZaYXNLMWdqcWVzdGNCNzB5RUptNW5DVWc?oc=5",
+   "fonte": "BBC",
+   "fonti": [
+    "BBC"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-09T05:14:21+00:00",
+   "ore_fa": 85.0,
+   "animal": "bird",
+   "animale": "uccello",
+   "named": null,
+   "tags": [],
+   "impatto": 32,
+   "meme": 10,
+   "punteggio": 20,
+   "categoria": "Regionali",
+   "categorie": [
+    "Regionali"
+   ],
+   "regione": "Africa",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "img": null,
+   "id": "481ef963",
+   "trend": {
+    "stato": "nuova",
+    "nuove_fonti_6h": 0,
+    "delta_punteggio_6h": 0,
+    "serie": [
+     20
+    ]
    },
    "bonus": {
     "trend": 0,
