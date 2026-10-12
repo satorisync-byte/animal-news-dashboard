@@ -1,5 +1,5 @@
 {
- "generato": "2026-10-12T17:10:07.098226+00:00",
+ "generato": "2026-10-12T17:11:38.529426+00:00",
  "finestra_ore": 72,
  "feed": [
   {
@@ -42,7 +42,7 @@
    "modo": "Google News",
    "status": 200,
    "totali": 100,
-   "recenti_rilevanti": 33,
+   "recenti_rilevanti": 30,
    "ok": true,
    "stato": "funzionante"
   },
@@ -162,7 +162,7 @@
    "url": "https://news.google.com/rss/search?q=site%3Ajapantimes.co.jp%20animal%20OR%20animals%20OR%20zoo%20OR%20bear%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "modo": "Google News (nativo: 200)",
    "status": 200,
-   "totali": 18,
+   "totali": 19,
    "recenti_rilevanti": 1,
    "ok": true,
    "stato": "funzionante"
@@ -185,7 +185,7 @@
    "modo": "Google News",
    "status": 200,
    "totali": 100,
-   "recenti_rilevanti": 6,
+   "recenti_rilevanti": 7,
    "ok": true,
    "stato": "funzionante"
   },
@@ -228,7 +228,7 @@
    "url": "https://news.google.com/rss/search?q=viral%20animal%20video%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "modo": "Google News",
    "status": 200,
-   "totali": 47,
+   "totali": 48,
    "recenti_rilevanti": 30,
    "ok": true,
    "stato": "funzionante"
@@ -262,7 +262,7 @@
    "modo": "Google News",
    "status": 200,
    "totali": 100,
-   "recenti_rilevanti": 92,
+   "recenti_rilevanti": 91,
    "ok": true,
    "stato": "funzionante"
   },
@@ -283,8 +283,8 @@
    "url": "https://news.google.com/rss/search?q=fauna%20selvatica%20OR%20orso%20OR%20lupo%20when%3A3d&hl=it&gl=IT&ceid=IT:it",
    "modo": "Google News",
    "status": 200,
-   "totali": 49,
-   "recenti_rilevanti": 36,
+   "totali": 51,
+   "recenti_rilevanti": 38,
    "ok": true,
    "stato": "funzionante"
   },
@@ -292,20 +292,20 @@
    "feed": "World Animal News",
    "categoria": "Wildlife",
    "url": "https://worldanimalnews.com/feed",
-   "modo": "nativo",
-   "status": 200,
-   "totali": 10,
-   "recenti_rilevanti": 3,
-   "ok": true,
-   "stato": "funzionante"
+   "modo": "fallito",
+   "status": 403,
+   "totali": 0,
+   "recenti_rilevanti": 0,
+   "ok": false,
+   "stato": "fallito"
   },
   {
    "feed": "The Animal Reader",
    "categoria": "Wildlife",
-   "url": "https://news.google.com/rss/search?q=site%3Atheanimalreader.com%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
-   "modo": "Google News (nativo: 202)",
+   "url": "https://theanimalreader.com/feed/",
+   "modo": "nativo",
    "status": 200,
-   "totali": 2,
+   "totali": 10,
    "recenti_rilevanti": 2,
    "ok": true,
    "stato": "funzionante"
@@ -316,8 +316,8 @@
    "url": "https://news.google.com/rss/search?q=site%3Athedodo.com%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "modo": "Google News (nativo: 200)",
    "status": 200,
-   "totali": 13,
-   "recenti_rilevanti": 13,
+   "totali": 12,
+   "recenti_rilevanti": 12,
    "ok": true,
    "stato": "funzionante"
   },
@@ -338,8 +338,8 @@
    "url": "https://news.google.com/rss/search?q=site%3Anews.mongabay.com%20animals%20OR%20wildlife%20OR%20species%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "modo": "Google News (nativo: 200)",
    "status": 200,
-   "totali": 17,
-   "recenti_rilevanti": 15,
+   "totali": 18,
+   "recenti_rilevanti": 16,
    "ok": true,
    "stato": "funzionante"
   },
@@ -382,8 +382,8 @@
    "url": "https://news.google.com/rss/search?q=site%3Awwf.org%20OR%20site%3Apanda.org%20OR%20site%3Awwf.panda.org%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "modo": "Google News",
    "status": 200,
-   "totali": 10,
-   "recenti_rilevanti": 7,
+   "totali": 9,
+   "recenti_rilevanti": 5,
    "ok": true,
    "stato": "funzionante"
   },
@@ -481,8 +481,8 @@
    "url": "https://news.google.com/rss/search?q=wildlife%20Kenya%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "modo": "Google News",
    "status": 200,
-   "totali": 53,
-   "recenti_rilevanti": 25,
+   "totali": 54,
+   "recenti_rilevanti": 26,
    "ok": true,
    "stato": "funzionante"
   },
@@ -526,7 +526,7 @@
    "modo": "Google News",
    "status": 200,
    "totali": 52,
-   "recenti_rilevanti": 40,
+   "recenti_rilevanti": 41,
    "ok": true,
    "stato": "funzionante"
   },
@@ -536,7 +536,7 @@
    "url": "https://news.google.com/rss/search?q=Europe%20zoo%20OR%20%22zoo%22%20Germany%20OR%20France%20OR%20Spain%20OR%20UK%20when%3A3d&hl=en-US&gl=US&ceid=US:en",
    "modo": "Google News",
    "status": 200,
-   "totali": 43,
+   "totali": 45,
    "recenti_rilevanti": 41,
    "ok": true,
    "stato": "funzionante"
@@ -557,18 +557,18 @@
    "categoria": "Reddit/Community",
    "url": "https://www.reddit.com/r/AnimalNews/",
    "modo": "fallito",
-   "status": 403,
+   "status": 200,
    "totali": 0,
    "recenti_rilevanti": 0,
    "ok": false,
-   "stato": "fallito"
+   "stato": "vuoto"
   },
   {
    "feed": "r/wildlife",
    "categoria": "Reddit/Community",
    "url": "https://www.reddit.com/r/wildlife/",
    "modo": "fallito",
-   "status": 403,
+   "status": 429,
    "totali": 0,
    "recenti_rilevanti": 0,
    "ok": false,
@@ -579,7 +579,7 @@
    "categoria": "Reddit/Community",
    "url": "https://www.reddit.com/r/NatureIsFuckingLit/",
    "modo": "fallito",
-   "status": 403,
+   "status": 429,
    "totali": 0,
    "recenti_rilevanti": 0,
    "ok": false,
@@ -589,19 +589,19 @@
    "feed": "r/natureismetal",
    "categoria": "Reddit/Community",
    "url": "https://www.reddit.com/r/natureismetal/",
-   "modo": "fallito",
-   "status": "saltato (Reddit blocca questo IP)",
-   "totali": 0,
-   "recenti_rilevanti": 0,
-   "ok": false,
-   "stato": "fallito"
+   "modo": "nativo (rss)",
+   "status": 200,
+   "totali": 7,
+   "recenti_rilevanti": 7,
+   "ok": true,
+   "stato": "funzionante"
   },
   {
    "feed": "r/zoology",
    "categoria": "Reddit/Community",
    "url": "https://www.reddit.com/r/zoology/",
    "modo": "fallito",
-   "status": "saltato (Reddit blocca questo IP)",
+   "status": 429,
    "totali": 0,
    "recenti_rilevanti": 0,
    "ok": false,
@@ -718,7 +718,7 @@
    "stato": "fallito"
   }
  ],
- "storie_totali": 624,
+ "storie_totali": 631,
  "storie": [
   {
    "titolo": "The pet I’ll never forget: Pumpkin, the rescue cat turned social media star",
@@ -737,7 +737,7 @@
     }
    ],
    "data": "2026-10-12T10:00:52+00:00",
-   "ore_fa": 7.1,
+   "ore_fa": 7.2,
    "animal": "cat",
    "animale": "gatto",
    "named": "Pumpkin",
@@ -767,7 +767,7 @@
   {
    "titolo": "Man Dies After Tiger Zoo Attack",
    "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNejlZcnFIYWVUM3FkOUtYWlRsOW9XbVQzQU55Q2FDWFNGZU5OdmxpQXdRVUxObnZtTkJla081YXBYRS1mbXBPNW9vYTJLeWFvb0x4dy0xOU9fWjlWeEtwSXpDUGg4Q01PM3RjMDVmcDdGWVROMm03T1NjSFJiUXpiRXpiMm1Gdw?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94b09pa09oTk10d2x1RzFsSnRBeFNzUDZockEtRHFJelZWMGM0R0lOWTFuQUJvSHJwMGs3LUFMY283Ri1CZGlqVEpYZFRVUHVaQUo4?oc=5",
    "fonte": "BBC",
    "fonti": [
     "ABC News & Headlines – Australian Broadcasting Corporation",
@@ -783,7 +783,6 @@
     "News24",
     "Nine.com.au",
     "Reuters",
-    "Stroud News and Journal",
     "The Australian",
     "The Guardian",
     "The Guardian Animals",
@@ -794,12 +793,8 @@
     "The Telegraph",
     "open.kg"
    ],
-   "n_fonti": 23,
+   "n_fonti": 22,
    "altri_link": [
-    {
-     "fonte": "BBC",
-     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94b09pa09oTk10d2x1RzFsSnRBeFNzUDZockEtRHFJelZWMGM0R0lOWTFuQUJvSHJwMGs3LUFMY283Ri1CZGlqVEpYZFRVUHVaQUo4?oc=5"
-    },
     {
      "fonte": "Reuters",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZ1QyaGlOTFk4cDFNNnB4YnNYVzE4WGx3ZDdVVVh3UTIzNVFPUFhsSzJJb3JONlp0NUVtSXhhb2lIdWFVZ2ZRdHN4Q0RXei1yMmJnYmxCZ2FINWVXN1lRNGdJLTMwbHlQdk1zcG5tU0RET2xoNF9kZ2FCRE10ckp5bWhwd0p5NXhPSE13aGJMMjEtb2QySGln?oc=5"
@@ -815,9 +810,13 @@
     {
      "fonte": "The Independent",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ2hRWkZBUTJLRVdhbU5fQVRDNE9SeDlwMlo3MGFFblVvMExSWWFkR2hKMUdtTUhTWDk3N214dnNiNEVTc0k1c1ZaM0xKU1VldzRDUzRnVnFSMGw5NENWbER0d2NUbXZ5MWtDTEhMdUJ2bXVtbWMtQWYtcW9GdFhLODRWblhrblBEOEtmb1VDMm9SMEJzcWFBTkJNZURMZUxhcDFWcA?oc=5"
+    },
+    {
+     "fonte": "CBS News",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcGhVMXRfVlNGRW50eTdCV2RnZUQyM0daSXpXczRoUUlYaGVLY2s0emFxWkpnb0JYcGtoS0NUWVA0a3JSZnZ0TEJKVjJGNHF6dEZOSGg0N3ItOHVUTkxtaDZUQWpDVTQtZnUyZXdCb0laV3RSamVzN19XQngyMnd0TVp6aHE0NV9rbzZ3eFhLRFB4d0JHZEFuc1BsX1R1RU1JSlRsWjRvOUtxQmVkUnp3SUNZWDh4WE80?oc=5"
     }
    ],
-   "data": "2026-10-11T01:18:39+00:00",
+   "data": "2026-10-10T21:52:11+00:00",
    "ore_fa": 5.6,
    "animal": "tiger",
    "animale": "tigre",
@@ -889,7 +888,7 @@
     }
    ],
    "data": "2026-10-11T13:48:00+00:00",
-   "ore_fa": 1.9,
+   "ore_fa": 2.0,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -961,123 +960,97 @@
    }
   },
   {
-   "titolo": "Man Dies After Entering Tiger Enclosure At UK Wildlife Park; Tiger Confirmed Unharmed",
-   "sommario": "A tragic incident at Yorkshire Wildlife Park near Doncaster, England, claimed the life of a man on Saturday, October 10, after he entered a tiger enclosure and was fatally attacked. South Yorkshire Police received reports of the incident at approximately 1:35 p.m. local time. Emergency services responded, but despite efforts by medical personnel, the man […] The post Man Dies After Entering Tiger ",
-   "link": "https://worldanimalnews.com/2026/10/10/man-dies-after-entering-tiger-enclosure-at-uk-wildlife-park-tiger-confirmed-safe/",
-   "fonte": "World Animal News",
+   "titolo": "Public invited to choose name for Smithsonian’s baby red panda",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNV00yQzQyWnZXM2xmUDJ1ems4dlJJTGxSLTk0elE1WVVwUWctamk1MkRPSDI0ZlMtZ3hpNFNieE8zNGhBTVVJUDNrZ09OSUhteXg0bUR5M0ROTTNfZmdfWkprczBESjFhdlNTSTBwMDNXS0Naa0xIMkJBeGw5MWxTZVRyNmJBeVFrSmxYb3AxdHd4M2JDbTBLbU5id05XMy1kNFowcy05SHlzMGFfcmE0QzJSMnNhYVJsTWNJVXdEZWxzRFhPS1BfQ0ZuVEpESEc2WjdJa0xHbXFLdVpWTEw0b0hOSV83bjVhcVJBSGpYZW1iVGk1MGFZaXNjSnd6OXprYWVuNlk5Y3JjaFVGcXhLOTZoV1dwbzlqN1hadjJrQ1ZLc2M4bTNralA5bWpJcG80MFdJ?oc=5",
+   "fonte": "WJLA",
    "fonti": [
-    "AOL.com",
-    "CGTN",
-    "Daily Express",
-    "Free Press Journal",
-    "Gulf News",
-    "Hromadske",
-    "Intel Region",
-    "The Times of India",
-    "USA Today",
-    "World Animal News"
+    "KEYE",
+    "WBFF",
+    "WJLA"
    ],
-   "n_fonti": 10,
+   "n_fonti": 3,
    "altri_link": [
     {
-     "fonte": "USA Today",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUXRXMmYxT0ZtUjdlYmxyZzdTbmpRSHRSdml1eHJDZ1pnMU1aRDNKTmRDVWdFVFZVbmZscVl4STExYVgxR3Z4dU1FTVF1OXJXSGZkYVNja2Nta1BrRUxCcTZoMDZMX3pnQnVjMDZJSzdxX1d0NVhkcXZmMVJYaVlmX0dGa3FYczJqWUpXSmNPemdwQkc1SVptTWRlRzU2YjVOczZCU3ZWcGNRdmdqY0JITlJBSVpJdmFSOWpYLUxUemdZZGF4cDdFRFMyZ3BJMGpl?oc=5"
+     "fonte": "KEYE",
+     "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPcUhEaFFXSkxLakdnR29BU2F3MjNfcnYyVkpDd1dSWGNESjY2WEplZU55MmU1MkJzVWtaaExJZDhuSEtCdUVwdFZ1V2t0akFxT3VlTTF2Ml83aEphSl80TkFFb3lnSkUwaTRTZ2xaYVROT1RPSmxGamNhREU4cGx1OXQ2eW03VEhWeTFNODRHYS1sQWg2WG1QQnVBakN3aWZVN1JDREVyZ0otOEVOMGtENFFITDZZMnFfU2s2Q3NoN2pwcDc5TDdTRktjaHNHRVhoZE1LeXpWY1R6czM3TC1TNHJSN1gzeU9SbHJCeHhycndnVzJnN3YwOVFVTmY5emNzMXhvUk12aWpPSV9EWkJQM3c5ZjAyN0haQkswMnBUWTJLb1UwV0ZYc293MnN6emF5R3ZHdEN1X2c5ekdN?oc=5"
     },
     {
-     "fonte": "Hromadske",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcnFSdXA4UlYtQjB5cU9BV3FBOGpJRmlBOWY5YXdBZXFMb2xUeUNha2lhNGMzcDNDS25CZXZiZDlvdnVTWW13a29lUU16Yk16VW9ONk1ZMDIzS0hCMnQ5eVV2ejNPU1YtVjFoV200elY3OFdreDFZTU1IZE0wZE5kVFFRckxHQXI0VEFwSGgzS18wdVJJRk1wY084WVpyWU1pVlFPZTJYU0lhY0ZjSGt4OUxIaXVxdTZPSWhPd2pn0gG-AUFVX3lxTE1ycVJ1cDhSVi1CMHlxT0FXcUE4aklGaUE5Zjlhd0FlcUxvbFR5Q2FraWE0YzNwM0NLbkJldmJkOW92dVNZbXdrb2VRTXpiTXpVb042TVkwMjNLSEIydDl5VXZ6M09TVi1WMWhXbTR6Vjc4V2t4MVlNTUhkTTBkTmRUUVFyTEdBcjRUQXBIaDNLXzB1UklGTXBjTzhZWnJZTWlWUU9lMlhTSWFjRmNIa3g5TEhpdXF1Nk9JaE93amc?oc=5"
-    },
-    {
-     "fonte": "Intel Region",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc2xRYzhIMDI1TVRYbzNDSmRkbFNRN1p1T1A2WEpiUWdVMkZnVXNHS09jWFRIZGdMYkROV0l0Rkl0c3RfMnNBeE1YZ2pTWnBSRDN2WGppeXVnNDNoM29uVnJGQ2V2dXdwbkpwdzR0aW5yY3dCNmt0RGNjYjdWdFVFSkp4c1VCdDVfcXUtRDBjSHN2WkV3UHRKRG5DTENCTThMN3llaGw5eWM4RE1nTTdSWg?oc=5"
-    },
+     "fonte": "WBFF",
+     "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNVFU1dkxzRDZXNFJpOFJBdWhvNkxscDgtY013QzNyWjZCMzUzRU9KWmdNYk13bW5xSllNMlV4MC1WeDNOSXJqdHJvc3pTeEJncG5fZk9yN2cwN2xKUGtpNWppUGJsLV80QktRRlQwMFRUbW5HdHZTQjg0ZXRTVFFablh4M1RUb2MyOFJPa2pCWjBadmRVa3dmNkgzRVRocmxvUlYyMTZkMTdmbDJocldhXzVPdTdnT2Y2Y1M1TzVzbDlmcTVCNklQd014S2RiNWEwYmFJbXpXOC0wQl81VjZrX1NyVWhZSWdSdWdvekJ6UHp4bUJFT3lGU2FTM2JoNWs4d2lqUS0wYXJJdEI2NG1XMkt5ODdxS2IxSUZnVG05MWdUbDd0QVVtWGdyMWY4bkZHUXh0VFVrMWxUSnFwcjNWaA?oc=5"
+    }
+   ],
+   "data": "2026-10-12T02:29:13+00:00",
+   "ore_fa": 14.7,
+   "animal": "red panda",
+   "animale": "panda rosso",
+   "named": null,
+   "tags": [
+    "bebè"
+   ],
+   "impatto": 64,
+   "meme": 38,
+   "punteggio": 50,
+   "categoria": "Testate",
+   "categorie": [
+    "Testate"
+   ],
+   "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "token": {
+    "nome": "Baby Red Panda",
+    "ticker": "$BREDPA",
+    "descrizione": "Memecoin ispirata a un cucciolo appena nato con protagonista: panda rosso. Idea community-driven, nessun valore intrinseco.",
+    "dex_solana": 0
+   }
+  },
+  {
+   "titolo": "Tiger Fatally Mauls Man at Wildlife Park in England",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUm5zano2S0N5N1ByTUdxZTJlWHFZVjJGU05OSGx6eGxxZmJaa0I5djZhTnI2bUtSbmFjWVFqeWpkT1NzVUkzck1vS21QaFVRakRUT055V1JMLUtCbjZyclRDQzJCLTJ3UUxuQ3pzeHhjMHpVdmxfaHlPeUZkcXVYblhoTDBRbGdYV29DMzdVX2ZXMmw5RVdYbENhOUJWdUdNckhyeFBHaHh3c3M?oc=5",
+   "fonte": "TODAY.com",
+   "fonti": [
+    "TODAY.com",
+    "The Indian Express",
+    "The Times of India"
+   ],
+   "n_fonti": 3,
+   "altri_link": [
     {
      "fonte": "The Times of India",
      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPS1JJdnl2OWZuLXA0aVRJWTN4NGNqcFVKY1RRQm9xSXNfZzNZS0p2bE1RMUpDSTIyWVhaVGx2YUlMWlVBUUJyYWJLWkd0NF9hZk9qaGs4YlJvWUxBNzdOa1NxM2pnU0F4c3BWN2xFS01CTXgxOUVXU2tDYXZON00wMjZ2LVRwU2c3QkVKTHR4SlhicmI2Z2dSQ2duSW9rUFZmMXBfVjdoM0wtOHNfaDh2emI1YkFCQzNsZEI5MU1FSWJUSm9RUmhHLVVPVmRHakNoZkdYaTBVc1dtbk5iX2xZVkM2YnVsdU10elZPUlQ5ck5yeDFzNmpwNm10SkZCYWo0WjRLaUVlV2IybmpweDJmNXU2UWQ1QWo5TnZnTWRNXy11R1dBQjJZRmNiZ2FXOTNNanhiOGV30gG7AkFVX3lxTE1FUl9PSzg4RThWNVpLQS1hSjVaQWRERURTWWJnTmgxcHlvN2gzOGMyNGlHRXpITHNqMllFVjZFRXNHVG1QbmFNajk2YzhqRkJNbnlxaFR6U3NBdGtYNC1aRkJsakVLRExXVnVUMGFLNGR2SEVtME9SU3d1S18xdXUwWGNqaDJabGZyMVE0ZkxLeUEwMGtrU21CZ2xtZGFpZWxHY2lFd2U3UnZveFlUZWFtbVBGaHpnN2UzTkVYWGtvMVJqSlVXczJhcGxJOTQ1ZXdxbVpnSWMzYnlvSEYwSS0zbzQtWW1HYWw3cmphSFJfR2NCQnZLT1VBb3VGSHVabWtZN0lBTHJCNG5ac1N3M3RsS01KTXAwbnVzUkFvMUVhbllkZEVVdjMzQUhBUV9qbmY4TGdiWkNBSnVYaw?oc=5"
     },
     {
-     "fonte": "Free Press Journal",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdmRzdTdQbGJ2bzl5VU0tWWtqWWN0eGNWZ1JqekRsMjVPYVpzWFl5RWdhR09HOUtlN1o1am5nV21yNzdOS04wTlJVaWxlaHZHejNncmFPb1BlalV5WkwxRlpURkVxZ2lzYWxnZkRISnhCSW5tVGFDY19PSm5EZkphQkczWmdDRVF1Zm11alp0SVNSNzdBMDFib3JlM1c4SVdsN3k4c3hpZlAyWDlnckZGQXpwOTdGYnRJOGVNc0k3YmZZc0cyOXBmTDNrSzNqVVlId2lvQU9YUS11aHdCTG9FT0F3TmlmN1B4bzdj0gHwAUFVX3lxTFAxcnNXYnJBX3drNGhsTEtya3hwZUFteVZlUDh5RDkzZGlyRHp4Tmh6dFZSYjhSVDhkU2sxazZvR1JfWHZWa3JHejFqaUNDS1pUT2tfUHljQkk2RVpUdjRoMV9TVXlIaDlqNE1KdFFTOGluRk9yemJqNXlySG1LV3o3SjhTaElIWUpVX200dTZ1ZnpnMV9lZHB4VDVzUHZNU3hQMFI0QUV4ZnZzR1dHSHZHM3dLTktVS1g3VFNyeUtaMDNoc2pDMW5WcXhuZmtMaVpVOHdWYmtDd2R4ZFJzNE03LTZraVVMOU1qdFhOTFZYdA?oc=5"
+     "fonte": "The Indian Express",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQc1RaUHdoSUZpaFl0Q2o2NDlkRURFRUV1aFpXNWQyaXdyMkJ3LXpsT3N0ck9rRE5XWlpGb3ZodEJ3SVh2TGdVdFJ2UHBjaDJWM1ItbkdoVDNfMjkzZV9KTnQ1Nk9tYUM4VExjYTR1ek1jNlB4VklwNlROZGNWSFZkQXhudzRiY1VUOXItX3IyUlQyYTFKRnlNR2ctVzJFaFQ1OGk1dTFiSjEzSTA0dHk0d0VXUDA2WVJLdWFiT1lYT2RGclVfY2dKVnU4MNIB0gFBVV95cUxQUzJPRmVxcVY2LUpUY3lULVV4MHh1SVlvUnVwQTFiSFc0R1phZHB5ZmY3V0NlUG9Ea1ZjSFd4M3pkVHFaYjFiTXpmblNBSkdJTlJBa0NXR182THFwS2pIbHNqdHlYWFNxTmRVdnlET3lvTk5UdHd1QWt5VjdCYUg5MnlFaVJOajJkeTZMaW1xaENZUE9JX1lldy15dm5MN0Jidm9uWjIzY3RsSjY3RmRXZW9ZX255UzdVcEhzMG80dTMzUFNKeWN5azlrXzU4WVItdlE?oc=5"
     }
    ],
-   "data": "2026-10-10T20:38:06+00:00",
-   "ore_fa": 3.0,
+   "data": "2026-10-12T16:40:48+00:00",
+   "ore_fa": 0.5,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
    "tags": [
-    "virale",
-    "tragica"
+    "virale"
    ],
-   "impatto": 90,
-   "meme": 16,
+   "impatto": 69,
+   "meme": 33,
    "punteggio": 49,
-   "categoria": "Wildlife",
+   "categoria": "Testate",
    "categorie": [
     "Regionali",
-    "Testate",
-    "Wildlife"
+    "Testate"
    ],
    "regione": "Europa",
    "link_esterno": null,
    "reddit_score": null,
    "reddit_commenti": null,
    "token": {
-    "nome": "Viral Tiger (notizia tragica: valuta l'opportunità)",
+    "nome": "Viral Tiger",
     "ticker": "$VTIGER",
     "descrizione": "Memecoin ispirata a un fenomeno virale con protagonista: tigre. Idea community-driven, nessun valore intrinseco.",
-    "dex_solana": 0
-   }
-  },
-  {
-   "titolo": "Wildlife park welcomes first Highland calf birth",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CM2NKV2hkblZpbm1YeHQ4S19vUjUzV2otRG02S1BQamJWLTQyY2ZTcnZCNW5lbGR2X1JDY1pFMUZobTBiV0d2QVN6aHBQbXZsbi1wQzluV0I?oc=5",
-   "fonte": "BBC",
-   "fonti": [
-    "AOL.co.uk",
-    "BBC"
-   ],
-   "n_fonti": 2,
-   "altri_link": [
-    {
-     "fonte": "BBC",
-     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xamt1eEJUdWJWTkdhY1NRbjd1UHVsc000aFh5MGFrTm9Vc3ltSngxUmpTTkVCUkczZG1wTDkzeGtaWTlhRFJmN01OY24tZVh4QUlmWXdWbFkzYWM?oc=5"
-    },
-    {
-     "fonte": "BBC",
-     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKMGFYT05JR3BkeXl5QkQzZVVqZkdpdjlwQmNmeW4wMlNGQ21tcVBXTVJNSll6NkZwNTJYREJsYm5SdlQ5amt0cHdDZ3lRaDQtbnhBTEF6V0pqRmUwTnc?oc=5"
-    },
-    {
-     "fonte": "AOL.co.uk",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRjktcDBNTFNvWXkzRktjNWRieHNYZGNzVTVHZVl6REdkR3ZOUGM5RE9NSHR0dE5hX19JcC1MYUdQWExyTVJyS29RYVROSkxneDZkWmhQVGZ5LTMwUG5TQVdxajZvRkFKTGxLQkZVendnakdFaktuTmpzQ1p1ckJ2amVUSVp5OFQwMS1qUWJn?oc=5"
-    }
-   ],
-   "data": "2026-10-12T13:16:51+00:00",
-   "ore_fa": 3.9,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [
-    "bebè",
-    "record"
-   ],
-   "impatto": 71,
-   "meme": 30,
-   "punteggio": 48,
-   "categoria": "Testate",
-   "categorie": [
-    "Regionali",
-    "Testate"
-   ],
-   "regione": "Americhe",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null,
-   "token": {
-    "nome": "Baby Animal",
-    "ticker": "$BANIMA",
-    "descrizione": "Memecoin ispirata a un cucciolo appena nato con protagonista: animale. Idea community-driven, nessun valore intrinseco.",
     "dex_solana": 0
    }
   },
@@ -1098,7 +1071,7 @@
     }
    ],
    "data": "2026-10-11T21:07:14+00:00",
-   "ore_fa": 20.0,
+   "ore_fa": 20.1,
    "animal": "owl",
    "animale": "gufo",
    "named": null,
@@ -1449,13 +1422,13 @@
    "fonte": "WBAL News Radio",
    "fonti": [
     "WBAL News Radio",
-    "WLKY"
+    "WXII"
    ],
    "n_fonti": 2,
    "altri_link": [
     {
-     "fonte": "WLKY",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWGdmM1EzQkZqMmVDYVZUNnpRUENzX1FVNVBqcnhRQWdad3ZpU2s3Z2N1TC1FLVo4S05jcVNXdDhTNlFDLW1GOGIyMjdkcmdWbElUOEVvM3JQclBwUnVVQzRBLVZhUGtwNWhGX0RDR201U05aN2FfYjBBc0xTdW9lQmZYMA?oc=5"
+     "fonte": "WXII",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWDB2WnhCSHlEb2l6M3lMeXdJYVZhMXFrQThtYXViN2c4eGh3Q0VCaU1qMDdURktRbjhFMlVhNG5HUV9JS2FFcXRJZ1BhTGRUUnMtQ0puOEhJNFU4bURoamMtaVJkUkZ3YktHbmZCVjdjRWI4Y212cFNjdC03QlU5ZWpWb0VoZw?oc=5"
     }
    ],
    "data": "2026-10-12T16:19:53+00:00",
@@ -1528,6 +1501,51 @@
    }
   },
   {
+   "titolo": "Flamingos at a Florida Zoo Rode Out Hurricane Isaias in the Bathroom",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ0ZJcGYzN2lyM1BwdnI3NjNwTEVESGdxYkM0VG9ONDRSbFlDbE1sN1RfSUhoVHFTV2FzTEVhZ1NWNmNFUndGX2UxVDV3bzhqblBMVTl5RDFfMHhFMjRGM0paTFpDS2Nhck0xX2pKaTk5RUkwa3VFdnRESmZMVEwzSTN1Tm4yeDEtemE0S0E4NEE5WEll?oc=5",
+   "fonte": "The New York Times",
+   "fonti": [
+    "BorderReport",
+    "The New York Times",
+    "WSVN"
+   ],
+   "n_fonti": 3,
+   "altri_link": [
+    {
+     "fonte": "WSVN",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOWR0dW9IdHdFSmFzenUycjY5c2VSd3JmQU50TUZSUW5jOUx5d0tfSUJUaWhBaG53UlVfLUp3UmhMREF4RU0xYVAtb2hRSURmUXZjRC1KZ3MwazRDTnRUaUtoYzlPRnlXMGpXSXFFYURQVm1UeVl5MU1GTFE3emNMejJDNC1xUQ?oc=5"
+    },
+    {
+     "fonte": "BorderReport",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUnR2Y0FiZzJpWmVRVy1ZSG9oTWFUTFA5WGs5MkRJNFR4Q1RoNjhYUEpqMEIwOUhmblR1TFctbkY0WXBDV3R1ejJQVHdTeW44c0ZwME9QZXN6WWMzZjRXTDBSTVJfaENUMC03Z09fbEl2TjJ2YTI1RUFzdzdPNWpJTkFPdmx3RGVvZjF6OUtKdS1nWDJRb3lSaGx5MDFtcWpjMkM2aWlicjVOdkRsMDdvREJ6UDQ2d9IBuwFBVV95cUxOSUR1M1BMZVBsZ1dYbXR0dnFhd1lQOVNObHZWcFhqOGZIYkdmdFliS1BtbkY4RGVuZzY3SkkwdGdOUzBWd3ZOWVdaTkU4MktJVU1sY3RtMjFFb1duZDk2NkRfTkdKa1ljMHYtVlVtSUlNM1huYkFSdWRNTFFDdnNycmFDRW5keGVIMUZpNWhsQmFpY2YxUFcxUXpFZDRuY1Z6UGcyUWE1NEh3emlBQTBESUVPYmtOOS1qNDg4?oc=5"
+    }
+   ],
+   "data": "2026-10-11T18:51:10+00:00",
+   "ore_fa": 1.6,
+   "animal": "bird",
+   "animale": "uccello",
+   "named": null,
+   "tags": [],
+   "impatto": 85,
+   "meme": 10,
+   "punteggio": 44,
+   "categoria": "Testate",
+   "categorie": [
+    "Testate"
+   ],
+   "regione": "Americhe",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "token": {
+    "nome": "Bird",
+    "ticker": "$BIRD",
+    "descrizione": "Memecoin ispirata a una notizia del giorno con protagonista: uccello. Idea community-driven, nessun valore intrinseco.",
+    "dex_solana": 10
+   }
+  },
+  {
    "titolo": "First Nation-led effort replants kelp forests in Clayoquot Sound - news",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaUp6aVFGZXVNV2xIRE5qeUI5T3ktV2ZkamhTcUhZNTVfdGg2T3ZGcnBhdHNFSW5xY1hXQ3N1RjFEeDVRd3g4UG9nVDZyUXJjNHRiRzE2YkNXNHl6SklHMHh1OTFLU1JsYnYtcXMxbzFhLXlzZVltaUx4dXFMbjl5Q3hxay1DSnZxcFI4blE2VUZfYkJsbVd5elZJd2xFY1liTTFfdHB0YV90VWo3OU14Nk1uVQ?oc=5",
@@ -1570,6 +1588,48 @@
    }
   },
   {
+   "titolo": "La liberazione degli oranghi salvati dagli incendi nel Borneo",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPY2s0RVRjQS1PdmlWVEp4bDAybWw0U1BxZjJSbmxHRTFTVmxDdHZGMTRFMzk2TGRUM2FvOWphcVNtWDFOQzdiSUVPTllCeERyMHdwNWMzMUhRR09fWTdxN0tTdHlNdG11NnRKNmlxbi1sWVJHejQyN2pHekVYMUFiU2Q0YkZxaUtsMkE0YTEycndWUHlDc24tZEE4c2ROVWg2SGNJUThEZnBocTBDcTJfanRmRGxta085OG92MWNTUXp6SWgyZC1MajNoTDlnalA2b2t1aE1iNNIB1wFBVV95cUxPY2s0RVRjQS1PdmlWVEp4bDAybWw0U1BxZjJSbmxHRTFTVmxDdHZGMTRFMzk2TGRUM2FvOWphcVNtWDFOQzdiSUVPTllCeERyMHdwNWMzMUhRR09fWTdxN0tTdHlNdG11NnRKNmlxbi1sWVJHejQyN2pHekVYMUFiU2Q0YkZxaUtsMkE0YTEycndWUHlDc24tZEE4c2ROVWg2SGNJUThEZnBocTBDcTJfanRmRGxta085OG92MWNTUXp6SWgyZC1MajNoTDlnalA2b2t1aE1iNA?oc=5",
+   "fonte": "la Repubblica",
+   "fonti": [
+    "Fanpage",
+    "la Repubblica"
+   ],
+   "n_fonti": 2,
+   "altri_link": [
+    {
+     "fonte": "Fanpage",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3dNaXd6RGdUWmRmV29wYk1pTkRDRC1ibkxyd3ZWaDY2RThYbnEwQnVreU0xRnR3S3pNS01xZ0tucktMQWNzclZNZEVyOXZrSTdXNHR3c3U3bTJZTm9GaTZQY3RYYkJHaVczdG9acFRIVE93WXVxQXBHSFhndmEydkRIcXY2eDdWQXY3QXI3UWY0Y1AxQl9XZ0pfZmxCWV8tVl9pNTFDWDEyeVJEbWJPTEVLWm1BVWhkc3c?oc=5"
+    }
+   ],
+   "data": "2026-10-12T09:00:00+00:00",
+   "ore_fa": 8.0,
+   "animal": "orangutan",
+   "animale": "orango",
+   "named": null,
+   "tags": [
+    "salvataggio"
+   ],
+   "impatto": 60,
+   "meme": 30,
+   "punteggio": 44,
+   "categoria": "Testate",
+   "categorie": [
+    "Testate"
+   ],
+   "regione": "Europa",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "token": {
+    "nome": "Rescue Orangutan",
+    "ticker": "$RORANG",
+    "descrizione": "Memecoin ispirata a un salvataggio con protagonista: orango. Idea community-driven, nessun valore intrinseco.",
+    "dex_solana": 0
+   }
+  },
+  {
    "titolo": "Rescued turtles return home after NSW government cut flows to wetland",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQazJKRFFRZHpYcDd4RW1zYVNRMnpQVVBFUmlxclltYW94Y2l4SlJ4WHJyd0oydXhBVzNXeWt4aE9NZVYwMnEyQWtqRkF6S2FVdE5FQklfQTAtTUo4bGRyaGlJM2VjR2lrR1BHT29XUUYyd25QODd2N1pjMVVMZENRa05BTllzS1ducFhpNlhmQnpPcnVZeVVHY3l6MU9sWWlweEhsemNEdmVReEhrSm9JeW14dmkxTy1tVlhyYjNyQ0JDdw?oc=5",
@@ -1609,90 +1669,6 @@
     "nome": "Rescue Turtle",
     "ticker": "$RTURTL",
     "descrizione": "Memecoin ispirata a un salvataggio con protagonista: tartaruga. Idea community-driven, nessun valore intrinseco.",
-    "dex_solana": 0
-   }
-  },
-  {
-   "titolo": "Tiger Fatally Mauls Man at Wildlife Park in England",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUm5zano2S0N5N1ByTUdxZTJlWHFZVjJGU05OSGx6eGxxZmJaa0I5djZhTnI2bUtSbmFjWVFqeWpkT1NzVUkzck1vS21QaFVRakRUT055V1JMLUtCbjZyclRDQzJCLTJ3UUxuQ3pzeHhjMHpVdmxfaHlPeUZkcXVYblhoTDBRbGdYV29DMzdVX2ZXMmw5RVdYbENhOUJWdUdNckhyeFBHaHh3c3M?oc=5",
-   "fonte": "TODAY.com",
-   "fonti": [
-    "TODAY.com",
-    "The Indian Express"
-   ],
-   "n_fonti": 2,
-   "altri_link": [
-    {
-     "fonte": "The Indian Express",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQc1RaUHdoSUZpaFl0Q2o2NDlkRURFRUV1aFpXNWQyaXdyMkJ3LXpsT3N0ck9rRE5XWlpGb3ZodEJ3SVh2TGdVdFJ2UHBjaDJWM1ItbkdoVDNfMjkzZV9KTnQ1Nk9tYUM4VExjYTR1ek1jNlB4VklwNlROZGNWSFZkQXhudzRiY1VUOXItX3IyUlQyYTFKRnlNR2ctVzJFaFQ1OGk1dTFiSjEzSTA0dHk0d0VXUDA2WVJLdWFiT1lYT2RGclVfY2dKVnU4MNIB0gFBVV95cUxQUzJPRmVxcVY2LUpUY3lULVV4MHh1SVlvUnVwQTFiSFc0R1phZHB5ZmY3V0NlUG9Ea1ZjSFd4M3pkVHFaYjFiTXpmblNBSkdJTlJBa0NXR182THFwS2pIbHNqdHlYWFNxTmRVdnlET3lvTk5UdHd1QWt5VjdCYUg5MnlFaVJOajJkeTZMaW1xaENZUE9JX1lldy15dm5MN0Jidm9uWjIzY3RsSjY3RmRXZW9ZX255UzdVcEhzMG80dTMzUFNKeWN5azlrXzU4WVItdlE?oc=5"
-    }
-   ],
-   "data": "2026-10-12T16:40:48+00:00",
-   "ore_fa": 0.5,
-   "animal": "tiger",
-   "animale": "tigre",
-   "named": null,
-   "tags": [
-    "virale"
-   ],
-   "impatto": 55,
-   "meme": 33,
-   "punteggio": 43,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": "Europa",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null,
-   "token": {
-    "nome": "Viral Tiger",
-    "ticker": "$VTIGER",
-    "descrizione": "Memecoin ispirata a un fenomeno virale con protagonista: tigre. Idea community-driven, nessun valore intrinseco.",
-    "dex_solana": 0
-   }
-  },
-  {
-   "titolo": "Public invited to choose name for Smithsonian’s baby red panda",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNV00yQzQyWnZXM2xmUDJ1ems4dlJJTGxSLTk0elE1WVVwUWctamk1MkRPSDI0ZlMtZ3hpNFNieE8zNGhBTVVJUDNrZ09OSUhteXg0bUR5M0ROTTNfZmdfWkprczBESjFhdlNTSTBwMDNXS0Naa0xIMkJBeGw5MWxTZVRyNmJBeVFrSmxYb3AxdHd4M2JDbTBLbU5id05XMy1kNFowcy05SHlzMGFfcmE0QzJSMnNhYVJsTWNJVXdEZWxzRFhPS1BfQ0ZuVEpESEc2WjdJa0xHbXFLdVpWTEw0b0hOSV83bjVhcVJBSGpYZW1iVGk1MGFZaXNjSnd6OXprYWVuNlk5Y3JjaFVGcXhLOTZoV1dwbzlqN1hadjJrQ1ZLc2M4bTNralA5bWpJcG80MFdJ?oc=5",
-   "fonte": "WJLA",
-   "fonti": [
-    "KEYE",
-    "WJLA"
-   ],
-   "n_fonti": 2,
-   "altri_link": [
-    {
-     "fonte": "KEYE",
-     "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPcUhEaFFXSkxLakdnR29BU2F3MjNfcnYyVkpDd1dSWGNESjY2WEplZU55MmU1MkJzVWtaaExJZDhuSEtCdUVwdFZ1V2t0akFxT3VlTTF2Ml83aEphSl80TkFFb3lnSkUwaTRTZ2xaYVROT1RPSmxGamNhREU4cGx1OXQ2eW03VEhWeTFNODRHYS1sQWg2WG1QQnVBakN3aWZVN1JDREVyZ0otOEVOMGtENFFITDZZMnFfU2s2Q3NoN2pwcDc5TDdTRktjaHNHRVhoZE1LeXpWY1R6czM3TC1TNHJSN1gzeU9SbHJCeHhycndnVzJnN3YwOVFVTmY5emNzMXhvUk12aWpPSV9EWkJQM3c5ZjAyN0haQkswMnBUWTJLb1UwV0ZYc293MnN6emF5R3ZHdEN1X2c5ekdN?oc=5"
-    }
-   ],
-   "data": "2026-10-12T02:29:13+00:00",
-   "ore_fa": 14.7,
-   "animal": "red panda",
-   "animale": "panda rosso",
-   "named": null,
-   "tags": [
-    "bebè"
-   ],
-   "impatto": 50,
-   "meme": 38,
-   "punteggio": 43,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null,
-   "token": {
-    "nome": "Baby Red Panda",
-    "ticker": "$BREDPA",
-    "descrizione": "Memecoin ispirata a un cucciolo appena nato con protagonista: panda rosso. Idea community-driven, nessun valore intrinseco.",
     "dex_solana": 0
    }
   },
@@ -1866,7 +1842,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T21:42:44+00:00",
-   "ore_fa": 67.4,
+   "ore_fa": 67.5,
    "animal": "dog",
    "animale": "cane",
    "named": "Paralyzed",
@@ -1893,6 +1869,112 @@
    }
   },
   {
+   "titolo": "Wildlife park celebrates first Highland calf birth",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xamt1eEJUdWJWTkdhY1NRbjd1UHVsc000aFh5MGFrTm9Vc3ltSngxUmpTTkVCUkczZG1wTDkzeGtaWTlhRFJmN01OY24tZVh4QUlmWXdWbFkzYWM?oc=5",
+   "fonte": "BBC",
+   "fonti": [
+    "AOL.co.uk",
+    "BBC"
+   ],
+   "n_fonti": 2,
+   "altri_link": [
+    {
+     "fonte": "AOL.co.uk",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRjktcDBNTFNvWXkzRktjNWRieHNYZGNzVTVHZVl6REdkR3ZOUGM5RE9NSHR0dE5hX19JcC1MYUdQWExyTVJyS29RYVROSkxneDZkWmhQVGZ5LTMwUG5TQVdxajZvRkFKTGxLQkZVendnakdFaktuTmpzQ1p1ckJ2amVUSVp5OFQwMS1qUWJn?oc=5"
+    }
+   ],
+   "data": "2026-10-10T06:23:36+00:00",
+   "ore_fa": 58.8,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [
+    "bebè",
+    "record"
+   ],
+   "impatto": 52,
+   "meme": 30,
+   "punteggio": 40,
+   "categoria": "Testate",
+   "categorie": [
+    "Regionali",
+    "Testate"
+   ],
+   "regione": "Americhe",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "token": {
+    "nome": "Baby Animal",
+    "ticker": "$BANIMA",
+    "descrizione": "Memecoin ispirata a un cucciolo appena nato con protagonista: animale. Idea community-driven, nessun valore intrinseco.",
+    "dex_solana": 0
+   }
+  },
+  {
+   "titolo": "Visitors evacuate wildlife park after man dies in tiger attack",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUXRXMmYxT0ZtUjdlYmxyZzdTbmpRSHRSdml1eHJDZ1pnMU1aRDNKTmRDVWdFVFZVbmZscVl4STExYVgxR3Z4dU1FTVF1OXJXSGZkYVNja2Nta1BrRUxCcTZoMDZMX3pnQnVjMDZJSzdxX1d0NVhkcXZmMVJYaVlmX0dGa3FYczJqWUpXSmNPemdwQkc1SVptTWRlRzU2YjVOczZCU3ZWcGNRdmdqY0JITlJBSVpJdmFSOWpYLUxUemdZZGF4cDdFRFMyZ3BJMGpl?oc=5",
+   "fonte": "USA Today",
+   "fonti": [
+    "CGTN",
+    "Daily Express",
+    "Gulf News",
+    "Hromadske",
+    "USA Today"
+   ],
+   "n_fonti": 5,
+   "altri_link": [
+    {
+     "fonte": "Hromadske",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcnFSdXA4UlYtQjB5cU9BV3FBOGpJRmlBOWY5YXdBZXFMb2xUeUNha2lhNGMzcDNDS25CZXZiZDlvdnVTWW13a29lUU16Yk16VW9ONk1ZMDIzS0hCMnQ5eVV2ejNPU1YtVjFoV200elY3OFdreDFZTU1IZE0wZE5kVFFRckxHQXI0VEFwSGgzS18wdVJJRk1wY084WVpyWU1pVlFPZTJYU0lhY0ZjSGt4OUxIaXVxdTZPSWhPd2pn0gG-AUFVX3lxTE1ycVJ1cDhSVi1CMHlxT0FXcUE4aklGaUE5Zjlhd0FlcUxvbFR5Q2FraWE0YzNwM0NLbkJldmJkOW92dVNZbXdrb2VRTXpiTXpVb042TVkwMjNLSEIydDl5VXZ6M09TVi1WMWhXbTR6Vjc4V2t4MVlNTUhkTTBkTmRUUVFyTEdBcjRUQXBIaDNLXzB1UklGTXBjTzhZWnJZTWlWUU9lMlhTSWFjRmNIa3g5TEhpdXF1Nk9JaE93amc?oc=5"
+    },
+    {
+     "fonte": "CGTN",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOTYwVGEzT0lwWm50aWNrUU5lWV9tdDY1ZzhkQXgzNU53RWl2WjNvNTFHa2lSdmNvaWFXWXNidnVkSy15OUxZUEZvUHY5eW01U3I0dVFQQVdwMVowbVdaT2xVMm9uWGlTMVFrRzA1d0JCUmluR2FacFFINC1CeE00am1sTWoyQ2hiVkMtR0NVWFZwQUJScjRYVnJaTndqYllVT28yNFBac1pZZFBTT2hHdmxWWEk0d3JzRmxfZVF0dTg?oc=5"
+    },
+    {
+     "fonte": "CGTN",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWFJHQ0ZOb01IZnc0blE5SlVPUkF1UmxUSE9VTi1EMGFwOHd4enpQQ2xPekwtMGNjWHo0S0xpUGV4a2tFVm0tRzRLbnB5aHJYWXpqRWMzcHNRRjVEOGVtdjhTX1RSdk9IZ0p0cktRZUw4c1ZHb1ZEektqMmRhV0liYzdkY0dDTUhnM0JoNTc2REJmaEVPbzdxVzIwcEt1eDNKMTJKd2ZWMXVfbXlWZWU3SEZn?oc=5"
+    },
+    {
+     "fonte": "Gulf News",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSHBBYUpHcFdkem8yMnZhQUVVdl9SZDg4RFozRF8xQkE5b0Qtb2s0NEluMWhyeEs3bUFBN0tCTXpsc25kSzhFRnpKVnVuOGRxZ3paQ2t0SDVDTE5nUURkUGFkUXUtNENGcVUtZHB0RUE2QWlIYy1xNVEyVUdTdmFYUXkzLUlEUjd2ZnE40gGeAUFVX3lxTE5NVFBSNm4zRGt0VGdJRTZVV3dMeTFBY2FpblhqTkU4dnBBZnBqSVFTZWhXcm5jSEdvaUgtaUpqRDdFY1A4RFRMRVBGUE5KWjlVZm1UTDA1UEVXYWtGNERBT0w0RVF1M2tKZF9lallZMHFmNG9EX1RPdFhtSG0wVjBxaU9BREhvOTVxNEFLOG5CLXJxV211VDJsLTdkVFRB?oc=5"
+    },
+    {
+     "fonte": "Daily Express",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTURuSkR0bUhsaW5IemlhRFJBVkEtTjZtZVM3TG9Uc2psWjFlUjV2Yk9EZlRlbmNsbldEc01Yck52ZE5oVXIxcnNNNTUxRDgyRWg3Unp2YWl6MzJldkV3d09uYldhWmZPRno0X3RIb25hS2VoYVZzNHBqazhLSTJyME5sOGtaVDNubmVYaVBIMERMLVdfd1VJTzh5ckxGb0pwR0lr0gGoAUFVX3lxTE9iQzBCLTYzZmRyUUprUDRleUFNcVRBajRreUVTZWpiNl9mekhQaWlvUmdrNWEtbzdtMVdfOWkyeGdhNzUxVVNnenVLTG5uNzRqbjdRbno3b2ZTOWFnRVBGQkhySVhvdXhzR1VlUEtzbmxqZ0tmaF80X3FmUEE2MW5hX1hlSFFtQ3JWUHpQRFU5a2U4bEtqMy1mdU44MzhLbGxGZ1NFdHRqRw?oc=5"
+    }
+   ],
+   "data": "2026-10-12T14:10:26+00:00",
+   "ore_fa": 3.0,
+   "animal": "tiger",
+   "animale": "tigre",
+   "named": null,
+   "tags": [
+    "tragica"
+   ],
+   "impatto": 82,
+   "meme": 5,
+   "punteggio": 40,
+   "categoria": "Testate",
+   "categorie": [
+    "Regionali",
+    "Testate"
+   ],
+   "regione": "Asia",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null,
+   "token": {
+    "nome": "Tiger (notizia tragica: valuta l'opportunità)",
+    "ticker": "$TIGER",
+    "descrizione": "Memecoin ispirata a una notizia del giorno con protagonista: tigre. Idea community-driven, nessun valore intrinseco.",
+    "dex_solana": 13
+   }
+  },
+  {
    "titolo": "Men Follow Mysterious Cries Into Forest, Find Trapped Bear Cub & Carry Out Risky Rescue Winning Hearts (WATCH)",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPV2kwVVpoU1FmRGJELXVQRzlXQzBRVF96MU41a1VGd2hZSGdjbEc2MUk4a2FUVTFaRzV6UERWVFRWUDBhSmo4bkRKaGViNndsdE9fNkVkUEgtLU4yMFlZNGxVRUk0UUZIeGZSYXV6SDRwMFdtQ3NPaXNEaUFwcGkzS09aN3JoVlozakFuNG4zV2hOSm9sLWNzUlQwbVhiNVBuSzNYTjdvMFN5djY0dEFjNkEzLVd2cmRienM3LV9LNFZoRHZjVDRjV0NXWlU4RUMwYWxEN0wxOTJoa2t1OFkyYdIB5gFBVV95cUxOMHE4cG8zelhFV2dXTWdiMFF4SGQ0YXZiazlCYkp0MEtaTkdCdENVMGhydllzaDVTMlFwbGl3RGM1ZEp0MWZ4T1BhRnZoc2RmVDFTR0ZhMEdBX0tualczRTI2bVlzRzJFQ0g5TTlWcERYMVdsa0NOZzV3czhNeWkxY1pSSjlfVDVJdVdaQ0hlaHhsSDdOeFNaYnozWFcxXy1GV182TTh2OEQ2bGNSR2F6aTU3R2ZrU0k2Y0JHZ2dnQ1Y4b1lFamJrRWxRQ1JTVWs0Vm9MVDlsSmNWdGFNeXJTRzItbzdIdw?oc=5",
@@ -1903,7 +1985,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T05:54:41+00:00",
-   "ore_fa": 35.2,
+   "ore_fa": 35.3,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -1993,7 +2075,7 @@
     }
    ],
    "data": "2026-10-10T14:43:02+00:00",
-   "ore_fa": 50.4,
+   "ore_fa": 50.5,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -2085,13 +2167,7 @@
    "regione": "Africa",
    "link_esterno": null,
    "reddit_score": null,
-   "reddit_commenti": null,
-   "token": {
-    "nome": "Viral Chimpanzee",
-    "ticker": "$VCHIMP",
-    "descrizione": "Memecoin ispirata a un fenomeno virale con protagonista: scimpanzé. Idea community-driven, nessun valore intrinseco.",
-    "dex_solana": 0
-   }
+   "reddit_commenti": null
   },
   {
    "titolo": "Megan Thee Stallion adopts stray studio cat (Video)",
@@ -2122,13 +2198,7 @@
    "regione": null,
    "link_esterno": null,
    "reddit_score": null,
-   "reddit_commenti": null,
-   "token": {
-    "nome": "Rescue Lion",
-    "ticker": "$RLION",
-    "descrizione": "Memecoin ispirata a un fenomeno virale con protagonista: leone. Idea community-driven, nessun valore intrinseco.",
-    "dex_solana": 0
-   }
+   "reddit_commenti": null
   },
   {
    "titolo": "Animali incredibili: Jonathan, la tartaruga che vive da 194 anni",
@@ -2172,7 +2242,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T13:37:15+00:00",
-   "ore_fa": 3.5,
+   "ore_fa": 3.6,
    "animal": "shark",
    "animale": "squalo",
    "named": "Milo",
@@ -2228,40 +2298,6 @@
    "reddit_commenti": null
   },
   {
-   "titolo": "Flamingos at a Florida Zoo Rode Out Hurricane Isaias in the Bathroom",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ0ZJcGYzN2lyM1BwdnI3NjNwTEVESGdxYkM0VG9ONDRSbFlDbE1sN1RfSUhoVHFTV2FzTEVhZ1NWNmNFUndGX2UxVDV3bzhqblBMVTl5RDFfMHhFMjRGM0paTFpDS2Nhck0xX2pKaTk5RUkwa3VFdnRESmZMVEwzSTN1Tm4yeDEtemE0S0E4NEE5WEll?oc=5",
-   "fonte": "The New York Times",
-   "fonti": [
-    "The New York Times",
-    "WSVN"
-   ],
-   "n_fonti": 2,
-   "altri_link": [
-    {
-     "fonte": "WSVN",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOWR0dW9IdHdFSmFzenUycjY5c2VSd3JmQU50TUZSUW5jOUx5d0tfSUJUaWhBaG53UlVfLUp3UmhMREF4RU0xYVAtb2hRSURmUXZjRC1KZ3MwazRDTnRUaUtoYzlPRnlXMGpXSXFFYURQVm1UeVl5MU1GTFE3emNMejJDNC1xUQ?oc=5"
-    }
-   ],
-   "data": "2026-10-11T18:51:10+00:00",
-   "ore_fa": 1.6,
-   "animal": "bird",
-   "animale": "uccello",
-   "named": null,
-   "tags": [],
-   "impatto": 71,
-   "meme": 10,
-   "punteggio": 37,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": "Americhe",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
    "titolo": "Oil pollution is drifting into marine protected areas, report finds - news",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ0JTbi1NZk5fQ3ZRWTBWdmhPTjJScHZjZlNPQUUtVWFRMEVudC1udmJtdnhDM0FXcXplR2NWVjdnUXk1MjJ1d0s2N0pQbzNxZC1aaHlDLTkyY0pQZmVUYUNKOUQ5TldSOE1uNnBFN24wanZIck5vNmtjRDJLMHprVGRJcE1mWmpwTzhpbllmbDRMU1FLaURnMkQ1aDRuXzQ4UW16UUdfRHl3T0txUUZFbkEzS0taZw?oc=5",
@@ -2278,7 +2314,7 @@
     }
    ],
    "data": "2026-10-12T12:48:35+00:00",
-   "ore_fa": 4.3,
+   "ore_fa": 4.4,
    "animal": "whale",
    "animale": "balena",
    "named": null,
@@ -2306,7 +2342,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:13:09+00:00",
-   "ore_fa": 1.9,
+   "ore_fa": 2.0,
    "animal": "seal",
    "animale": "foca",
    "named": null,
@@ -2351,11 +2387,11 @@
     "WDAM-TV",
     "WFIE | 14 News",
     "WFSB",
+    "WKYT",
     "WLBT",
     "WSMV",
     "WTOC",
     "WTVA",
-    "WTVG",
     "fox10tv.com",
     "fox8live.com"
    ],
@@ -2370,16 +2406,16 @@
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQV1pGRjJvN2pXWlFsOHlGOGhmNElObkwxazNQaTh2ZUp5OS0wQTNLNXhjdmdMeHlsdDNKc3dVREdNSTRlZlVSSW1uMWVZY3dobUJ3aGFSY3BSYmhkTk1vRDg0WFQxR05mMHpBNDM0SmxXdUJYYmNkdTQtSnJWM3hpc25uR1FXeXJPM2tQSWY5SWFkQQ?oc=5"
     },
     {
-     "fonte": "WTVG",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbS10V3FGRmg2TVNMTEpPOGp2TnFDWFNjR05GVEtVelBPeGM4VnJiYTcyQlMzZGtlTEdpLXJUTGF5Y3liTzl2MmVZY3pzY1JPdHRoTGpyOGttcWNlNjRGZ3pUTGY4YUp4SVE3WFUyTlh6dWd5WnNBSk9nMlFEak1sSHVpSGJjTDhYQzRQbGVLdUdBaWs?oc=5"
-    },
-    {
      "fonte": "fox8live.com",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSmdveVFxOFNLMkVtUFRaeHlBaGEyN2hhX3NqNjhxNGVQX2lReV9qYkFxUlFVby1FSFZqS21uWUJsOWFLRV9WTTZvMEVnN05LVjlneElrYzhrSmdGWWpPTnFRZURkeGpQZVRncjJWNGUyU0pCT19ydl9RdHNyeV9jSnRTS1V0VHYtLWdUNHZpMkFFbFloQ3Fn?oc=5"
     },
     {
      "fonte": "KTTC",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZFBfMm93MnBVd2NfZURIZDEwTHAzZXY1akpMRHg0Q2NUSFE5NTJST1pSNHowYUJ3ckk2VHVVd2hiZXNraXJSQ1A0dnhpc3puS2JZMGlYNjFhWHFUMXJOTXlWbU00RTNLSW5iZm95eTR2dXR6UFNESGNmT3A2V3JHakd1SlJHdzlLeFRPc0hSNVhRQQ?oc=5"
+    },
+    {
+     "fonte": "WFIE | 14 News",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWE5YVVZDQVdiaHpuMXMwMXZ6cndjem1xV3Zqalk1M05FOHZkd05hUGp5OGFhanBuclF4Ti13WE9TZy1SZXQ4RmVBSWRZTnNQTmpwQVVPRDUzOUJjZEx5MEd5UlY0WUYtSGc3bE05aUhSZVh0NmVELTVSZUZUV1U2RktjZV9WblQ1ZzIzUGZadG1yOVRk?oc=5"
     }
    ],
    "data": "2026-10-12T13:32:02+00:00",
@@ -2431,6 +2467,45 @@
     "Testate"
    ],
    "regione": "Asia",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
+   "titolo": "Global Archives - news",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOOVd0eGhfcEUxdUdnXy1QcmhGNm93NFFXSFRGQ2VfaDdSdDU4WGZLNlFLRnNGY3pqQ2drUEZlN1VBN3oxbWdLWndvTHhtNWh5ZFFENTcxV2hfQ0JxS0lxanlob0E0VFdXOGFEU0NLNVVIYTBQN1N4cVRTY0N4eFZYNkxWZmo0R0swVmJqRW9pQWJXbkJIMVd1dERVZHIwN29ORXRycFRfa19TQXFmS0tjLUtuVjE3ZjIyS1U4MVRYVzlNby00S0h6MFByYWhxWU44MUo0UEc1b1JReHVRaE5OS0xzcG1ZVXN2ZzVod3VSMllCUVZGb3ZNUFctS2lYTTV5c0RIRXZiTFN6ajFoYkVhdUNUZ3JMRUktZlVVSlZxN2dEdw?oc=5",
+   "fonte": "news - Mongabay",
+   "fonti": [
+    "Mongabay",
+    "Mongabay News",
+    "news - Mongabay"
+   ],
+   "n_fonti": 3,
+   "altri_link": [
+    {
+     "fonte": "Mongabay News",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rWTg1YXdCeTc5c1djU0VTUk1jN1VtcHpSM0g1UWpLMnA3UGpEb09HSlZXOU5TdnN2Y2lreWlLeENKdnlZZmZVQmdCaG1rblpuLUJOVUlzZ0ljd2NDUG51WA?oc=5"
+    },
+    {
+     "fonte": "Mongabay",
+     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQRmk4ZlRGeDZxemg5eHlWenloRTdzSm1IVlV4ZVlXRmtiaFlKV3dSTUV2LUZYOGotNkZaRmVyZ3l5TmItN3dFbjJWelluWEJTenYwSUlQeWFSM2ZrYU1GeENaQ0hjTzFoczVRbUVMbVYyNlE5VDFHX3NEWVlaZ2JIMlR4SWRzamRCR2p4N1B1aDlLOXhXQkZrd21WTnZWMHF0REtLMDUtZldJZXFxbWtYMVQ0YXA2bk1qeHVRTVY2SmtpQVJTTjRfNlNJSGt2VklCWi1malRWSmVsRDljT1Y2ZHMzNzVmSVhhS0Y3cHFodllrOTdRbG9uZ3BwM3BETlZDMnJyc0VlU3haRG1QSjdXOTV1YTZsMTJRcHBuQzZjaw?oc=5"
+    }
+   ],
+   "data": "2026-10-12T02:40:58+00:00",
+   "ore_fa": 14.5,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 81,
+   "meme": 0,
+   "punteggio": 36,
+   "categoria": "Wildlife",
+   "categorie": [
+    "Wildlife"
+   ],
+   "regione": null,
    "link_esterno": null,
    "reddit_score": null,
    "reddit_commenti": null
@@ -2746,7 +2821,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:13:05+00:00",
-   "ore_fa": 4.9,
+   "ore_fa": 5.0,
    "animal": "gorilla",
    "animale": "gorilla",
    "named": null,
@@ -2776,7 +2851,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:48:38+00:00",
-   "ore_fa": 2.3,
+   "ore_fa": 2.4,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -2806,7 +2881,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T11:30:57+00:00",
-   "ore_fa": 29.6,
+   "ore_fa": 29.7,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -2873,7 +2948,7 @@
     }
    ],
    "data": "2026-10-10T00:30:50+00:00",
-   "ore_fa": 64.6,
+   "ore_fa": 64.7,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -3013,36 +3088,6 @@
    "categoria": "Regionali",
    "categorie": [
     "Regionali"
-   ],
-   "regione": "Asia",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "Baby Asian elephant makes National Zoo debut on Earth Day",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi2glBVV95cUxQaGVjOGxTSFZtUndDZVNpR2VCU2hibkpJb1VaQkhhVUVuSlVHNzFheWtlS09WN3NaMjlTQ09KTktDRlNwNGg2SG5OdVFkSnhabEVDZkJDdGs0Q2xWVXA2U0hNdzQ4X0NfN1dXU2lLMHliTlJBM25TWVpfSnpOMGk1WlJfMzQ1Uk1jczNDOHdLbC03aXAyQmdqV081eTNtbTFqRlMxNHlNcFRfMk15SGtidXNMUENPaXZlZTVjWk9nLURJSy1kdl9Wb2dSOHlDSklneUZySVp1QUhfT2U3bmFGcl81OTBySHNCUHRCd19UblJKQWx2dEtCUFpRRnJ6UHl0ekh1Z2tFby1rdWZPWjUzOEJTczVNaWpweVYyWlpLVVZzQUhjLW5ISTVLY0U3QkdXZDFkVUlIQURDZDcyaXlBVUo0ZDlIQlFaNzhwUHh3YThYNEtYYjctdjdTY3hpU2lEQVdJbzhYZWxLVHlWNnppNVNTaW5EOHFTcklEdWJEQnRiVzNEbnRaU3Y3WXFNU0xwYlR1N0x2WnhTc0l4cFc2enVMSnlpRDVsZWwxdzBLYlRpQTlXQ05jc3dCLVBBQ05IamE1enl2M2FIMXlIM1Uza3ViTi1NTi1uZGZzVGlKZXRIZ2pWTU55RmFkdjM0N1I0bXpqcVNwNWk1ZWlXbGR3Q1o0QzVkQ2ZYMG9jblZUbmxaNHFWQjZVeVBZdUtwVE0yVGJfd1A4bnJlbjdxNVBzellyakExbDRlRGZRa3NmZ0dDeDBoaVFSUUV2bjE0MmgzazhMQ0pUWE56cXctTkwzNFRPMF9uS1NXYmxBM25aSVhmNUN2cjlUc21BcEswcUFGUTlpcGJsY29BVjRZWlF4ckxVV0hkd21yMkJNMTd6MVV4NmsxNFBiTmktbV80NTlSVnV5RWJhOW9QMjR4S0ZfOV9zVzJBSXVGUTlqenIxeDU2ZE8tbU13QjZEZmxEcUVWbzJSQ295dV9DbE5pc2ZUOVNYSlNtM3RtaTdYeVN1NmkyRnN2b01KZWV1MTV5YjRyTmNhQUdFXzVGREpxRkljMlZ4Z3l1bU50OVpxWWtsRTc1dk5saThEX2VWYnVNelRVZ05OMTRodDAyYi1NVXdzRUJIMUhsWUhqMkREZTNEQktSUzZmODlTYnh4bFhaUy1WNHc4UmEtY3QzWm9QZlNPb1NDMzNNSTNlUVE0TzBTS2laR2c5MWJTSERwVGg3R1lhc1lQbFduTUFKRnBzU1lkTWkwSU56RHF5cGpyS180N2dUMEd2eEcySTJncVlpTHh4YjJHVzc2MGRpNU1VQ240TEtJcVQ5Z2VKZVFMczFPMHEtQTMxSlF5MEZLRGh6ZW5UbnFwcFd5Vm11LWxQTEdVTGUtV0l5dVdSZk5LRG1sNWRLbF9TSUUtbUJ4UVJDbl93a1FCb1pvejRBWUI2UGVFTmVvdF8zcHlHdVM0aGFnNVRmQlZMaUpLaXFKWWQwbFJjNlVaeW9kbklZQUhHYjVWRUlJUnczYURSMUZaWlV1b2RIOTBZYV9GSEJoSm56aUgtTG9FdlM4LUYwSWFCa0ZXRzdqR0tEcWZQdmx2Y1V4NkxrVklzRjBOSHZmdTNaejRvT1R4VWw2TzI5QnhlX0VVQ3NxUmc1U0txVnfSAZYBQVVfeXFMUHRwRF9RSjVfMzRvejFzZEhCcXpVUTRoUnYtaVQwYl82RnJGT2ZkLW12ZGZ2b2FxdF9GZm5FZEUyT3diSHQ2QUVDb21BcGlwVGZqcGhDZmlGVHdzU2RkTkpYVDVocEVYY1VFUFhUMDdvMFNvZnU4czFCSHdnamxuN2toem9maFdHY1QxSHZUVGVMTHVkejV3?oc=5",
-   "fonte": "ABC13 Houston",
-   "fonti": [
-    "ABC13 Houston"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-11T22:10:39+00:00",
-   "ore_fa": 19.0,
-   "animal": "elephant",
-   "animale": "elefante",
-   "named": null,
-   "tags": [
-    "bebè"
-   ],
-   "impatto": 26,
-   "meme": 38,
-   "punteggio": 33,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
    ],
    "regione": "Asia",
    "link_esterno": null,
@@ -3286,7 +3331,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:48:41+00:00",
-   "ore_fa": 4.3,
+   "ore_fa": 4.4,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -3309,15 +3354,15 @@
   {
    "titolo": "(Buongiorno Regione futuri) Il \"passo leggero\" degli orsi che può ispirare l'uomo",
    "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOQ1A0WWdseGcxTWZRTm5oZDF5eEw1YU1WT2ZaTGtnNkhUcjIybl9USGJQZ3c5Y2RPcHZ1UkwtM0tnTkxYTmQtLVlBYUZ0ZkpscGJKNktER0pzcG9FcnE0SVZGRE1aNHpLN1JkQUtJOXh3WXlDNFRHM2hLWThDd2o5NTBpQlRPZkJqcUJVMllmT2VzMGViSERLWXZNbkplaHlNcEtSei03YnRtdVJNbUY0Z2kwTnJHZDFBWERnTkREMTlhbFNRcVRPMFg0Zm9zOFI4ZzA2U3Z6U0FGQzFPTlpEeHQ3UjZzZF85Wm1MZDZnNEFCWkJhNjBsa2JFWUxETktaWDBJcXpUUEFual90Y3M0eGxkdGYxZzlmU0JhRzZxaVB2RTZucmk0R3JPX1pNVEEwX0g5MG1mQXBYd2FDS19QRGh4RV9sWTl4WXRReDVMVko4cW5FMHR1djZNcXV6VlpIcWtodDRqaEx0RFlETnJZRUd30gHyAkFVX3lxTE5DUDRZZ2x4ZzFNZlFObmhkMXl4TDVhTVZPZlpMa2c2SFRyMjJuX1RIYlBndzljZE9wdnVSTC0zS2dOTFhOZC0tWUFhRnRmSmxwYko2S0RHSnNwb0VycTRJVkZETVo0eks3UmRBS0k5eHdZeUM0VEczaEtZOEN3ajk1MGlCVE9mQmpxQlUyWWZPZXMwZWJIREtZdk1uSmVoeU1wS1J6LTdidG11Uk1tRjRnaTBOckdkMUFYRGdOREQxOWFsU1FxVE8wWDRmb3M4UjhnMDZTdnpTQUZDMU9OWkR4dDdSNnNkXzlabUxkNmc0QUJaQmE2MGxrYkVZTEROS1pYMElxelRQQW5qX3RjczR4bGR0ZjFnOWZTQmFHNnFpUHZFNm5yaTRHck9fWk1UQTBfSDkwbWZBcFh3YUNLX1BEaHhFX2xZOXhZdFF4NUxWSjhxbkUwdHV2Nk1xdXpWWkhxa2h0NGpoTHREWUROcllFR3c?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQOWd4Rzg5aHJTMVlPUWhxeGp5V2FwR2t4QlRjQV96dERiLVF2S3VGVmxxOFE1VUFZQm9vei1HSTRMUkkzemZHM0VaR2F4Sl9qSWZQUTZxYmZTTndkNXhhb25xNW5BSzgyUUJScDVvWnk2bFhRRmc2R0tsczNuX2NxOXA4Mk5GMXMwUkdHelRpTF9HMjlJOUFIOFdBQ3FMYm5tNDd5VG4xWkFla09CdnRCVnlMUEJyZlJiWDN1YlFlbldjNl83TmVDZE1XRTJhaVdyeDhzdi0yVVNWaFR6NkQ4ajdSdU1EYlVfbUUxTXlDZmc2a19ZdDRrRE1ETGFjWGgxUDVfTlhtVE0wX2NoZ1ZCQ3FjcmJ5WnFKbFcxdzd0M2hlaklNQzAzX3VwUHZpLTRKTWVrMzZuWHF4U2RTd3V0RXh3NG90eTB0ZmpvR3cwTzA0NjlqcHI5dlpLUEZrMEFKOGJVZ3hqZUZsOC1L0gHyAkFVX3lxTE5DUDRZZ2x4ZzFNZlFObmhkMXl4TDVhTVZPZlpMa2c2SFRyMjJuX1RIYlBndzljZE9wdnVSTC0zS2dOTFhOZC0tWUFhRnRmSmxwYko2S0RHSnNwb0VycTRJVkZETVo0eks3UmRBS0k5eHdZeUM0VEczaEtZOEN3ajk1MGlCVE9mQmpxQlUyWWZPZXMwZWJIREtZdk1uSmVoeU1wS1J6LTdidG11Uk1tRjRnaTBOckdkMUFYRGdOREQxOWFsU1FxVE8wWDRmb3M4UjhnMDZTdnpTQUZDMU9OWkR4dDdSNnNkXzlabUxkNmc0QUJaQmE2MGxrYkVZTEROS1pYMElxelRQQW5qX3RjczR4bGR0ZjFnOWZTQmFHNnFpUHZFNm5yaTRHck9fWk1UQTBfSDkwbWZBcFh3YUNLX1BEaHhFX2xZOXhZdFF4NUxWSjhxbkUwdHV2Nk1xdXpWWkhxa2h0NGpoTHREWUROcllFR3c?oc=5",
    "fonte": "RaiNews",
    "fonti": [
     "RaiNews"
    ],
    "n_fonti": 1,
    "altri_link": [],
-   "data": "2026-10-12T14:32:56+00:00",
-   "ore_fa": 2.6,
+   "data": "2026-10-12T14:46:00+00:00",
+   "ore_fa": 2.4,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -3332,42 +3377,6 @@
     "Testate"
    ],
    "regione": "Europa",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "India Just Launched Its First Ever High-Altitude Snow Leopard Safari",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yVlRVcngzd1JacEh4a0FfQks2VWJLcmF1di1xN1V1cU1DYmo4U1BSWmFoZ0FzbDU2SXZlYl81dDJnOTZDZFZibUlFMGZZS1F1TWtqWEZ2T1p4bjYyRXQwTVRPcHRaTHNXS3EtOUVPZjM3SWJhbG5CQjhuQWppdw?oc=5",
-   "fonte": "AOL.ca",
-   "fonti": [
-    "AOL.ca",
-    "Jagran Josh"
-   ],
-   "n_fonti": 2,
-   "altri_link": [
-    {
-     "fonte": "Jagran Josh",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYnc0M0ctYTl6TVpsUy16bER0QUdQVkQxVzV6UGZVWkR0XzIzcmJpeXczNjFpdlJNYmRoRGtCbGc5V21DYmxON3FPcHlvZXhGcmpJaG9uNWJzZ1oxbXcwQmxuVC1lSTZiNzBrLXAwMmwydHVzU2RZOVZUd0hBSzg2Wl9IOVFKQ2lqd04tbFp4enZpYjdJWjdRMnJUWVdodGk3WVJyeDZ4bkFOcnhVUzhsR0RiWHM4Tkp6ZGtXRU5RNWMxckcteHBmT1FXZjFfU29OS2duSnpYWF9STHFiZHBiS3R1dk9OdW4xMlHSAeoBQVVfeXFMUGJ3NDNHLWE5ek1abFMtemxEdEFHUFZEMVc1elBmVVpEdF8yM3JiaXl3MzYxaXZSTWJkaERrQmxnOVdtQ2JsTjdxT3B5b2V4RnJqSWhvbjVic2daMW13MEJsblQtZUk2Yjcway1wMDJsMnR1c1NkWTlWVHdIQUs4NlpfSDlRSkNpandOLWxaeHp2aWI3SVo3UTJyVFlXaHRpN1lScng2eG5BTnJ4VVM4bEdEYlhzOE5KemRrV0VOUTVjMXJHLXhwZk9RV2YxX1NvTktnbkp6WFhfUkxxYmRwYkt0dXZPTnVuMTJR?oc=5"
-    }
-   ],
-   "data": "2026-10-11T13:30:33+00:00",
-   "ore_fa": 27.6,
-   "animal": "leopard",
-   "animale": "leopardo",
-   "named": null,
-   "tags": [
-    "record"
-   ],
-   "impatto": 45,
-   "meme": 22,
-   "punteggio": 32,
-   "categoria": "Regionali",
-   "categorie": [
-    "Regionali"
-   ],
-   "regione": "Asia",
    "link_esterno": null,
    "reddit_score": null,
    "reddit_commenti": null
@@ -3399,6 +3408,34 @@
     "Regionali"
    ],
    "regione": "Asia",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
+   "titolo": "Grizzly Bear enjoying a feast meanwhile the wolf has to wait",
+   "sommario": "",
+   "link": "https://www.reddit.com/r/natureismetal/comments/1x3tqyj/grizzly_bear_enjoying_a_feast_meanwhile_the_wolf/",
+   "fonte": "Reddit r/natureismetal",
+   "fonti": [
+    "Reddit r/natureismetal"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T05:42:32+00:00",
+   "ore_fa": 11.5,
+   "animal": "bear",
+   "animale": "orso",
+   "named": null,
+   "tags": [],
+   "impatto": 29,
+   "meme": 35,
+   "punteggio": 32,
+   "categoria": "Reddit/Community",
+   "categorie": [
+    "Reddit/Community"
+   ],
+   "regione": null,
    "link_esterno": null,
    "reddit_score": null,
    "reddit_commenti": null
@@ -3497,6 +3534,36 @@
    "reddit_commenti": null
   },
   {
+   "titolo": "Frog nursery helps endangered tadpoles grow stronger for the wild",
+   "sommario": "The Animal Reader is an independent news platform based in the Netherlands that shares daily news updates about animals and their environment. Hundreds of endangered tadpoles are growing up in a nursery in Long Beach, California, in the United States. The post Frog nursery helps endangered tadpoles grow stronger for the wild appeared first on The Animal Reader .",
+   "link": "https://www.theanimalreader.com/2026/10/11/frog-nursery-helps-endangered-tadpoles-grow-stronger-for-the-wild/",
+   "fonte": "The Animal Reader",
+   "fonti": [
+    "The Animal Reader"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-11T08:29:49+00:00",
+   "ore_fa": 32.7,
+   "animal": "frog",
+   "animale": "rana",
+   "named": null,
+   "tags": [
+    "record"
+   ],
+   "impatto": 30,
+   "meme": 32,
+   "punteggio": 31,
+   "categoria": "Wildlife",
+   "categorie": [
+    "Wildlife"
+   ],
+   "regione": "Europa",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
    "titolo": "Videos of a Brazilian country boy are capturing millions of hearts",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2xhbk1HVEtMUWFJeE5jOGdpMU1MNXhfNWllM2U3VTllWTBIRWRlMmcxdmc0QWFJbkJIS1JrbUpldUg4TUhwX19QdWE5X1FaUXVIOVRNNnhTQWZRVUhKNEpYVVZuWnpuRzB5T3dyT0l5c0JDZ3c4bnVUWFcxWTdOem5vVEZyMW1sYTNUb1JRWEo0czNCXzVEWl9mdVU4NkxocjBrS1M4NA?oc=5",
@@ -3537,7 +3604,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T08:30:46+00:00",
-   "ore_fa": 8.6,
+   "ore_fa": 8.7,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -3611,6 +3678,64 @@
    "categoria": "Reddit/Community",
    "categorie": [
     "Reddit/Community"
+   ],
+   "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
+   "titolo": "I got lucky today and got a video of this lizard hunting a preying mantis in China.",
+   "sommario": "",
+   "link": "https://www.reddit.com/r/natureismetal/comments/1x41vqw/i_got_lucky_today_and_got_a_video_of_this_lizard/",
+   "fonte": "Reddit r/natureismetal",
+   "fonti": [
+    "Reddit r/natureismetal"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T13:28:26+00:00",
+   "ore_fa": 3.7,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [
+    "virale"
+   ],
+   "impatto": 32,
+   "meme": 30,
+   "punteggio": 31,
+   "categoria": "Reddit/Community",
+   "categorie": [
+    "Reddit/Community"
+   ],
+   "regione": "Asia",
+   "link_esterno": "https://youtube.com/shorts/J8D-JKDtKns?feature=share",
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
+   "titolo": "Man City ignores jeers from Liverpool fans to seal 3-0 statement win in Premier League",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYlVSMXZLTlprNVMwNlFJMVppZTkyRGZUQ1gya1lMM3Y1cUV6WS1oOXMwVG10dS1OOFJBQXlKUXdybjRyUzFoZUk0TzhQekNibWxHUE8tYkh0NkJWNHU2cEJfLVpqLU1iMXRsZUhVUzFnSjVKZlJWVGQzcUdOdGEtQklyc1ZqSUFobGJuZFlCemVGNkhzY082YVFlVFdxRUlG?oc=5",
+   "fonte": "AP News",
+   "fonti": [
+    "AP News"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-11T18:47:00+00:00",
+   "ore_fa": 22.4,
+   "animal": "seal",
+   "animale": "foca",
+   "named": null,
+   "tags": [],
+   "impatto": 42,
+   "meme": 20,
+   "punteggio": 30,
+   "categoria": "Testate",
+   "categorie": [
+    "Testate"
    ],
    "regione": null,
    "link_esterno": null,
@@ -3718,7 +3843,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T09:37:00+00:00",
-   "ore_fa": 31.5,
+   "ore_fa": 31.6,
    "animal": "lion",
    "animale": "leone",
    "named": "Gus",
@@ -3831,7 +3956,7 @@
   {
    "titolo": "I Lions Club Valsugana portano la pet therapy in reparto",
    "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQmlUanNVSEIxUjRvbmhLTW00bEZfQzZualR2MmtCV01FdmZZel9XdTFNdXc0Qk0xbzZwS2hyVUJ3REM4ZWVIeHhVN3NDRWVZenNXVkZ6SkVqYnJmTDFZcVRKMU8zaXBQcFBTZGF3Z2VaRW81UTEyYkdHVkdkMWdrWE9WS3JBR0JFc2FKRUxGdy1fNlYySGdjSjZkTHcwc041aDd0cHo5d3dia2xETW5BNzlQUVVYS1ZEYkNLYk1RbW12NGt6?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQWhlYjBlTTFiNTJiWUJqXzdjSzd4LVY2ZFIxMUFjVUw3cE5wUnhnZDBWeWNEWEpGQ1Y5dGlQMkJnRDdpRDJ5SDBOcHpPVG5OTTYxbzB0Sk9QN1BuaGlZd1Bzckpsem44N0JHa0FQd2ZxVWNQekQwMTZabzNDQ09pQnN4b21TMWZobFNMdm5RVHYzd3hrS3oyRU5RcUI1MHBVQ1B5eHVLNkloMU5QNVE?oc=5",
    "fonte": "Ufficio Stampa della Provincia autonoma di Trento",
    "fonti": [
     "Ufficio Stampa della Provincia autonoma di Trento",
@@ -3872,8 +3997,8 @@
    ],
    "n_fonti": 1,
    "altri_link": [],
-   "data": "2026-10-11T22:31:01+00:00",
-   "ore_fa": 18.6,
+   "data": "2026-10-11T22:31:00+00:00",
+   "ore_fa": 18.7,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -3882,36 +4007,6 @@
    ],
    "impatto": 27,
    "meme": 32,
-   "punteggio": 30,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": "Europa",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "Otto oranghi salvati dagli incendi in Indonesia tornano liberi nelle foreste del Borneo",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT3dNaXd6RGdUWmRmV29wYk1pTkRDRC1ibkxyd3ZWaDY2RThYbnEwQnVreU0xRnR3S3pNS01xZ0tucktMQWNzclZNZEVyOXZrSTdXNHR3c3U3bTJZTm9GaTZQY3RYYkJHaVczdG9acFRIVE93WXVxQXBHSFhndmEydkRIcXY2eDdWQXY3QXI3UWY0Y1AxQl9XZ0pfZmxCWV8tVl9pNTFDWDEyeVJEbWJPTEVLWm1BVWhkc3c?oc=5",
-   "fonte": "Fanpage",
-   "fonti": [
-    "Fanpage"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T09:10:38+00:00",
-   "ore_fa": 8.0,
-   "animal": "orangutan",
-   "animale": "orango",
-   "named": null,
-   "tags": [
-    "salvataggio"
-   ],
-   "impatto": 30,
-   "meme": 30,
    "punteggio": 30,
    "categoria": "Testate",
    "categorie": [
@@ -4230,6 +4325,48 @@
    "reddit_commenti": null
   },
   {
+   "titolo": "Man Mauled To Death By Tiger After Entering Enclosure At Englands Yorkshire Wildlife Park; Disturbing Video",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdmRzdTdQbGJ2bzl5VU0tWWtqWWN0eGNWZ1JqekRsMjVPYVpzWFl5RWdhR09HOUtlN1o1am5nV21yNzdOS04wTlJVaWxlaHZHejNncmFPb1BlalV5WkwxRlpURkVxZ2lzYWxnZkRISnhCSW5tVGFDY19PSm5EZkphQkczWmdDRVF1Zm11alp0SVNSNzdBMDFib3JlM1c4SVdsN3k4c3hpZlAyWDlnckZGQXpwOTdGYnRJOGVNc0k3YmZZc0cyOXBmTDNrSzNqVVlId2lvQU9YUS11aHdCTG9FT0F3TmlmN1B4bzdj0gHwAUFVX3lxTFAxcnNXYnJBX3drNGhsTEtya3hwZUFteVZlUDh5RDkzZGlyRHp4Tmh6dFZSYjhSVDhkU2sxazZvR1JfWHZWa3JHejFqaUNDS1pUT2tfUHljQkk2RVpUdjRoMV9TVXlIaDlqNE1KdFFTOGluRk9yemJqNXlySG1LV3o3SjhTaElIWUpVX200dTZ1ZnpnMV9lZHB4VDVzUHZNU3hQMFI0QUV4ZnZzR1dHSHZHM3dLTktVS1g3VFNyeUtaMDNoc2pDMW5WcXhuZmtMaVpVOHdWYmtDd2R4ZFJzNE03LTZraVVMOU1qdFhOTFZYdA?oc=5",
+   "fonte": "Free Press Journal",
+   "fonti": [
+    "AOL.com",
+    "Free Press Journal"
+   ],
+   "n_fonti": 2,
+   "altri_link": [
+    {
+     "fonte": "AOL.com",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRy14LUN1dml4OGpXOE9OcFFJX3BXcE5YS3dDWDZCQ0laSDd0blZfWVVXcDFPOWsxTkc2ZVdGYWpXUzdCMVZ2UTZhU2J2bFZwQXJrOHg1cEtIVE55Y0VkMkV2a3FxejJDbk96NnlBVTRFU0YzTU1aMnpPcTh1Z1dqMExqOWc5QQ?oc=5"
+    },
+    {
+     "fonte": "AOL.com",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcFhxUFZtOE4tLTZTOTZuMDB4ZTdCUUNaNnZhdGtQSnE0Nk12T2o4b0IzMWh6ZDNXY29seW81X1M2VmVGYlFCR1AzNGZIREtIM0JtaGNSZlFTaTJrM1EzX1h2dVpDODFKZTdlXy1oTkNzdHhTQ3FhYWxqMDA3c2NtMU4wRzU2cXExdjZwMzJUUVczZw?oc=5"
+    }
+   ],
+   "data": "2026-10-11T11:05:47+00:00",
+   "ore_fa": 30.1,
+   "animal": "tiger",
+   "animale": "tigre",
+   "named": null,
+   "tags": [
+    "virale",
+    "tragica"
+   ],
+   "impatto": 45,
+   "meme": 16,
+   "punteggio": 29,
+   "categoria": "Testate",
+   "categorie": [
+    "Regionali",
+    "Testate"
+   ],
+   "regione": "Europa",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
    "titolo": "La tartaruga a due teste nata negli Stati Uniti: perché la bicefalia sembra essere più comune nei rettili",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ2RBTVJrbHVOM3FiUXZwVGN5aHp0WGY5Z2ZlMnZ3UzFZMS1OX2pBNkpPOXBLS3dZVWN4akdtbFliQlNIM0k3dW1NZjNEc2FJa0Y1WEs5Y0dEUkRTZXVCWnVLWUtTQUtmTFpsTzNWQ0NRUkRubXpCQVg5c0YtOF9kV2VYQTdJNUxYTHR6RV9VZXRSWHJUZlFMQ1FwRnRWY1d6OUxlck1RLXZUQ3JmNTE3dXBLLW5kQ0VxNDlJc0xodS04MDl1elVqQ01uY2pFamVV?oc=5",
@@ -4276,7 +4413,7 @@
     }
    ],
    "data": "2026-10-12T08:30:37+00:00",
-   "ore_fa": 8.6,
+   "ore_fa": 8.7,
    "animal": "rhino",
    "animale": "rinoceronte",
    "named": null,
@@ -4642,7 +4779,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T08:37:03+00:00",
-   "ore_fa": 8.5,
+   "ore_fa": 8.6,
    "animal": "bear",
    "animale": "orso",
    "named": null,
@@ -4801,7 +4938,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:37:00+00:00",
-   "ore_fa": 4.5,
+   "ore_fa": 4.6,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -5041,7 +5178,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T05:06:58+00:00",
-   "ore_fa": 36.0,
+   "ore_fa": 36.1,
    "animal": "squirrel",
    "animale": "scoiattolo",
    "named": null,
@@ -5222,7 +5359,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T06:01:00+00:00",
-   "ore_fa": 59.1,
+   "ore_fa": 59.2,
    "animal": "koala",
    "animale": "koala",
    "named": "Watoru",
@@ -5235,6 +5372,34 @@
    "categoria": "Regionali",
    "categorie": [
     "Regionali"
+   ],
+   "regione": "Asia",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
+   "titolo": "Leopard taking down a Wild Boar. Jawai, India.",
+   "sommario": "",
+   "link": "https://www.reddit.com/r/natureismetal/comments/1x3tl8z/leopard_taking_down_a_wild_boar_jawai_india/",
+   "fonte": "Reddit r/natureismetal",
+   "fonti": [
+    "Reddit r/natureismetal"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T05:32:58+00:00",
+   "ore_fa": 11.6,
+   "animal": "leopard",
+   "animale": "leopardo",
+   "named": null,
+   "tags": [],
+   "impatto": 29,
+   "meme": 25,
+   "punteggio": 27,
+   "categoria": "Reddit/Community",
+   "categorie": [
+    "Reddit/Community"
    ],
    "regione": "Asia",
    "link_esterno": null,
@@ -5262,7 +5427,7 @@
     }
    ],
    "data": "2026-10-10T06:30:44+00:00",
-   "ore_fa": 58.6,
+   "ore_fa": 58.7,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -5589,7 +5754,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T16:42:33+00:00",
-   "ore_fa": 0.4,
+   "ore_fa": 0.5,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -5619,7 +5784,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:55:11+00:00",
-   "ore_fa": 1.2,
+   "ore_fa": 1.3,
    "animal": "monkey",
    "animale": "scimmia",
    "named": null,
@@ -5699,40 +5864,6 @@
    "reddit_commenti": null
   },
   {
-   "titolo": "Global Archives",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rWTg1YXdCeTc5c1djU0VTUk1jN1VtcHpSM0g1UWpLMnA3UGpEb09HSlZXOU5TdnN2Y2lreWlLeENKdnlZZmZVQmdCaG1rblpuLUJOVUlzZ0ljd2NDUG51WA?oc=5",
-   "fonte": "Mongabay News",
-   "fonti": [
-    "Mongabay",
-    "Mongabay News"
-   ],
-   "n_fonti": 2,
-   "altri_link": [
-    {
-     "fonte": "Mongabay",
-     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQRmk4ZlRGeDZxemg5eHlWenloRTdzSm1IVlV4ZVlXRmtiaFlKV3dSTUV2LUZYOGotNkZaRmVyZ3l5TmItN3dFbjJWelluWEJTenYwSUlQeWFSM2ZrYU1GeENaQ0hjTzFoczVRbUVMbVYyNlE5VDFHX3NEWVlaZ2JIMlR4SWRzamRCR2p4N1B1aDlLOXhXQkZrd21WTnZWMHF0REtLMDUtZldJZXFxbWtYMVQ0YXA2bk1qeHVRTVY2SmtpQVJTTjRfNlNJSGt2VklCWi1malRWSmVsRDljT1Y2ZHMzNzVmSVhhS0Y3cHFodllrOTdRbG9uZ3BwM3BETlZDMnJyc0VlU3haRG1QSjdXOTV1YTZsMTJRcHBuQzZjaw?oc=5"
-    }
-   ],
-   "data": "2026-10-10T15:08:35+00:00",
-   "ore_fa": 50.0,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 55,
-   "meme": 0,
-   "punteggio": 25,
-   "categoria": "Wildlife",
-   "categorie": [
-    "Wildlife"
-   ],
-   "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
    "titolo": "From New York to Mexico City, some of Earth's biggest cities are sinking, say scientists",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ha240SHZGaDFuOUlCN0JXT3ZfTnNXT29iM3NJUjhHZjZzTWdPMDN6NzFUeWtBbDlzS0lWVjlZcUdud3ZjZ25EVDRDaWQ4ODZQYzRaZm1oZFJNNVFaQk9INzZnaVJCSE96alFZ?oc=5",
@@ -5773,7 +5904,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T15:13:00+00:00",
-   "ore_fa": 1.9,
+   "ore_fa": 2.0,
    "animal": "penguin",
    "animale": "pinguino",
    "named": null,
@@ -5915,7 +6046,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T10:37:08+00:00",
-   "ore_fa": 6.5,
+   "ore_fa": 6.6,
    "animal": "gorilla",
    "animale": "gorilla",
    "named": null,
@@ -5933,6 +6064,43 @@
    "reddit_commenti": null
   },
   {
+   "titolo": "Man mauled to death by tiger was happily dancing, posing for pics with the animal before he jumped into UK wildlife enclosure",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTEZTeHFnM3hBVWtwUmtvUTBhektBNVp1d19OTjFtVGRwMHhfWUtLSWZEWDFfbjNTZDE5M2R0NEswYS12WWNZb1BkY0FnZ2hINU9LSDVKLWN1dkFpUHVtcGZ4MWF0VTBGUFB0X2Ytem45Nk5rOEFCaWtTNy1VdDVZc2lhelNaVzF0SlRwbm9zZGJ5OVJfRVF0RjA1SHJfRk9KTk9ycmZDWFdtWDVWZVpGX1A0aU1pcWN4NVdiSF9pbXNma1B5bUEyYTRNLXlpRHdZSEdTcE9Xblk1dTJyVTZkT0ZWRnhiVDJ2eXBlRDFlZjlmU2xyaTY5ZWtB?oc=5",
+   "fonte": "New York Post",
+   "fonti": [
+    "Daily Express",
+    "New York Post"
+   ],
+   "n_fonti": 2,
+   "altri_link": [
+    {
+     "fonte": "Daily Express",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNzFmWE16RXNIc0U0Sm9JUmZtU1oyRy0yRHROSVBtSlUxQ1E4UjVHLVJuQVpCV29KZGNDZ3dzLWFXVVh4U1hocE9xQ2hHbWVaM0xJdUJGd3hqNE9BSjcwZWw0SnlVdFJOMHJYV1RqT19MdVpVMGNlb3l2RjV5NHVqbXN4SjNMa2o4X0daT1IzcmJxZG_SAZgBQVVfeXFMTmw3aGlzc3NSZF81eFBvOS1BUnhBblZqc1BEM2cwWXJOaUJGREV3Y090UU03SDA1VzQ2VVJ0Unl3V1BZcmVYOElyM29JQmUtakx0YjBqeEJlckt1QmxHYm5vem9NNVlvTFZnNE10MG5ranVtWkE0czQyejlieUdkbnMzbWdfZlAybTdCVGlXdlItYTZpZjVjZEs?oc=5"
+    }
+   ],
+   "data": "2026-10-11T11:31:00+00:00",
+   "ore_fa": 29.7,
+   "animal": "tiger",
+   "animale": "tigre",
+   "named": null,
+   "tags": [
+    "tragica"
+   ],
+   "impatto": 45,
+   "meme": 9,
+   "punteggio": 25,
+   "categoria": "Testate",
+   "categorie": [
+    "Regionali",
+    "Testate"
+   ],
+   "regione": "Europa",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
    "titolo": "Florida: Armed School Guardian Denis Keeran Arrested After Phone Search Reveals Animal Abuse Videos",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObWxQTFVacmVvakYzVUw4NDU3MTZuVENNbTBWR3BzcWMxRjdhaXF3R0FuLUszSGFsbU1oRTdnTnlkUlpPeTJHZjY3QUFYSGZKbDlMUTRfOUlnRXg0YllvZHBJVjVRX3haSlNIZ0Z1N0ZIQUZGTWR4bkl6bUR5TDNkcnltcWU3bDdVLW1mNTJwcE1HandPd3JYVDR5cTNUMHBCZFlHZ3ljcXd4Tks2OURPYVdiclE2bTFjZjlkaHM2VkhHSlBsTVB4d0E5MVlxOFV5NnQ2TTFB0gHbAUFVX3lxTE0tbGc3djhvNENKMElKMXZOdXRXbDhMQ0FKQUJfUVFndy13aklVVHJiTWVxTl9wVGNJc2VHVzJiWG40T1YwTUctRjJYTmg5cUtfbVFWV2l0UjVsU1ZJOWcxMUJQcTl5VUFCenZFMzdIeWk0LXpIb2hMS1B0c25scTBOSGhMdGNvZkQ2TXNLWURJQllQRW5HdVlmZVVaaG4xUXFqUXk3YUwydHBwVUhpSzhoMXJfaXQ0OTQyeWRDNU44YmNyYm1Wam5LUm13Mk15R2dyR2lFbUJRQzVrcw?oc=5",
@@ -5943,7 +6111,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T03:01:18+00:00",
-   "ore_fa": 14.1,
+   "ore_fa": 14.2,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -6143,7 +6311,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T11:48:41+00:00",
-   "ore_fa": 5.3,
+   "ore_fa": 5.4,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -6313,7 +6481,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:24:37+00:00",
-   "ore_fa": 4.7,
+   "ore_fa": 4.8,
    "animal": "giraffe",
    "animale": "giraffa",
    "named": null,
@@ -6472,7 +6640,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T10:30:43+00:00",
-   "ore_fa": 6.6,
+   "ore_fa": 6.7,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -6490,6 +6658,62 @@
    "reddit_commenti": null
   },
   {
+   "titolo": "Bengal Forest Officials Stop Vehicles To Let Elephant Herd Cross Busy Road (WATCH)",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV3RSUWRxbVpSRncyM0x0ZC16TmZuZmJ2WVRRSE5sSzN1dTlxRWFwZEgtSE9IT0xaYkxyWXNBcTJLR2NiZUloNXg1b0pFUUFScG15bHZWVDV3LVJFekl0ekVjemdfVVRuTmxEYUFleWktS04tdnNZWlFJbWw1RHlLZUdtTXpLUzlkZ3NyRkUxYk9VY1phNkwtQjc4dDNTV1FEVUlDT0tOOHFHZDdzbnc2dzl5T1BvdWNhZkduSkpXZE1zanowVmNrbThaaml6Y2otVHVlQWVGRUpQakHSAdsBQVVfeXFMTld0UlFkcW1aUkZ3MjNMdGQtek5mbmZidllUUUhObEszdXU5cUVhcGRILUhPSE9MWmJMcllzQXEyS0djYmVJaDV4NW9KRVFBUnBteWx2VlQ1dy1SRXpJdHpFY3pnX1VUbk5sRGFBZXlpLUtOLXZzWVpRSW1sNUR5S2VHbU16S1M5ZGdzckZFMWJPVWNaYTZMLUI3OHQzU1dRRFVJQ09LTjhxR2Q3c253Nnc5eU9Qb3VjYWZHbkpKV2RNc2p6MFZja204WmppemNqLVR1ZUFlRkVKUGpB?oc=5",
+   "fonte": "Asianet Newsable",
+   "fonti": [
+    "Asianet Newsable"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T10:53:50+00:00",
+   "ore_fa": 6.3,
+   "animal": "elephant",
+   "animale": "elefante",
+   "named": null,
+   "tags": [],
+   "impatto": 31,
+   "meme": 20,
+   "punteggio": 25,
+   "categoria": "Regionali",
+   "categorie": [
+    "Regionali"
+   ],
+   "regione": "Asia",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
+   "titolo": "Spider having a snack",
+   "sommario": "",
+   "link": "https://www.reddit.com/r/natureismetal/comments/1x3e0kb/spider_having_a_snack/",
+   "fonte": "Reddit r/natureismetal",
+   "fonti": [
+    "Reddit r/natureismetal"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-11T17:26:29+00:00",
+   "ore_fa": 23.7,
+   "animal": "spider",
+   "animale": "ragno",
+   "named": null,
+   "tags": [],
+   "impatto": 25,
+   "meme": 25,
+   "punteggio": 25,
+   "categoria": "Reddit/Community",
+   "categorie": [
+    "Reddit/Community"
+   ],
+   "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
    "titolo": "Owners fear 'healthy' dog died due to orange substance exposure on contaminated land",
    "sommario": "Donna and Pete O'Brien say Misty's health declined after a walk.",
    "link": "https://www.bbc.co.uk/news/articles/cqx2z2xx0k2lo?at_medium=RSS&at_campaign=rss",
@@ -6500,7 +6724,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T14:48:51+00:00",
-   "ore_fa": 26.3,
+   "ore_fa": 26.4,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -6565,7 +6789,7 @@
     }
    ],
    "data": "2026-10-10T13:19:09+00:00",
-   "ore_fa": 51.8,
+   "ore_fa": 51.9,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -6650,34 +6874,6 @@
     "Regionali"
    ],
    "regione": "Americhe",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "Frog nursery helps endangered tadpoles grow stronger for the wild",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZXM0T1IxOFZwOHgtNnY4N2tNVmE5RHpsY2xzNmxOckZ6NkpaSUxpTXYta2JMdGRFWXVzUHpOZ1BVUEZvZjJiUTZBbmtBZHU0N1NrM0R6cnJsOHpLcWZDM3ZGSHduWFpYbjRYZFUzYVhDOTZpZTBfWlREamdjSFZqYldmZG51T3laN3hzQkVmeTh5Sm1QbE5sVmRfZjhQMnBKWXdJS19DeDFZNndVa0E?oc=5",
-   "fonte": "The Animal Reader",
-   "fonti": [
-    "The Animal Reader"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-11T08:29:49+00:00",
-   "ore_fa": 32.7,
-   "animal": "frog",
-   "animale": "rana",
-   "named": null,
-   "tags": [],
-   "impatto": 30,
-   "meme": 20,
-   "punteggio": 24,
-   "categoria": "Wildlife",
-   "categorie": [
-    "Wildlife"
-   ],
-   "regione": null,
    "link_esterno": null,
    "reddit_score": null,
    "reddit_commenti": null
@@ -6775,7 +6971,7 @@
   {
    "titolo": "\"They flip sharks upside down so they can tear out their nutritious liver…\" The ocean's 9 most powerful, ruthless killers that rule the waves",
    "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTHdnRnZsQXhKaEtSN3N5c0pIcWRHV0hKSGJ3eGhWOTl6RUowTkZ5a0dqdVdsWkRpQVFOLWN2NlZ2UHV6VWF6aU5ONkROR1JoOUQycTZPMF9TUDFuR01GVlBJd2hfbU5QRmtLc25va3BLXzlpUElSUnZRUjZyVkljUlMxWVpLMnBHVlg5VGxDU1hTSXVyWjgwOWpB?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRW02M3A1RGtVeVZuRnpIajVBeHhvTGNVQ2J2T3A2TGVPaTJEM09wekJ5OThxQWhFMklJNzlPUG5fRk8tN2dPRlRwM3JRQjk5eHUwLTNidWZ2Qkd4Mm1EMVBWeHNqSENjc0Fpa3BCZEVPaDVGbFBCWlBna284ZE01eUgycFI4cGM2cXNlcjc2MU56dXBmT3NEZHR4LWdvdXhMSWFNX1NfNUsxSGc?oc=5",
    "fonte": "BBC Wildlife Magazine",
    "fonti": [
     "BBC Wildlife Magazine"
@@ -6801,40 +6997,6 @@
    "reddit_commenti": null
   },
   {
-   "titolo": "Stars shine at the zoo! Reds No. 44, Bengals No. 2 spotted in unison",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5teVUyRk85N3dSOFIzaXlMVXpQTDJFTU1nRk5FcUVSYl9lMm5RWFM3OFhDYXNLeXdPUlBQY3oyRmJuOUdXanhvQWFEajJfT3pFdnVhRXljS1ZFR19uYnlKenJrVmhpWGgtZlBzZHpuMkRxVjZad0VGS2dkUy0?oc=5",
-   "fonte": "Yahoo Sports",
-   "fonti": [
-    "Cincinnati Enquirer",
-    "Yahoo Sports"
-   ],
-   "n_fonti": 2,
-   "altri_link": [
-    {
-     "fonte": "Cincinnati Enquirer",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcllhMnFjTVRTUm14eDlvbnBoMFhfak0zUzlMUG1XaVYxcS13WDRuejdrMU9oZVdXaElMZGJXYTZvN1lMNTRDdDdlZEFvZFJySFNVa2JqamFtODV4NVhLQkw1cjFobFJIWmsxOEk5VGN5T0d0QzU3Zm05WUhzdmlzcGpQNVVidFRaekVGMzNXSGpUS1MyMnY0X0JDelI0ejNmQTc2N25faDdqdW1ialczMkVLMlJoS2paZHBPVHltaFYxLWJZdmR4SlVNdnE?oc=5"
-    }
-   ],
-   "data": "2026-10-12T15:18:22+00:00",
-   "ore_fa": 1.9,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 54,
-   "meme": 0,
-   "punteggio": 24,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
    "titolo": "Salem animal shelter takes in dozens of dogs evacuated from Alabama due to Hurricane Isaias",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNS3laVTFtQ2FyZHdmTGg3UDhobjRSUmRtUW82b0NfRU55ZW8tNE1ZbzNLTWpSZS1QRkc4elJHUWpxLVhtc202NWtRc1B4ZGlPUnl6Z1FkMDhydEdid1pDa2FpV1hjRkZPZHBCeHVidk5walVmMXhwcmVWYzJvMUVOWllidTZ1azNESGFNY2RLWWxLU0JIVkJST3ZOdnBMT0xudnpVV19kQU4tUDN3QkdkSFJBMnRIVl95RUxsaWZlZ3phSUM3NFVZbQ?oc=5",
@@ -6845,7 +7007,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T23:07:00+00:00",
-   "ore_fa": 42.0,
+   "ore_fa": 42.1,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -6957,7 +7119,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T20:24:53+00:00",
-   "ore_fa": 20.7,
+   "ore_fa": 20.8,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -6987,7 +7149,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T05:55:06+00:00",
-   "ore_fa": 11.2,
+   "ore_fa": 11.3,
    "animal": "dog",
    "animale": "cane",
    "named": null,
@@ -7102,7 +7264,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T09:18:34+00:00",
-   "ore_fa": 7.8,
+   "ore_fa": 7.9,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -7206,6 +7368,34 @@
    "reddit_commenti": null
   },
   {
+   "titolo": "Emergenza nel Cilento: colonie di cani e gatti rimaste sole dopo il rimpatrio del custode, è corsa contro il tempo",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd1EtSVgzSmN3SUZRSUhqOUhYN0lsWEEtdTc5Tml1SmZza3FpSzh0UWlxb3JFRDNNMGhyeXRRcVNUejNOYmU2enQzR3VWOGZDZnZjc1A0a05reDVaMzJlV3plRzdDLTBfS0ZpVER6cWRzMTdXSXZiNzZUZGdZOUhkNXJOMHFXLWI2QUJlWVYtMnR2V2hHMmxJTktPRHM?oc=5",
+   "fonte": "SalernoToday",
+   "fonti": [
+    "SalernoToday"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T04:01:00+00:00",
+   "ore_fa": 13.2,
+   "animal": "dog",
+   "animale": "cane",
+   "named": null,
+   "tags": [],
+   "impatto": 28,
+   "meme": 20,
+   "punteggio": 24,
+   "categoria": "Testate",
+   "categorie": [
+    "Testate"
+   ],
+   "regione": "Europa",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
    "titolo": "L'armonia tra uomo e natura riscoperta grazie agli orsi",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxPRFRYNzZhaVRYeWdUMzc5QV8yaXBpN01XRlBZRlF1QTNILXMxX1NjY2pJNWY0czVKenRubG11SVV4S2M2RjRwWXlBN1pKNzhSZTZFOFA4NWp6dEkxNWt2VmVpQ2prRVd4MmNZa0tTT1pMdE5neTc4YXFQM2pjTmdwem9EUGxnN0kwNm5rMTdWY18yUTFEX01UT3pKRlpQYVZlcTlZRHVhMG5vcVI2Q2x1WEJEU2Vqb080clp4djFKVUg5MDNCUzQ0a2VxR291Yi10a2todHd3RXhHR3ZBQkFSVlo0SXR4MlhVcGp3amM2WVJXdi1ZVnFsSW9va2FSQzJnSnRpOWdLSDYtU1BFeklqTGhiNm5vU2poUnR2RHVQakNCTThDWTJnQldkQVJDeW81c3VYVi1EbmJEMldOYXllSlN6cWdxWUhIcUwwcUFmUjJiX1dMUWl6Z2ZQWHRnUHV0eGlfemtfX3p6RjU5bnJuUkVUUHg5SndXbVBfU3B2c1REZGV3c3Q4cFFxTlIydDFvTzFYZWMwa0xlazBzSXUxV3lnMExoVjdVZ19kNWJVRkxCd1NwMFJWcC1XN04tTnpOZVNPSjAzb3dsclU4Ti12TWkybkMyczd0S21xMUlB0gHeA0FVX3lxTE9EVFg3NmFpVFh5Z1QzNzlBXzJpcGk3TVdGUFlGUXVBM0gtczFfU2Njakk1ZjRzNUp6dG5sbXVJVXhLYzZGNHBZeUE3Wko3OFJlNkU4UDg1anp0STE1a3ZWZWlDamtFV3gyY1lrS1NPWkx0Tmd5NzhhcVAzamNOZ3B6b0RQbGc3STA2bmsxN1ZjXzJRMURfTVRPekpGWlBhVmVxOVlEdWEwbm9xUjZDbHVYQkRTZWpvTzRyWnh2MUpVSDkwM0JTNDRrZXFHb3ViLXRra2h0d3dFeEdHdkFCQVJWWjRJdHgyWFVwandqYzZZUld2LVlWcWxJb29rYVJDMmdKdGk5Z0tINi1TUEV6SWpMaGI2bm9TamhSdHZEdVBqQ0JNOENZMmdCV2RBUkN5bzVzdVhWLURuYkQyV05heWVKU3pxZ3FZSEhxTDBxQWZSMmJfV0xRaXpnZlBYdGdQdXR4aV96a19fenpGNTlucm5SRVRQeDlKd1dtUF9TcHZzVERkZXdzdDhwUXFOUjJ0MW9PMVhlYzBrTGVrMHNJdTFXeWcwTGhWN1VnX2Q1YlVGTEJ3U3AwUlZwLVc3Ti1Oek5lU09KMDNvd2xyVThOLXZNaTJuQzJzN3RLbXExSUE?oc=5",
@@ -7225,34 +7415,6 @@
    ],
    "impatto": 14,
    "meme": 32,
-   "punteggio": 24,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": "Europa",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "Emergenza nel Cilento: colonie di cani e gatti rimaste sole dopo il rimpatrio del custode, è corsa contro il tempo",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd1EtSVgzSmN3SUZRSUhqOUhYN0lsWEEtdTc5Tml1SmZza3FpSzh0UWlxb3JFRDNNMGhyeXRRcVNUejNOYmU2enQzR3VWOGZDZnZjc1A0a05reDVaMzJlV3plRzdDLTBfS0ZpVER6cWRzMTdXSXZiNzZUZGdZOUhkNXJOMHFXLWI2QUJlWVYtMnR2V2hHMmxJTktPRHM?oc=5",
-   "fonte": "SalernoToday",
-   "fonti": [
-    "SalernoToday"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T04:01:00+00:00",
-   "ore_fa": 13.1,
-   "animal": "dog",
-   "animale": "cane",
-   "named": null,
-   "tags": [],
-   "impatto": 28,
-   "meme": 20,
    "punteggio": 24,
    "categoria": "Testate",
    "categorie": [
@@ -7518,7 +7680,7 @@
   {
    "titolo": "Ask the Memphian: Will Memphis get pandas again? What the zoo says",
    "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONlZYSmtaLTFUblczd0pldkZnUEtBQzFjWXdobFJmSVZBUTRIRTdVX09QalByaXZub2xIT3pJNS1IY0xTbi1vckNlZVk5VVZXOXc1YW5sSEl4V1JTd3hvUFVZZXRsVV94a01fWHJZbjFUZVZPRHJYUTYzV0paeUE3NzFPQzNwc2Joa2FCZzFJWlBZdl8xclRBYXpqb2dLb1RMaGttekhoQQ?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcmwwZ0M2UXp2UlZPZTYxbXZFNVY3RlFaZlVWRG5GRFF4VmZKa0RtRFhXOUUxVlQ3cC1CX2VPTVlsMXI0TXJOQ0N4dUh5T29PbUtmLV9lMGlhdWJ3ck1fYldIaDQ5Y1pDMFlkUHN5eEJDV3Q5bW1HYXJiQWtxcUtjeWdpQlBjLXlzcDYwcjJiMXM2QTNx?oc=5",
    "fonte": "Daily Memphian",
    "fonti": [
     "Daily Memphian"
@@ -7707,7 +7869,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-09T17:13:00+00:00",
-   "ore_fa": 71.9,
+   "ore_fa": 72.0,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -7750,6 +7912,38 @@
     "Testate"
    ],
    "regione": "Oceania",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
+   "titolo": "18,000 chickens die in fire at organic egg farm in the Netherlands",
+   "sommario": "The Animal Reader is an independent news platform based in the Netherlands that shares daily news updates about animals and their environment. A fire killed all 18,000 chickens in a barn at an organic egg farm in the Netherlands on Saturday. Firefighters could not save any of the birds. The post 18,000 chickens die in fire at organic egg farm in the Netherlands appeared first on The Animal Reader ",
+   "link": "https://www.theanimalreader.com/2026/10/10/18000-chickens-die-in-fire-at-organic-egg-farm-in-the-netherlands/",
+   "fonte": "The Animal Reader",
+   "fonti": [
+    "The Animal Reader"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-10T21:58:48+00:00",
+   "ore_fa": 43.2,
+   "animal": "bird",
+   "animale": "uccello",
+   "named": null,
+   "tags": [
+    "bebè",
+    "record",
+    "tragica"
+   ],
+   "impatto": 26,
+   "meme": 20,
+   "punteggio": 23,
+   "categoria": "Wildlife",
+   "categorie": [
+    "Wildlife"
+   ],
+   "regione": "Europa",
    "link_esterno": null,
    "reddit_score": null,
    "reddit_commenti": null
@@ -7886,7 +8080,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T22:43:00+00:00",
-   "ore_fa": 18.4,
+   "ore_fa": 18.5,
    "animal": "elephant",
    "animale": "elefante",
    "named": null,
@@ -7940,12 +8134,7 @@
     "The Dodo"
    ],
    "n_fonti": 1,
-   "altri_link": [
-    {
-     "fonte": "The Dodo",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcUkzcUhFbFBHVXR1S3RpYnJkNDlJZzZFbHo0bmZSSzRJYlVkb2lqWnlNb1VFRXlMd1laaE9JVXZuMWJRcXNrdVhiZU1CR3RZOElQTW5OMmJvVXFkaS1fQjhfdGZtNnVDdHJHWGN2RWdZUkxGNDdsVW96TEpWNlFCQXJmS1RybmhyRDJzd0VlMm5Qb1BYb1Z1eVN5YWpUbHVFLWROZWFhSmgyX1FpSUJiVQ?oc=5"
-    }
-   ],
+   "altri_link": [],
    "data": "2026-10-09T20:27:22+00:00",
    "ore_fa": 68.7,
    "animal": null,
@@ -8011,7 +8200,7 @@
     }
    ],
    "data": "2026-10-10T16:42:30+00:00",
-   "ore_fa": 48.4,
+   "ore_fa": 48.5,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -8089,6 +8278,34 @@
    "reddit_commenti": null
   },
   {
+   "titolo": "Melanistic Leoaprdess Giza with her prey. From Laikipia, Kenya.",
+   "sommario": "",
+   "link": "https://www.reddit.com/r/natureismetal/comments/1x42diz/melanistic_leoaprdess_giza_with_her_prey_from/",
+   "fonte": "Reddit r/natureismetal",
+   "fonti": [
+    "Reddit r/natureismetal"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T13:49:18+00:00",
+   "ore_fa": 3.4,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 32,
+   "meme": 15,
+   "punteggio": 23,
+   "categoria": "Reddit/Community",
+   "categorie": [
+    "Reddit/Community"
+   ],
+   "regione": "Africa",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
    "titolo": "Watch Superbeast Season 1 Episode 6 Shark Supremacy Online",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVzZZMko4ZFFkYWZxYnNxcmVZRGQxaWpKNEVnbGZOQWFnQ0V4TTBiTU1CLTY2SjZxeFdiZXJmX0tEY0dVVzFwUWMyZHVSVkpVOXRTRXlIQ012RklEVHkwM3RrQU1nM2lRS0J4MmF4WXJnR3o2QThCbmZ6eDJHZmVQOXhCOEl3UVFNQ3c?oc=5",
@@ -8104,7 +8321,7 @@
     }
    ],
    "data": "2026-10-11T02:00:41+00:00",
-   "ore_fa": 39.1,
+   "ore_fa": 39.2,
    "animal": "shark",
    "animale": "squalo",
    "named": null,
@@ -8484,6 +8701,36 @@
    "reddit_commenti": null
   },
   {
+   "titolo": "India’s First High-Altitude Snow Leopard Safari Launched in Ladakh: Key Facts and Significance",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYnc0M0ctYTl6TVpsUy16bER0QUdQVkQxVzV6UGZVWkR0XzIzcmJpeXczNjFpdlJNYmRoRGtCbGc5V21DYmxON3FPcHlvZXhGcmpJaG9uNWJzZ1oxbXcwQmxuVC1lSTZiNzBrLXAwMmwydHVzU2RZOVZUd0hBSzg2Wl9IOVFKQ2lqd04tbFp4enZpYjdJWjdRMnJUWVdodGk3WVJyeDZ4bkFOcnhVUzhsR0RiWHM4Tkp6ZGtXRU5RNWMxckcteHBmT1FXZjFfU29OS2duSnpYWF9STHFiZHBiS3R1dk9OdW4xMlHSAeoBQVVfeXFMUGJ3NDNHLWE5ek1abFMtemxEdEFHUFZEMVc1elBmVVpEdF8yM3JiaXl3MzYxaXZSTWJkaERrQmxnOVdtQ2JsTjdxT3B5b2V4RnJqSWhvbjVic2daMW13MEJsblQtZUk2Yjcway1wMDJsMnR1c1NkWTlWVHdIQUs4NlpfSDlRSkNpandOLWxaeHp2aWI3SVo3UTJyVFlXaHRpN1lScng2eG5BTnJ4VVM4bEdEYlhzOE5KemRrV0VOUTVjMXJHLXhwZk9RV2YxX1NvTktnbkp6WFhfUkxxYmRwYkt0dXZPTnVuMTJR?oc=5",
+   "fonte": "Jagran Josh",
+   "fonti": [
+    "Jagran Josh"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-11T05:14:51+00:00",
+   "ore_fa": 35.9,
+   "animal": "leopard",
+   "animale": "leopardo",
+   "named": null,
+   "tags": [
+    "record"
+   ],
+   "impatto": 21,
+   "meme": 22,
+   "punteggio": 22,
+   "categoria": "Regionali",
+   "categorie": [
+    "Regionali"
+   ],
+   "regione": "Asia",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
    "titolo": "Country diary: The house martins are gone for another year. But they’re not forgotten | Ed Douglas",
    "sommario": "Lockerbrook, Derbyshire: Last week they were here, now they are not. Yet the details of their epic migration are still a mystery to us The sudden absence of something, even though you know it’s coming, can dent the heart a little. The Japanese, inevitably, have a phrase for it: mono no aware , the pathos of things – and by things, in this case, I mean house martins. Last week I had stood in the sa",
    "link": "https://www.theguardian.com/environment/2026/oct/10/country-diary-the-house-martins-are-gone-but-not-forgotten",
@@ -8494,7 +8741,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T04:30:47+00:00",
-   "ore_fa": 60.6,
+   "ore_fa": 60.7,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -8654,7 +8901,7 @@
    "tags": [
     "record"
    ],
-   "impatto": 32,
+   "impatto": 31,
    "meme": 12,
    "punteggio": 21,
    "categoria": "Testate",
@@ -8707,7 +8954,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T02:55:00+00:00",
-   "ore_fa": 62.2,
+   "ore_fa": 62.3,
    "animal": null,
    "animale": "generico",
    "named": "Bayawak",
@@ -8753,6 +9000,36 @@
     "Testate"
    ],
    "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
+   "titolo": "Fiumicino, un convegno sul benessere e la tutela degli animali: nasce il Premio Letterario Nazionale “La Penna di Noè”",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTllPOGNzMVN0NV9zRFFHenFhMVV0VWtlUUxCbHpGZEJDOUo2ZkJWWkhKSlppTk5FMk9rQkpYTmdpbllUQUVBSWttVmsxU2IwOFMtQ2ZsSm1SYTdJMUNqdGlkX1J6a2t3QktaaFg3WG9uaVpmbUVtVjN1TkFTMno0b0dLS0FpcXF3aWhuX0tpZkEyNmcteWt3XzFVRzZER0FOSmllRmh0cVNRbHZMU3Fxb0ROdWZmejF4MEJhU1JGYl9WWDVsNEdMTmg0WDNSeUgteUdMdlRiaEtCc0lnTXlNTXBrdkpkUVE?oc=5",
+   "fonte": "Fiumicino Online",
+   "fonti": [
+    "Fiumicino Online"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T15:14:37+00:00",
+   "ore_fa": 1.9,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [
+    "record"
+   ],
+   "impatto": 32,
+   "meme": 12,
+   "punteggio": 21,
+   "categoria": "Testate",
+   "categorie": [
+    "Testate"
+   ],
+   "regione": "Europa",
    "link_esterno": null,
    "reddit_score": null,
    "reddit_commenti": null
@@ -9015,7 +9292,7 @@
     }
    ],
    "data": "2026-10-12T16:19:00+00:00",
-   "ore_fa": 0.8,
+   "ore_fa": 0.9,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -9073,7 +9350,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T13:36:38+00:00",
-   "ore_fa": 3.5,
+   "ore_fa": 3.6,
    "animal": "lion",
    "animale": "leone",
    "named": null,
@@ -9532,7 +9809,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T21:25:04+00:00",
-   "ore_fa": 19.7,
+   "ore_fa": 19.8,
    "animal": "tiger",
    "animale": "tigre",
    "named": "Distraught",
@@ -9619,7 +9896,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T12:01:17+00:00",
-   "ore_fa": 53.1,
+   "ore_fa": 53.2,
    "animal": "bird",
    "animale": "uccello",
    "named": null,
@@ -9639,6 +9916,62 @@
    "reddit_commenti": null
   },
   {
+   "titolo": "Got this picture of a praying mantis eating a caterpillar on my walk",
+   "sommario": "",
+   "link": "https://www.reddit.com/r/natureismetal/comments/1x3noi5/got_this_picture_of_a_praying_mantis_eating_a/",
+   "fonte": "Reddit r/natureismetal",
+   "fonti": [
+    "Reddit r/natureismetal"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T00:17:18+00:00",
+   "ore_fa": 16.9,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 27,
+   "meme": 15,
+   "punteggio": 20,
+   "categoria": "Reddit/Community",
+   "categorie": [
+    "Reddit/Community"
+   ],
+   "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
+   "titolo": "A white Western jackdaw i stopped this summer",
+   "sommario": "",
+   "link": "https://www.reddit.com/r/natureismetal/comments/1x3h05v/a_white_western_jackdaw_i_stopped_this_summer/",
+   "fonte": "Reddit r/natureismetal",
+   "fonti": [
+    "Reddit r/natureismetal"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-11T19:23:53+00:00",
+   "ore_fa": 21.8,
+   "animal": null,
+   "animale": "generico",
+   "named": null,
+   "tags": [],
+   "impatto": 25,
+   "meme": 15,
+   "punteggio": 20,
+   "categoria": "Reddit/Community",
+   "categorie": [
+    "Reddit/Community"
+   ],
+   "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
    "titolo": "Tourism expansion v turtle nests: the dispute dividing communities in one Tobago resort",
    "sommario": "Plans for a 200-room project on an unspoiled beach have pitted developers against the conservationists fighting for smaller-scale schemes to protect the island’s habitat Visitors to Rocky Point in south-west Tobago are drawn to its sandy beach, fringed by coral reefs and dark rock formations and carpeted with the fruit-bearing trees found on Caribbean coastlines – almonds, sea grapes, coconuts, an",
    "link": "https://www.theguardian.com/global-development/2026/oct/10/tourism-expansion-v-turtle-nests-the-dispute-dividing-communities-in-one-tobago-resort",
@@ -9649,7 +9982,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T11:00:56+00:00",
-   "ore_fa": 54.1,
+   "ore_fa": 54.2,
    "animal": "turtle",
    "animale": "tartaruga",
    "named": null,
@@ -9714,6 +10047,36 @@
    ],
    "impatto": 37,
    "meme": 5,
+   "punteggio": 19,
+   "categoria": "Testate",
+   "categorie": [
+    "Testate"
+   ],
+   "regione": null,
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
+   "titolo": "Little tern comeback colony hit by fox attack",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Wa2pNWUFFWk1vZk9zaXBXd3RPWmZhcUhmOTc4OVF4ckY1cDdJLVBRcWR3RnZJSk5yeHRLWUxQeVk5VmVYU3dnZEhyajEzM09WUGhIWVplT0ZscHM?oc=5",
+   "fonte": "BBC",
+   "fonti": [
+    "BBC"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-10T06:18:17+00:00",
+   "ore_fa": 58.9,
+   "animal": "fox",
+   "animale": "volpe",
+   "named": null,
+   "tags": [
+    "tragica"
+   ],
+   "impatto": 30,
+   "meme": 10,
    "punteggio": 19,
    "categoria": "Testate",
    "categorie": [
@@ -10127,6 +10490,34 @@
    "reddit_commenti": null
   },
   {
+   "titolo": "Rivivono a Niardo il sapore del \"Pan ner\" e la tradizione della tosatura delle pecore",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdHBwT25wZURRVVFRQXlYUGdFYUpvUTZDRE9BalR2YkUxamhCcERJMUJkbnlCUHFpVTNlaWhnYmJSQ2V2UkJKYmJvaF9fRlBybVA3YmozZjRFbU0wZndWSGZOWnc2Sml6ODdFT3hscUhNYjZHZTdWNXZZYU9GdzlIcXEwTWVMdDQ3S29CaUJFZHdwb3BXT2Rhd1BMNUg0ejZkY1FOMUd2ZW1qS1NqTDRpVllfWXdVMlNDOXZxdy1fMDFkSVJJYndlSEt1WU4zc19KVTl4N0dB?oc=5",
+   "fonte": "QuiBrescia",
+   "fonti": [
+    "QuiBrescia"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T12:09:39+00:00",
+   "ore_fa": 5.0,
+   "animal": "sheep",
+   "animale": "pecora",
+   "named": null,
+   "tags": [],
+   "impatto": 31,
+   "meme": 10,
+   "punteggio": 19,
+   "categoria": "Testate",
+   "categorie": [
+    "Testate"
+   ],
+   "regione": "Europa",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
    "titolo": "There are green birds, reptiles and fish – so why are there no green mammals? The strange reason almost all mammals are brown",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNLW41dDAxYXFOT0JLdEpRdnNRVkFLQ2lhcndveDAtbUhiRi05VEY3em50aWdkLVh5bzRoeXR3RERacm1FcDBSQ09JQkJ4X1UwTmRUZHBaYUJoaUFmNksyZFh3NjhKbTBGdS1zcTlLQy10TW5JM2RaWV9ZRzU5MzQ5R1VRcjFPekUxUGNjMzB3aU84cDloUVRYZnRFX01abFBXQi1jNV9KdjgtM1NXbUY4dC1TUXRDdG5oVXA1cURzVkZiVWVrSDdoMG1Cd091SDBicjY4WTlCb3huWmU4ZG4zVlZ4MDNFc2JVa1RENlVkRQ?oc=5",
@@ -10195,7 +10586,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T12:19:16+00:00",
-   "ore_fa": 4.8,
+   "ore_fa": 4.9,
    "animal": "shark",
    "animale": "squalo",
    "named": null,
@@ -10223,7 +10614,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T20:30:31+00:00",
-   "ore_fa": 44.6,
+   "ore_fa": 44.7,
    "animal": "fox",
    "animale": "volpe",
    "named": null,
@@ -10279,7 +10670,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T05:30:37+00:00",
-   "ore_fa": 11.6,
+   "ore_fa": 11.7,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -10363,9 +10754,37 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T05:12:30+00:00",
-   "ore_fa": 11.9,
+   "ore_fa": 12.0,
    "animal": "tiger",
    "animale": "tigre",
+   "named": null,
+   "tags": [],
+   "impatto": 29,
+   "meme": 10,
+   "punteggio": 19,
+   "categoria": "Regionali",
+   "categorie": [
+    "Regionali"
+   ],
+   "regione": "Asia",
+   "link_esterno": null,
+   "reddit_score": null,
+   "reddit_commenti": null
+  },
+  {
+   "titolo": "How Xining Zoo Helps Protect the Endangered Snow Leopard",
+   "sommario": "",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMGFDMVVObVVfTGZ6SEhKaFJlN1VReUFJSm1uMlNyODFrR3ZMeDFHeFFYSTNPbTBhdjh1OXkxeXJXWVRIZHFZUEZvbFNVekRWQjBCMXE3SmhCV1FTVG4wNXFCZVNuNlNhQmR0b1RFc1FPdjV6ekkyQ3ZyTTNtaUVWTDZpNmV0TUtMXzV3?oc=5",
+   "fonte": "UzDaily.uz",
+   "fonti": [
+    "UzDaily.uz"
+   ],
+   "n_fonti": 1,
+   "altri_link": [],
+   "data": "2026-10-12T05:15:00+00:00",
+   "ore_fa": 11.9,
+   "animal": "leopard",
+   "animale": "leopardo",
    "named": null,
    "tags": [],
    "impatto": 29,
@@ -10437,34 +10856,6 @@
    "reddit_commenti": null
   },
   {
-   "titolo": "Five Ideas to Help Save the Monarch Butterfly from Home",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN043SDRTa1ZDSjB1SjRabk5mdTQxR2JRMVgtN2lvVlZUZEk4YUxBSFNkYVl4aVVSYTB6WS1tcEhjajVzMWtGSXhETjBrV0ktQndXM19Rd3RqMVg3M2xMZnNsRWlwZDhoaU9rVG5HVGZKM0pfOXpJa1lSUTUwQzFKT0djeTVlYUM0bDRRRldDcGVwQm5nN3c?oc=5",
-   "fonte": "Manhattan Times News",
-   "fonti": [
-    "Manhattan Times News"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T08:30:52+00:00",
-   "ore_fa": 8.6,
-   "animal": "butterfly",
-   "animale": "farfalla",
-   "named": null,
-   "tags": [],
-   "impatto": 30,
-   "meme": 10,
-   "punteggio": 19,
-   "categoria": "Regionali",
-   "categorie": [
-    "Regionali"
-   ],
-   "regione": "Americhe",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
    "titolo": "'I'm a zoo expert - this is what must change after Yorkshire Wildlife Park tiger tragedy'",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9EdENacWd3M2J4Vm52b2NGaWlySmdGWjlhdDhwMG9YRWhqRVVvcDNwS3F6a0lKSVlsR1p2aUp0ejRja1pMc0xFejJ5dVIzZ1RUT3FGb09Fc3Z0aXpGOFVQckZDOVZpOUtHdnNicmRKWUtiQWxRVlgwMnVfaw?oc=5",
@@ -10516,36 +10907,6 @@
     "Testate"
    ],
    "regione": "Americhe",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "Man Attacked by Tiger Forces Park Closure",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FUDJSZTR2alE2czZXSTZpTm9qWG1YZm82Q3c5aXNPRTRGREZoVG1zV2NvZ3dvUXZoc00wN3hyR2UwdVBMYmpwWENwTGVIVjNHOVNr?oc=5",
-   "fonte": "BBC",
-   "fonti": [
-    "BBC"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-10T16:06:29+00:00",
-   "ore_fa": 49.0,
-   "animal": "tiger",
-   "animale": "tigre",
-   "named": null,
-   "tags": [
-    "tragica"
-   ],
-   "impatto": 33,
-   "meme": 5,
-   "punteggio": 18,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": null,
    "link_esterno": null,
    "reddit_score": null,
    "reddit_commenti": null
@@ -10693,34 +11054,6 @@
    "reddit_commenti": null
   },
   {
-   "titolo": "MONGOLIAN RED LIST AND CONSERVATION ACTIONS OF AMPHIBIANS AND REPTILES (second edition)",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE10Rklaa2FkaXU2dWo1RmtCb2dMeTBzakRuMFlPTl9vVi1IcFdlQk5neU5QX2JOZ1c4Y1Z4Q0ExZmRPODhoSU83UTNudmhrdnZpVk02dF9HcUY4VVdTNGJz?oc=5",
-   "fonte": "Дэлхийн байгаль хамгаалах сан (WWF)",
-   "fonti": [
-    "Дэлхийн байгаль хамгаалах сан (WWF)"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T13:49:43+00:00",
-   "ore_fa": 3.3,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 40,
-   "meme": 0,
-   "punteggio": 18,
-   "categoria": "Organizzazioni",
-   "categorie": [
-    "Organizzazioni"
-   ],
-   "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
    "titolo": "From Concern to Stewardship: How Mining Communities Are Taking the Lead in Environmental Monito",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdUFJc25iZ2VUbzJYVm55ZkQ1ZVktWU51cFRaUVF4NTFiYjJ6VGZmXzJaUmlxN3FhTkhCLTNMbmFtaHJMQjN6cm92YlFrX19Ha2x4S3l2VGpIMG11YTlsaUlNWlYyZENRTHdyU3hrY1Iwd1ZQcVFELUx4Vy1iYWNISGQ3UEY0bWhqS0IzdFp0TUdRakItUkxiVVR3ZDNzNjZoN3hCUnJBMnYwa213YkFlblZONUdCbjhxSlAyMVNSNXFRMEZZLTBkT0h3?oc=5",
@@ -10850,7 +11183,7 @@
     }
    ],
    "data": "2026-10-12T05:42:51+00:00",
-   "ore_fa": 11.4,
+   "ore_fa": 11.5,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -10959,36 +11292,6 @@
    "reddit_commenti": null
   },
   {
-   "titolo": "Dalla parte degli animali: Dieci calopsite Video",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcmpYbVRVWGZPWExWSGRMTlVQZGdsQ01xa2UxWHFHNWhCVTliakFKVlNVWWFHNnpKYkY3RXVYcTltQWsxUFAzU2c2R1pkQTI0UVYtSTFnVGkxN1NGMG1EN0NWU2dXYmpkcWxYUktVaWpsd2xRV1JEckdwZGhuV1RXbm9Kc2tSeUZDYzY2LXJzRkZjY1N2NHRkMDJXcDI5Q0k?oc=5",
-   "fonte": "Mediaset Infinity",
-   "fonti": [
-    "Mediaset Infinity"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-11T09:23:51+00:00",
-   "ore_fa": 31.8,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [
-    "virale"
-   ],
-   "impatto": 22,
-   "meme": 15,
-   "punteggio": 18,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": "Europa",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
    "titolo": "Bracconaggio sui Monti Lattari, Carabinieri Forestali sequestrano richiamo vietato dalla legge",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQjY5S1ktclVfM2hkOXRmbm9rMllKVElkWndsbklVbWgteS0xVlVkeGgyOGdRZ1VBTDVmemxFOWNxeGZTRGVUbHU5dGo0UHlpb1h5UU1YTzAxQW8wYkRnNkp0OXVTSl9feFdVRVVzQzdaVWhfWFBXSWlsTXU4MlJxaTIxZkM5WnR1dHFScmRnbkltN3h6TVhwZ1VwaURrR3RhOTNpa3ZVU0x0NTg1dmRvUDIwZkJYaThRYkdjeVBsYUVpS1JOWWFv?oc=5",
@@ -11029,7 +11332,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T22:37:09+00:00",
-   "ore_fa": 18.5,
+   "ore_fa": 18.6,
    "animal": "crocodile",
    "animale": "coccodrillo",
    "named": null,
@@ -11301,37 +11604,6 @@
    "reddit_commenti": null
   },
   {
-   "titolo": "18,000 chickens die in fire at organic egg farm in the Netherlands",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU0s4czh1dmZvTUt4LUItWkZiODhDeDFidzVsaWJHYzVBYm1yRVRRbUhMTDZzTDVObmM4SXhPRGpQeDh6QVBEUThKLVU2VDBqaW9NMTVpY2FzQmNHVHZPc2JjYXJXeThFMmgyREJ5TW4tMGVTOVdySGNIRXVEa2p6emhfY0huX3ZuXzRGNzNKdzA0aEoyeWw4cklIRzdkZk04ZG5iSHE3SFRoWEI4T3c?oc=5",
-   "fonte": "The Animal Reader",
-   "fonti": [
-    "The Animal Reader"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-10T21:58:48+00:00",
-   "ore_fa": 43.2,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [
-    "bebè",
-    "tragica"
-   ],
-   "impatto": 26,
-   "meme": 9,
-   "punteggio": 17,
-   "categoria": "Wildlife",
-   "categorie": [
-    "Wildlife"
-   ],
-   "regione": "Europa",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
    "titolo": "\"It was just a normal dive.\" Then they saw this",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWlVadmRvTmZhb0ZzZXRYODYtNjRnRTBEb3FTV0ltNVBqaERfa1U3WWQ1MFZmNGJDUmtNOFNmcXA5akdHOHJRUENLZ0I5ODhDQlNTUVBNT0hhRjROVndfR2ppTUc0dDlySXBKajdrZjBEYlFDNE9ubGtNbzI2ZHpGMDZCanBhVlkzcXc?oc=5",
@@ -11400,7 +11672,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T11:00:55+00:00",
-   "ore_fa": 6.1,
+   "ore_fa": 6.2,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -11430,7 +11702,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T14:07:00+00:00",
-   "ore_fa": 3.0,
+   "ore_fa": 3.1,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -11867,7 +12139,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T18:30:53+00:00",
-   "ore_fa": 22.6,
+   "ore_fa": 22.7,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -12125,7 +12397,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-11T12:01:00+00:00",
-   "ore_fa": 29.1,
+   "ore_fa": 29.2,
    "animal": "jaguar",
    "animale": "giaguaro",
    "named": null,
@@ -12194,34 +12466,6 @@
     "Organizzazioni"
    ],
    "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "Beyond the berths: How African ports are competing for millions in cruise passenger onshore spending",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNVg4TzY2SF9xWWFpZUliMzk5WjZ3Q0RIUVJ1eGV5NDV2UG92YnNlOGlPa1ZBaThFYThhUkQ2eWtSNklDUENmcF9tS1B3TVh4dXV2SlV5eFhjbGZ1S2VYOGlYM2pBdXd5blA2XzJHZjVHdEl2T3dmRWxFOERiYUlzVm9VTExTWDlsWXVjMW1JWUJkZWdCaG9pQkFNY0t5QThha0hZWnpudVRvcWh1UndPVUZhTEZXUGpfVEV0MkhaNkVJSWR5MVR0N0NTTE5jM0xWRHJfUTlZQ2dndGpDU2F1Qw?oc=5",
-   "fonte": "IOL",
-   "fonti": [
-    "IOL"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-11T13:04:53+00:00",
-   "ore_fa": 28.1,
-   "animal": "lion",
-   "animale": "leone",
-   "named": null,
-   "tags": [],
-   "impatto": 23,
-   "meme": 10,
-   "punteggio": 16,
-   "categoria": "Regionali",
-   "categorie": [
-    "Regionali"
-   ],
-   "regione": "Africa",
    "link_esterno": null,
    "reddit_score": null,
    "reddit_commenti": null
@@ -12362,7 +12606,7 @@
     }
    ],
    "data": "2026-10-11T15:49:00+00:00",
-   "ore_fa": 25.3,
+   "ore_fa": 25.4,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -12390,7 +12634,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-10T04:49:07+00:00",
-   "ore_fa": 60.3,
+   "ore_fa": 60.4,
    "animal": "cat",
    "animale": "gatto",
    "named": null,
@@ -12566,7 +12810,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T09:25:07+00:00",
-   "ore_fa": 7.7,
+   "ore_fa": 7.8,
    "animal": "tiger",
    "animale": "tigre",
    "named": null,
@@ -12710,7 +12954,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T16:55:17+00:00",
-   "ore_fa": 0.2,
+   "ore_fa": 0.3,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -12794,7 +13038,7 @@
    "n_fonti": 1,
    "altri_link": [],
    "data": "2026-10-12T16:07:00+00:00",
-   "ore_fa": 1.0,
+   "ore_fa": 1.1,
    "animal": null,
    "animale": "generico",
    "named": null,
@@ -12868,34 +13112,6 @@
    "reddit_commenti": null
   },
   {
-   "titolo": "Sheridan animal sciences company hires new CEO",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVlh2WTQ2SzBEemxUeVdnY1ZtSmlIeldrcTc5TFpBQnRQRFQwUnl1TEtqdXNLZ0twNVIwMW9wQkhGeENhM0NPZDB0dDI5ZWtBMGFjZnlBZVRtWVdpUnQyOUtUR2FGaW1kblFSSmx4UXdVcUJKaTBLSzA0SGZrV1JHNTI4aHdpX1h1ekpaeGRNNFpPQ0hDODJCZA?oc=5",
-   "fonte": "Inside INdiana Business",
-   "fonti": [
-    "Inside INdiana Business"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T15:43:49+00:00",
-   "ore_fa": 1.4,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 33,
-   "meme": 0,
-   "punteggio": 15,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
    "titolo": "Lake County Forest Preserves creating ‘wildlife corridor’: ‘This is a really important acquisition’",
    "sommario": "",
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43TzVIRk11VkF2WGxNeWFNUkxLamhPYkhPWTdFT3dmMVJwYndXb1Q1bENIY3FNRWtTQmdSQTZjYVVRbC14Q0xmZnpFZmNPVE80VUxPUFpSWmZ5LWVjNS1aMlNaOGtWOVVicW40dmVNZFhkRl9nVTI3Z1JydEE?oc=5",
@@ -12919,36 +13135,6 @@
     "Testate"
    ],
    "regione": null,
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "Man mauled to death by tiger was happily dancing, posing for pics with the animal before he jumped into UK wildlife enclosure",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTEZTeHFnM3hBVWtwUmtvUTBhektBNVp1d19OTjFtVGRwMHhfWUtLSWZEWDFfbjNTZDE5M2R0NEswYS12WWNZb1BkY0FnZ2hINU9LSDVKLWN1dkFpUHVtcGZ4MWF0VTBGUFB0X2Ytem45Nk5rOEFCaWtTNy1VdDVZc2lhelNaVzF0SlRwbm9zZGJ5OVJfRVF0RjA1SHJfRk9KTk9ycmZDWFdtWDVWZVpGX1A0aU1pcWN4NVdiSF9pbXNma1B5bUEyYTRNLXlpRHdZSEdTcE9Xblk1dTJyVTZkT0ZWRnhiVDJ2eXBlRDFlZjlmU2xyaTY5ZWtB?oc=5",
-   "fonte": "New York Post",
-   "fonti": [
-    "New York Post"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-11T11:31:00+00:00",
-   "ore_fa": 29.6,
-   "animal": "tiger",
-   "animale": "tigre",
-   "named": null,
-   "tags": [
-    "tragica"
-   ],
-   "impatto": 23,
-   "meme": 9,
-   "punteggio": 15,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": "Europa",
    "link_esterno": null,
    "reddit_score": null,
    "reddit_commenti": null
@@ -13035,174 +13221,6 @@
     "Testate"
    ],
    "regione": "Europa",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "Clima e animali migratori a rischio, l’allarme dell’ecologo Des Thompson a Vasto: «Senza cooperazione salta l'equilibrio del pianeta",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPclhMYld2emtiNXlhS1NVVnVTa1RIeEo3RV83ZTNQNU5IOU82czMzSFdxdjRmT0J1UUdqeFN6VXlLQlJ0bU5tV3FmOWVqZGpYWDNkQV9sdHZjak10Z2RJZ2tCSUtoYzFYM3NlbnphRzltT2pnNEpyd05KMkxiQjVGVW1FbGw1dE5LWWhXM2FYZHpjZHlfOTNsa2x3R2hNS09yeHNFN0ZvUjdhbWpRem1idDkwRWplTzlNZy1lVVk2Mi1KNktyUEpTejhpN1A2N3dkSW15YkRhclRTMUhsbjNBU3lPUEZmTUE?oc=5",
-   "fonte": "Cavalierenews",
-   "fonti": [
-    "Cavalierenews"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T15:53:23+00:00",
-   "ore_fa": 1.3,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 33,
-   "meme": 0,
-   "punteggio": 15,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": "Europa",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "CULTURA, Scatto del giorno animali » SCATTO DEL GIORNO: Leo - foto di Edwige Silvestri",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MV0pTNVE3SDRZMGRqRllVYWJvMHVUZ25IdFMxT1NQcTdra2xlUGpBeU92NDh1REFPVVNNRmxQWGdmRTZQRzB0YmJUeHRwc3VMaDlZNzFnWFlHNVZneDU2aTlUUkJ5VDNOVlNjM0VaQ2lUM2ZCQjBTZXp2dWZYSnc?oc=5",
-   "fonte": "Lucerabynight.it",
-   "fonti": [
-    "Lucerabynight.it"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T16:37:54+00:00",
-   "ore_fa": 0.5,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 33,
-   "meme": 0,
-   "punteggio": 15,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": "Europa",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "Cava de’ Tirreni, al via “Un Click per una Zampa”: il concorso fotografico dedicato al benessere animale",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaFYwYVdfWWY5cFhMZElPbmNaYktaVWFLV1VHVVhPZ2w4QmJRMm56Um9zZ3NiOERkakZkc2ltdWszbGd4QVpMWGh1Y0RHQzZSenhGTE8wbHBiOHNlbEY3X1JzYS1hcVcwREU0SkZlUGp2eVFxbm9BemJVTldZME5GSHFkSjZldkwxSC1weDFQdUEtcXdQN09ENmNDeUU5dTAta0ZuUTRPcU9HNmZkYkxhbXdmcFE2ZzJncm5kMXZISmhfOV8xeXhzbEZRU2cydDRBRzBna1p4TDRvcmc?oc=5",
-   "fonte": "Ulisse online",
-   "fonti": [
-    "Ulisse online"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T16:53:00+00:00",
-   "ore_fa": 0.3,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 33,
-   "meme": 0,
-   "punteggio": 15,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": "Europa",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "Troppi daini e cinghiali nel Parco delle Madonie, il Wwf chiede interventi urgenti",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnN5Y1FBSzZQNUo4eWpMem9wMnh3R0VqakR5ODc3QWk3eTdxSFdZWUttZXIzbFdqT1I0U0Q5UlZxTENPZFE1UnlWdm4xQXNHUW5CQXd1anpzV3Q2Z0VROUxHeFBNR0UtYjZZZWliRGg2ZG1UVndFcW1EOTJDYlZXd25STmptQms2QWlWT29XNnpUdlJ5RHRrYTBkdXptbmNxaGNsREE0aXptZF9uT21WYnJrYXR2NWZUV3RZS082QVR1cUk?oc=5",
-   "fonte": "Be Sicily Mag",
-   "fonti": [
-    "Be Sicily Mag"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-11T07:00:00+00:00",
-   "ore_fa": 34.2,
-   "animal": "pig",
-   "animale": "maiale",
-   "named": null,
-   "tags": [],
-   "impatto": 21,
-   "meme": 10,
-   "punteggio": 15,
-   "categoria": "Testate",
-   "categorie": [
-    "Testate"
-   ],
-   "regione": "Europa",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "CITES Can't Clear Cambodia's Monkey Trade of Fraud, PETA Urges RFK Jr. to Shut Down Imports to U.S. Laboratories",
-   "sommario": "",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQa3h0SlJwcDNFSEVYdHhMRWMwSTVwUzdKcWo5OV9EMTdNOGp3SGhuNzB0MDdRdlJPa3l5SndfejFjQUVuOUQ2U1dicXFueUY1LXY1a2dEaDNTQ185M2lCSTVNN3JEZ01HSW9ZT2M5U0RYZ0RRcDhIS1RIVzd6WFhpTUN6ZVAxYW9weDZkQU1WVW9EUGI4ZEN1aC1rb3ZLZ2VnMXlsWVVsU2ZzcWgteS1sdGFBTDZ6SjEzUlhLcWJiaEpyYTQwOG9HcUJRdTktNDlrZHpJZjZoVVdBTWNrUllTcmFmQQ?oc=5",
-   "fonte": "People for the Ethical Treatment of Animals (PETA)",
-   "fonti": [
-    "People for the Ethical Treatment of Animals (PETA)"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-09T19:51:57+00:00",
-   "ore_fa": 69.3,
-   "animal": "monkey",
-   "animale": "scimmia",
-   "named": null,
-   "tags": [],
-   "impatto": 9,
-   "meme": 20,
-   "punteggio": 15,
-   "categoria": "Organizzazioni",
-   "categorie": [
-    "Organizzazioni"
-   ],
-   "regione": "Americhe",
-   "link_esterno": null,
-   "reddit_score": null,
-   "reddit_commenti": null
-  },
-  {
-   "titolo": "Yorkshire Wildlife Park News 2026",
-   "sommario": "The park have released a teaser for what is going in their new enclosure (the containers being worked on previously shared here). 7,122 次播放 · 106 个心情 | No one has guessed what our new arrival will be yet Here’s a little clue… make sure your sound is on ✨ | Yorkshire Wildlife Park Sounds like Gibbons.....",
-   "link": "https://www.zoochat.com/community/threads/yorkshire-wildlife-park-news-2026.495802/",
-   "fonte": "ZooChat",
-   "fonti": [
-    "ZooChat"
-   ],
-   "n_fonti": 1,
-   "altri_link": [],
-   "data": "2026-10-12T17:07:28+00:00",
-   "ore_fa": 0.0,
-   "animal": null,
-   "animale": "generico",
-   "named": null,
-   "tags": [],
-   "impatto": 33,
-   "meme": 0,
-   "punteggio": 15,
-   "categoria": "Reddit/Community",
-   "categorie": [
-    "Reddit/Community"
-   ],
-   "regione": null,
    "link_esterno": null,
    "reddit_score": null,
    "reddit_commenti": null
