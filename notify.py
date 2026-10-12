@@ -36,14 +36,19 @@ def main():
         print("Segreti Telegram mancanti: avvisi saltati."); return
     sent = 0
     for s in todo:
-        try:
-            r = requests.post(f"https://api.telegram.org/bot{tok}/sendMessage", timeout=20,
-                              json={"chat_id": chat, "text": msg(s), "parse_mode": "HTML", "disable_web_page_preview": False})
-            ok = r.status_code == 200 and r.json().get("ok")
-            desc = "" if ok else (r.json().get("description", "") if r.headers.get("content-type", "").startswith("application/json") else "")
-            print(f"Telegram sendMessage: HTTP {r.status_code} ok={bool(ok)} {desc[:120]} | {s['titolo'][:70]}")
-        except Exception as e:
-            ok = False; print(f"Telegram sendMessage: errore di rete {type(e).__name__} | {s['titolo'][:70]}")
+        ok = False
+        for attempt in range(3):
+            try:
+                r = requests.post(f"https://api.telegram.org/bot{tok}/sendMessage", timeout=(10, 45),
+                                  json={"chat_id": chat, "text": msg(s), "parse_mode": "HTML", "disable_web_page_preview": False})
+                j = r.json() if r.headers.get("content-type", "").startswith("application/json") else {}
+                ok = r.status_code == 200 and j.get("ok")
+                print(f"Telegram sendMessage: HTTP {r.status_code} ok={bool(ok)} {'' if ok else str(j.get('description', ''))[:120]} | {s['titolo'][:70]}")
+                if ok or r.status_code not in (429, 500, 502, 503, 504): break
+                time.sleep(min(30, int((j.get("parameters") or {}).get("retry_after", 5))))
+            except Exception as e:
+                print(f"Telegram sendMessage: errore di rete {type(e).__name__} (tentativo {attempt + 1}/3) | {s['titolo'][:70]}")
+                time.sleep(5)
         if ok:
             sent += 1
             st["alerted"][s.get("id") or s["link"]] = {"link": s["link"], "titolo": s["titolo"][:120], "punteggio": s["punteggio"], "ts": int(now)}
