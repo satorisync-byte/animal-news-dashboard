@@ -44,7 +44,7 @@ FEEDS = [
  S("Google News: zoo (IT)", None, 1, True, T, fb=("zoo cucciolo nato", "it"), region="Europa"),
  S("Google News: fauna selvatica (IT)", None, 1, True, T, fb=("fauna selvatica OR orso OR lupo", "it"), region="Europa"),
  # Testate dedicate wildlife / animali
- S("World Animal News", "https://worldanimalnews.com/feed", 2, False, W),
+ S("World Animal News", "https://worldanimalnews.com/feed", 2, False, W, fb="site:worldanimalnews.com"),
  S("The Animal Reader", "https://theanimalreader.com/feed/", 2, False, W, fb="site:theanimalreader.com"),
  S("The Dodo", "https://www.thedodo.com/feed", 1, False, W, fb="site:thedodo.com", meme=15),
  S("Mongabay", "https://news.mongabay.com/feed/", 3, True, W),
