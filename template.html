@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Radar Notizie Animali</title><style>
+body{margin:0;font-family:system-ui,sans-serif;background:#0d1117;color:#e6edf3}header{padding:20px 28px;background:#161b22;border-bottom:1px solid #30363d}
+h1{margin:0;font-size:22px}.sub{color:#8b949e;font-size:13px;margin-top:4px}.ctrl{display:flex;gap:10px;flex-wrap:wrap;padding:14px 28px}
+input,select{background:#0d1117;color:#e6edf3;border:1px solid #30363d;border-radius:8px;padding:8px 10px;font-size:14px}input{flex:1;min-width:220px}
+table{width:calc(100% - 56px);margin:0 28px;border-collapse:collapse;font-size:14px}th{position:sticky;top:0;background:#161b22;text-align:left;padding:10px;cursor:pointer;color:#8b949e;user-select:none}
+td{padding:10px;border-top:1px solid #21262d;vertical-align:top}tr:hover td{background:#161b22}a{color:#58a6ff;text-decoration:none}a:hover{text-decoration:underline}
+.b{display:inline-block;min-width:34px;text-align:center;padding:3px 7px;border-radius:12px;font-weight:700;font-size:13px}.tag{display:inline-block;background:#21262d;border-radius:6px;padding:1px 6px;margin:2px 2px 0 0;font-size:11px;color:#c9d1d9}
+.tk{font-family:monospace;color:#f0b72f;font-weight:700}.small{color:#8b949e;font-size:12px}.warn{color:#f85149;font-size:12px}.okk{color:#3fb950;font-size:12px}
+footer{padding:24px 28px;color:#8b949e;font-size:13px;line-height:1.6;border-top:1px solid #30363d;margin-top:24px}</style></head><body>
+<header><h1>🐾 Radar Notizie dal Mondo Animale</h1><div class="sub" id="meta"></div></header>
+<div class="ctrl"><input id="q" placeholder="Cerca titolo, fonte, animale, ticker..."><select id="fa"><option value="">Tutti gli animali</option></select>
+<select id="fs"><option value="">Tutte le fonti</option></select><select id="fm"><option value="0">Punteggio min: 0</option><option value="40">≥ 40</option><option value="55">≥ 55</option><option value="70">≥ 70</option></select>
+<label class="small"><input type="checkbox" id="ft" style="min-width:0"> solo con token</label></div>
+<table><thead><tr><th data-k="punteggio">Totale ▾</th><th data-k="impatto">Impatto</th><th data-k="meme">Potenziale meme</th><th data-k="titolo">Notizia</th><th data-k="animale">Animale</th><th data-k="n_fonti">Fonti</th><th data-k="data">Data</th><th>Suggerimento token</th></tr></thead><tbody id="tb"></tbody></table>
+<footer><b>Come è calcolato il punteggio</b> (stima euristica, nessun dato inventato: tutto deriva da titoli, fonti e date dei feed RSS).<br>
+<b>Impatto (0-100)</b> = visibilità (fonti distinte che coprono la stessa storia, raggruppate per titoli simili: 14 punti per ogni fonte oltre la prima + 8 bonus, max 50) + autorevolezza della fonte principale (8/16/25 per livello 1/2/3, es. Reuters, AP, BBC, Guardian = 3) + recenza (fino a 25, decresce linearmente fino a 0 a 72 ore).<br>
+<b>Potenziale meme (0-100)</b> = parole chiave: cucciolo/nascita +18, virale/video +15, insolito/buffo/fuga +14, record/prima volta/raro +12, salvataggio +10, animale con un nome proprio +10 (o +20 se rilevato tra virgolette), animale carismatico/tenero +20 (altro animale riconosciuto +10).<br>
+<b>Totale</b> = 0,45 × Impatto + 0,55 × Potenziale meme.<br>
+<b>⚠️ I suggerimenti di token sono generati automaticamente con regole e modelli: sono solo idee, NON consigli finanziari.</b> Il controllo "già esistente" usa la ricerca pubblica DexScreener (solo coppie Solana con simbolo identico) e può essere incompleto: verifica sempre manualmente su Solana prima di qualsiasi decisione. Le notizie tragiche (morti, attacchi) hanno il potenziale meme dimezzato. Considera anche diritti d'immagine, marchi e la sensibilità di notizie su animali feriti o morti.<br>
+<span id="feeds"></span></footer>
+<script>
+const D=/*DATA*/null;let S=D.storie,key="punteggio",dir=-1;const $=id=>document.getElementById(id);
+const col=v=>v>=70?"#238636":v>=50?"#9e6a03":v>=30?"#1f6feb":"#30363d";const esc=s=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c]);
+$("meta").textContent=`Generato: ${new Date(D.generato).toLocaleString("it-IT")} · Finestra: ultime ${D.finestra_ore} ore · ${S.length} storie · ${D.feed.filter(f=>f.ok).length} feed attivi su ${D.feed.length}`;
+[...new Set(S.map(s=>s.animale))].sort().forEach(a=>$("fa").add(new Option(a,a)));[...new Set(S.map(s=>s.fonte))].sort().forEach(a=>$("fs").add(new Option(a,a)));
+$("feeds").innerHTML="<b>Feed:</b> "+D.feed.map(f=>`${f.ok?"✅":"❌"} ${esc(f.feed)} (${f.recenti_rilevanti})`).join(" · ");
+const TAG={"bebè":"cucciolo","virale":"virale","insolito":"insolito","record":"record/raro","salvataggio":"salvataggio","nome":"con nome","tragica":"tragica"};
+function render(){const q=$("q").value.toLowerCase(),fa=$("fa").value,fs=$("fs").value,fm=+$("fm").value,ft=$("ft").checked;
+let r=S.filter(s=>(!fa||s.animale==fa)&&(!fs||s.fonte==fs)&&s.punteggio>=fm&&(!ft||s.token)&&(!q||JSON.stringify([s.titolo,s.fonti,s.animale,s.token]).toLowerCase().includes(q)));
+r.sort((a,b)=>(a[key]>b[key]?1:a[key]<b[key]?-1:0)*dir);
+$("tb").innerHTML=r.map(s=>{const t=s.token;let tk="<span class=small>—</span>";if(t){const d=t.dex_solana==null?"<span class=small>controllo DexScreener non riuscito</span>":t.dex_solana>0?`<span class=warn>⚠️ già esistente su Solana (${t.dex_solana} coppie)</span>`:"<span class=okk>nessuna coppia trovata</span>";
+tk=`<div><b>${esc(t.nome)}</b> <span class=tk>${esc(t.ticker)}</span></div><div class=small>${esc(t.descrizione)}</div>${d}`}
+return `<tr><td><span class=b style="background:${col(s.punteggio)}">${s.punteggio}</span></td><td><span class=b style="background:${col(s.impatto)}">${s.impatto}</span></td><td><span class=b style="background:${col(s.meme)}">${s.meme}</span></td>
+<td><a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.titolo)}</a><div>${s.tags.map(x=>`<span class=tag>${TAG[x]||x}</span>`).join("")}${s.named?`<span class=tag>«${esc(s.named)}»</span>`:""}</div>
+${s.altri_link.length?`<div class=small>Anche su: ${s.altri_link.map(o=>`<a href="${esc(o.link)}" target=_blank rel=noopener>${esc(o.fonte)}</a>`).join(", ")}</div>`:""}</td>
+<td>${esc(s.animale)}</td><td>${esc(s.fonte)}<div class=small>${s.n_fonti} font${s.n_fonti>1?"i":"e"}</div></td><td class=small>${new Date(s.data).toLocaleString("it-IT",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"})}<br>${s.ore_fa} h fa</td><td>${tk}</td></tr>`}).join("")||"<tr><td colspan=8>Nessun risultato</td></tr>"}
+document.querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;dir=key==k?-dir:-1;key=k;render()});
+["q","fa","fs","fm","ft"].forEach(i=>$(i).oninput=render);render();
+</script></body></html>
