@@ -3,3 +3,4 @@ __pycache__/
 alerted.json
 .env
 *.log
+cache.json

@@ -4,6 +4,7 @@ import json, re, math, time, html, calendar, urllib.parse, difflib, os
 from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor
 import feedparser, requests
+import features as F
 
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AnimalNewsMVP/1.0"}
 HOURS = 72
@@ -179,7 +180,8 @@ def fetch_reddit():
                             ext = p.get("url_overridden_by_dest") or ""
                             entries.append(dict(title=p.get("title", ""), summary=(p.get("selftext") or "")[:400], link="https://www.reddit.com" + p["permalink"],
                                 ext=ext if ext and "reddit.com" not in ext and "redd.it" not in ext else "", ts=p.get("created_utc"),
-                                score=p.get("score", 0), comments=p.get("num_comments", 0)))
+                                score=p.get("score", 0), comments=p.get("num_comments", 0),
+                                img=((((p.get("preview") or {}).get("images") or [{}])[0].get("source") or {}).get("url") or (p.get("thumbnail") if str(p.get("thumbnail", "")).startswith("http") else None))))
                     else:
                         for e in feedparser.parse(r.content).entries:
                             m = re.search(r'href="([^"]+)">\[link\]', e.get("summary", ""))
@@ -265,7 +267,7 @@ def main():
                 src = gsrc or src
                 site_q = isinstance(feed["fb"], str) and feed["fb"].startswith("site:")
                 auth = max([v for k, v in AUTH_DOMAINS.items() if k in href] + [feed["auth"] if site_q else 1])
-            if add(feed, title, summ, link, src, auth, t): recent += 1
+            if add(feed, title, summ, link, src, auth, t, img=F.entry_image(e)): recent += 1
         report.append({"feed": feed["name"], "categoria": feed["cat"], "url": url, "modo": mode, "status": status,
                        "totali": len(entries), "recenti_rilevanti": recent, "ok": recent > 0,
                        "stato": "funzionante" if recent > 0 else ("vuoto" if entries or status == 200 else "fallito")})
@@ -276,7 +278,7 @@ def main():
             t = e["ts"]
             if not t or t < cutoff or t > now + 3600: continue
             if add(f, clean(e["title"]), clean(e["summary"])[:400], e["link"], "Reddit r/" + sub, 1, t,
-                   ext=e["ext"], rscore=e["score"], rcomments=e["comments"]): recent += 1
+                   ext=e["ext"], rscore=e["score"], rcomments=e["comments"], img=e.get("img")): recent += 1
         report.append({"feed": "r/" + sub, "categoria": R, "url": f"https://www.reddit.com/r/{sub}/", "modo": mode, "status": status,
                        "totali": len(entries), "recenti_rilevanti": recent, "ok": recent > 0,
                        "stato": "funzionante" if recent > 0 else ("vuoto" if entries or status == 200 else "fallito")})
@@ -329,16 +331,47 @@ def main():
             regione=next((i["region"] for i in its if i["region"]), None) or find_region(text),
             link_esterno=next((i.get("ext") for i in its if i.get("ext")), None),
             reddit_score=rs if any(i.get("rscore") is not None for i in its) else None,
-            reddit_commenti=rc if any(i.get("rcomments") is not None for i in its) else None))
+            reddit_commenti=rc if any(i.get("rcomments") is not None for i in its) else None,
+            img=next((i.get("img") for i in its if i.get("img")), None), _urls=[i["link"] for i in its]))
+    # --- storico, trend, Google Trends -> bonus Impatto
+    hist = F.load_json("history.json", {"storie": {}}); cache = F.load_json("cache.json", {})
+    trends = F.google_trends()
+    for st, (sid, keys) in zip(stories, F.assign_ids([x["_urls"] for x in stories], hist)):
+        st["id"], st["_keys"] = sid, keys
+        stato, dn, ds, pts = F.trend_for(hist["storie"].get(sid), st["n_fonti"], now)
+        st["trend"] = {"stato": stato, "nuove_fonti_6h": dn, "delta_punteggio_6h": ds, "serie": [p[2] for p in pts[-15:]]}
+        tb = min(12, 4 * max(0, dn)) + (3 if ds >= 6 else 0)
+        tm = F.trends_match(st, trends, [st["animal"], st["animale"] if st["animal"] else None, st["named"]])
+        if tm: st["google_trends"] = {k: tm[k] for k in ("term", "geo", "traffic", "link")}
+        gb = 8 if tm else 0
+        if tb or gb:
+            st["impatto_base"] = st["impatto"]; st["impatto"] = round(min(100, st["impatto"] + tb + gb))
+            st["punteggio"] = round(0.45 * st["impatto"] + 0.55 * st["meme"])
+        st["bonus"] = {"trend": tb, "google_trends": gb}
     stories.sort(key=lambda s: -s["punteggio"])
     n_tot = len(stories); stories = stories[:400]  # limite per caricamento veloce
     for s in stories[:30]:
-        s["token"] = make_token(s)
-    with ThreadPoolExecutor(6) as ex:
-        hits = list(ex.map(dex_check, [s["token"]["ticker"][1:] for s in stories[:30]]))
-    for s, h in zip(stories[:30], hits):
-        s["token"]["dex_solana"] = h  # None = controllo fallito
-    out = {"generato": datetime.now(timezone.utc).isoformat(), "finestra_ore": HOURS, "feed": report, "storie_totali": n_tot, "storie": stories}
+        s["tokens"] = F.llm_ideas(s) or F.token_ideas(s, ANIMALS, int(s["id"], 16) if re.fullmatch(r"[0-9a-f]+", s["id"]) else 0)
+    sol = F.Solana(cache)
+    def chk(s):
+        kws = [x for x in [s["named"], s["animal"] if s["animal"] not in (None, "animal") else None] if x]
+        return F.solana_check(sol, s, kws)
+    with ThreadPoolExecutor(3) as ex:
+        res_sol = list(ex.map(chk, stories[:30]))
+    for s, r in zip(stories[:30], res_sol):
+        s["solana"] = r
+        for t in s["tokens"]: t["dex_solana"] = r["per_ticker"].get(t["ticker"][1:].upper()) if r["badge"] != "Controllo non riuscito" else None
+        s["token"] = s["tokens"][0]  # compatibilità
+    F.STATUS["dexscreener"] = f"{sol.ok['dex'][0]}/{sol.ok['dex'][1]} richieste OK (resto da cache)"
+    F.STATUS["pump_fun"] = f"{sol.ok['pump'][0]}/{sol.ok['pump'][1]} richieste OK" if sol.ok['pump'][1] else "solo cache"
+    F.add_og_images(stories, cache, 60)
+    F.update_history(hist, stories, now); F.save_json("history.json", hist)
+    cut = now - 2 * 86400
+    cache["img"] = {k: v for k, v in cache.get("img", {}).items() if v[1] > cut}
+    cache["sol"] = {k: v for k, v in cache.get("sol", {}).items() if v[0] > now - F.TTL}
+    F.save_json("cache.json", cache)
+    for s in stories: s.pop("_urls", None); s.pop("_keys", None)
+    out = {"generato": datetime.now(timezone.utc).isoformat(), "finestra_ore": HOURS, "feed": report, "storie_totali": n_tot, "servizi": F.STATUS, "storie": stories}
     json.dump(out, open("data.json", "w"), ensure_ascii=False, indent=1)
     tpl = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "template.html"), encoding="utf-8").read()
     open("index.html", "w", encoding="utf-8").write(tpl.replace("/*DATA*/null", json.dumps(out, ensure_ascii=False).replace("</", "<\\/")))
@@ -346,6 +379,7 @@ def main():
     print(f"Feed funzionanti: {len(ok)}/{len(report)}")
     for r in report: print(("  OK " if r["ok"] else "  KO ") + f"[{r['categoria']}] {r['feed']}: {r['modo']} status={r['status']} tot={r['totali']} recenti={r['recenti_rilevanti']}")
     print(f"Storie: {len(stories)} -> index.html, data.json")
+    print("Servizi:", json.dumps(F.STATUS, ensure_ascii=False))
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__))); main()
